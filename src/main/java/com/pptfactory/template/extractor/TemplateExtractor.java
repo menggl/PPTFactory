@@ -478,7 +478,7 @@ public class TemplateExtractor {
     /**
      * 从XML中移除水印（直接操作PPTX文件的XML结构）
      */
-    private void removeWatermarksFromXML(String filename) throws Exception {
+    private static void removeWatermarksFromXML(String filename) throws Exception {
         System.out.println("  使用 XML 方式移除水印...");
         
         // 定义水印关键词

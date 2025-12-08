@@ -70,7 +70,7 @@ public class TestTemplateExtraction {
         
         try {
             // 检查源文件是否存在
-            String sourceFile = "1.2 安全生产方针政策.pptx";
+            String sourceFile = "test/1.2 安全生产方针政策.pptx";
             File source = new File(sourceFile);
             if (!source.exists()) {
                 System.err.println("错误：源文件不存在: " + sourceFile);
