@@ -24,7 +24,7 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 public class WatermarksCleanUtil {
     public static void main(String[] args) throws Exception {
-        removeWatermarksFromXML("src/test/resources/test.pptx");
+        removeWatermarksFromXML("/Users/menggl/workspace/PPTFactory/master_template.pptx");
     }
 
     private static void removeWatermarksFromXML(String filename) throws Exception {
