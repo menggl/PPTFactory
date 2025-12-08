@@ -1,0 +1,995 @@
+{
+  "layouts" : [ {
+    "features" : {
+      "imageCount" : 4,
+      "imagePlaceholder" : "主图片",
+      "textBoxCount" : 5,
+      "layoutStructure" : "图片位于右侧，文本位于左侧",
+      "hasImage" : true,
+      "textPlaceholders" : [ "标题", "正文内容", "要点1", "要点2", "要点3" ]
+    },
+    "useCases" : [ "产品介绍", "案例展示", "图文说明", "内容讲解" ],
+    "pageNumber" : 5,
+    "detailedDescription" : "左侧或上方包含图片，右侧或下方包含文本内容的经典布局 该布局包含 5 个文本框和 4 个图片，排版格式清晰，适合用于展示相关内容。",
+    "displayName" : "图片+文本布局（经典）",
+    "name" : "classic_image_text_5",
+    "description" : "左侧或上方包含图片，右侧或下方包含文本内容的经典布局",
+    "type" : "classic",
+    "category" : "image_with_text",
+    "layoutFormat" : {
+      "imageCount" : 4,
+      "textBoxes" : [ {
+        "x" : 33.57904,
+        "width" : 469.02283,
+        "index" : 1,
+        "y" : 119.88252,
+        "fontSize" : 0.4,
+        "alignment" : "center",
+        "height" : 247.23615
+      }, {
+        "x" : -1.5258789E-4,
+        "width" : 953.5618,
+        "index" : 2,
+        "y" : 60.48843,
+        "fontSize" : 0.48,
+        "alignment" : "center",
+        "height" : 65.43284
+      }, {
+        "x" : 106.180786,
+        "width" : 167.75,
+        "index" : 3,
+        "y" : 444.71503,
+        "fontSize" : 0.2,
+        "alignment" : "center",
+        "height" : 34.796535
+      }, {
+        "x" : 392.90582,
+        "width" : 167.75,
+        "index" : 4,
+        "y" : 444.71503,
+        "fontSize" : 0.2,
+        "alignment" : "center",
+        "height" : 34.796535
+      }, {
+        "x" : 655.33514,
+        "width" : 167.75,
+        "index" : 5,
+        "y" : 444.71503,
+        "fontSize" : 0.2,
+        "alignment" : "center",
+        "height" : 34.796535
+      } ],
+      "images" : [ {
+        "x" : 0.0,
+        "width" : 960.0,
+        "index" : 1,
+        "y" : 0.480011,
+        "height" : 539.52
+      }, {
+        "x" : 106.180786,
+        "width" : 164.19693,
+        "index" : 2,
+        "y" : 255.04518,
+        "height" : 142.52292
+      }, {
+        "x" : 364.95212,
+        "width" : 194.34827,
+        "index" : 3,
+        "y" : 255.0452,
+        "height" : 142.523
+      }, {
+        "x" : 640.47687,
+        "width" : 176.317,
+        "index" : 4,
+        "y" : 255.04518,
+        "height" : 142.52292
+      } ],
+      "layoutStructure" : "图片位于右侧，文本位于左侧",
+      "textBoxCount" : 5
+    },
+    "sourceFile" : "1.2 安全生产方针政策.pptx",
+    "tags" : [ "图片", "文本", "图文混排", "经典布局" ]
+  }, {
+    "features" : {
+      "imageCount" : 2,
+      "imagePlaceholder" : "主图片",
+      "textBoxCount" : 7,
+      "layoutStructure" : "图片位于左侧，文本位于右侧",
+      "hasImage" : true,
+      "textPlaceholders" : [ "标题", "正文内容", "要点1", "要点2", "要点3", "要点4", "要点5" ]
+    },
+    "useCases" : [ "产品介绍", "案例展示", "图文说明", "内容讲解" ],
+    "pageNumber" : 6,
+    "detailedDescription" : "左侧或上方包含图片，右侧或下方包含文本内容的经典布局 该布局包含 7 个文本框和 2 个图片，排版格式清晰，适合用于展示相关内容。",
+    "displayName" : "图片+文本布局（经典）",
+    "name" : "classic_image_text_6",
+    "description" : "左侧或上方包含图片，右侧或下方包含文本内容的经典布局",
+    "type" : "classic",
+    "category" : "image_with_text",
+    "layoutFormat" : {
+      "imageCount" : 2,
+      "textBoxes" : [ {
+        "x" : 83.100006,
+        "width" : 692.8,
+        "index" : 1,
+        "y" : 89.05,
+        "fontSize" : 0.32,
+        "alignment" : "left",
+        "height" : 46.045277
+      }, {
+        "x" : 194.75732,
+        "width" : 666.44653,
+        "index" : 2,
+        "y" : 179.68929,
+        "fontSize" : 0.18,
+        "alignment" : "left",
+        "height" : 120.0
+      }, {
+        "x" : 192.31064,
+        "width" : 671.3398,
+        "index" : 3,
+        "y" : 346.19055,
+        "fontSize" : 0.18,
+        "alignment" : "left",
+        "height" : 120.0
+      }, {
+        "x" : 108.46048,
+        "width" : 371.53912,
+        "index" : 4,
+        "y" : 16.239761,
+        "fontSize" : 0.28,
+        "alignment" : "center",
+        "height" : 37.56331
+      }, {
+        "x" : 117.99748,
+        "width" : 290.631,
+        "index" : 5,
+        "y" : 50.999924,
+        "fontSize" : 0.16,
+        "alignment" : "left",
+        "height" : 26.657795
+      }, {
+        "x" : 184.73999,
+        "width" : 666.44653,
+        "index" : 6,
+        "y" : 175.00134,
+        "fontSize" : 0.18,
+        "alignment" : "left",
+        "height" : 120.0
+      }, {
+        "x" : 182.2933,
+        "width" : 671.3398,
+        "index" : 7,
+        "y" : 341.5026,
+        "fontSize" : 0.18,
+        "alignment" : "left",
+        "height" : 120.0
+      } ],
+      "images" : [ {
+        "x" : 0.0,
+        "width" : 960.0,
+        "index" : 1,
+        "y" : 0.480011,
+        "height" : 539.52
+      }, {
+        "x" : 29.139448,
+        "width" : 55.574802,
+        "index" : 2,
+        "y" : 21.61189,
+        "height" : 55.574802
+      } ],
+      "layoutStructure" : "图片位于左侧，文本位于右侧",
+      "textBoxCount" : 7
+    },
+    "sourceFile" : "1.2 安全生产方针政策.pptx",
+    "tags" : [ "图片", "文本", "图文混排", "经典布局" ]
+  }, {
+    "features" : {
+      "imageCount" : 3,
+      "imagePlaceholder" : "主图片",
+      "textBoxCount" : 6,
+      "layoutStructure" : "图片位于左侧，文本位于右侧",
+      "hasImage" : true,
+      "textPlaceholders" : [ "标题", "正文内容", "要点1", "要点2", "要点3", "要点4" ]
+    },
+    "useCases" : [ "产品介绍", "案例展示", "图文说明", "内容讲解" ],
+    "pageNumber" : 7,
+    "detailedDescription" : "左侧或上方包含图片，右侧或下方包含文本内容的经典布局 该布局包含 6 个文本框和 3 个图片，排版格式清晰，适合用于展示相关内容。",
+    "displayName" : "图片+文本布局（经典）",
+    "name" : "classic_image_text_7",
+    "description" : "左侧或上方包含图片，右侧或下方包含文本内容的经典布局",
+    "type" : "classic",
+    "category" : "image_with_text",
+    "layoutFormat" : {
+      "imageCount" : 3,
+      "textBoxes" : [ {
+        "x" : 108.46048,
+        "width" : 371.53912,
+        "index" : 1,
+        "y" : 16.239761,
+        "fontSize" : 0.28,
+        "alignment" : "center",
+        "height" : 37.56331
+      }, {
+        "x" : 117.298416,
+        "width" : 290.631,
+        "index" : 2,
+        "y" : 50.999924,
+        "fontSize" : 0.16,
+        "alignment" : "left",
+        "height" : 26.657795
+      }, {
+        "x" : 357.33182,
+        "width" : 555.5253,
+        "index" : 3,
+        "y" : 143.82938,
+        "fontSize" : 0.2,
+        "alignment" : "left",
+        "height" : 32.0
+      }, {
+        "x" : 357.3318,
+        "width" : 510.0,
+        "index" : 4,
+        "y" : 173.96527,
+        "fontSize" : 0.18,
+        "alignment" : "left",
+        "height" : 133.8756
+      }, {
+        "x" : 357.65143,
+        "width" : 510.0,
+        "index" : 5,
+        "y" : 328.97125,
+        "fontSize" : 0.2,
+        "alignment" : "left",
+        "height" : 32.0
+      }, {
+        "x" : 357.65143,
+        "width" : 510.0,
+        "index" : 6,
+        "y" : 361.67023,
+        "fontSize" : 0.18,
+        "alignment" : "left",
+        "height" : 103.43685
+      } ],
+      "images" : [ {
+        "x" : 0.0,
+        "width" : 960.0,
+        "index" : 1,
+        "y" : 0.480011,
+        "height" : 539.52
+      }, {
+        "x" : 83.52922,
+        "width" : 264.13913,
+        "index" : 2,
+        "y" : 128.25157,
+        "height" : 348.4388
+      }, {
+        "x" : 29.139448,
+        "width" : 55.574802,
+        "index" : 3,
+        "y" : 21.61189,
+        "height" : 55.574802
+      } ],
+      "layoutStructure" : "图片位于左侧，文本位于右侧",
+      "textBoxCount" : 6
+    },
+    "sourceFile" : "1.2 安全生产方针政策.pptx",
+    "tags" : [ "图片", "文本", "图文混排", "经典布局" ]
+  }, {
+    "features" : {
+      "imageCount" : 2,
+      "imagePlaceholder" : "主图片",
+      "textBoxCount" : 4,
+      "layoutStructure" : "图片位于左侧，文本位于右侧",
+      "hasImage" : true,
+      "textPlaceholders" : [ "标题", "正文内容", "要点1", "要点2" ]
+    },
+    "useCases" : [ "产品介绍", "案例展示", "图文说明", "内容讲解" ],
+    "pageNumber" : 8,
+    "detailedDescription" : "左侧或上方包含图片，右侧或下方包含文本内容的经典布局 该布局包含 4 个文本框和 2 个图片，排版格式清晰，适合用于展示相关内容。",
+    "displayName" : "图片+文本布局（经典）",
+    "name" : "classic_image_text_8",
+    "description" : "左侧或上方包含图片，右侧或下方包含文本内容的经典布局",
+    "type" : "classic",
+    "category" : "image_with_text",
+    "layoutFormat" : {
+      "imageCount" : 2,
+      "textBoxes" : [ {
+        "x" : 108.46048,
+        "width" : 371.53912,
+        "index" : 1,
+        "y" : 16.239761,
+        "fontSize" : 0.28,
+        "alignment" : "center",
+        "height" : 37.56331
+      }, {
+        "x" : 117.298416,
+        "width" : 290.631,
+        "index" : 2,
+        "y" : 50.999924,
+        "fontSize" : 0.16,
+        "alignment" : "left",
+        "height" : 26.657795
+      }, {
+        "x" : 221.78076,
+        "width" : 668.0,
+        "index" : 3,
+        "y" : 166.91797,
+        "fontSize" : 0.18,
+        "alignment" : "left",
+        "height" : 106.58095
+      }, {
+        "x" : 221.78076,
+        "width" : 668.0,
+        "index" : 4,
+        "y" : 344.45117,
+        "fontSize" : 0.18,
+        "alignment" : "left",
+        "height" : 104.0
+      } ],
+      "images" : [ {
+        "x" : 0.0,
+        "width" : 960.0,
+        "index" : 1,
+        "y" : 0.480011,
+        "height" : 539.52
+      }, {
+        "x" : 29.139448,
+        "width" : 55.574802,
+        "index" : 2,
+        "y" : 21.61189,
+        "height" : 55.574802
+      } ],
+      "layoutStructure" : "图片位于左侧，文本位于右侧",
+      "textBoxCount" : 4
+    },
+    "sourceFile" : "1.2 安全生产方针政策.pptx",
+    "tags" : [ "图片", "文本", "图文混排", "经典布局" ]
+  }, {
+    "features" : {
+      "imageCount" : 4,
+      "imagePlaceholder" : "主图片",
+      "textBoxCount" : 6,
+      "layoutStructure" : "图片位于左侧，文本位于右侧",
+      "hasImage" : true,
+      "textPlaceholders" : [ "标题", "正文内容", "要点1", "要点2", "要点3", "要点4" ]
+    },
+    "useCases" : [ "产品介绍", "案例展示", "图文说明", "内容讲解" ],
+    "pageNumber" : 9,
+    "detailedDescription" : "左侧或上方包含图片，右侧或下方包含文本内容的经典布局 该布局包含 6 个文本框和 4 个图片，排版格式清晰，适合用于展示相关内容。",
+    "displayName" : "图片+文本布局（经典）",
+    "name" : "classic_image_text_9",
+    "description" : "左侧或上方包含图片，右侧或下方包含文本内容的经典布局",
+    "type" : "classic",
+    "category" : "image_with_text",
+    "layoutFormat" : {
+      "imageCount" : 4,
+      "textBoxes" : [ {
+        "x" : 108.46048,
+        "width" : 371.53912,
+        "index" : 1,
+        "y" : 16.239761,
+        "fontSize" : 0.28,
+        "alignment" : "center",
+        "height" : 37.56331
+      }, {
+        "x" : 117.298416,
+        "width" : 290.631,
+        "index" : 2,
+        "y" : 50.999924,
+        "fontSize" : 0.16,
+        "alignment" : "left",
+        "height" : 26.657795
+      }, {
+        "x" : 432.0,
+        "width" : 456.0,
+        "index" : 3,
+        "y" : 149.0,
+        "fontSize" : 0.2,
+        "alignment" : "left",
+        "height" : 32.0
+      }, {
+        "x" : 432.0,
+        "width" : 456.0,
+        "index" : 4,
+        "y" : 181.0,
+        "fontSize" : 0.18,
+        "alignment" : "left",
+        "height" : 95.0
+      }, {
+        "x" : 432.0,
+        "width" : 456.0,
+        "index" : 5,
+        "y" : 342.48865,
+        "fontSize" : 0.2,
+        "alignment" : "left",
+        "height" : 32.0
+      }, {
+        "x" : 432.0,
+        "width" : 456.0,
+        "index" : 6,
+        "y" : 374.48865,
+        "fontSize" : 0.18,
+        "alignment" : "left",
+        "height" : 99.07268
+      } ],
+      "images" : [ {
+        "x" : 0.0,
+        "width" : 960.0,
+        "index" : 1,
+        "y" : 0.480011,
+        "height" : 539.52
+      }, {
+        "x" : 29.139448,
+        "width" : 55.574802,
+        "index" : 2,
+        "y" : 21.61189,
+        "height" : 55.574802
+      }, {
+        "x" : 48.0,
+        "width" : 360.0,
+        "index" : 3,
+        "y" : 120.0,
+        "height" : 174.0
+      }, {
+        "x" : 48.0,
+        "width" : 360.0,
+        "index" : 4,
+        "y" : 318.0,
+        "height" : 174.0
+      } ],
+      "layoutStructure" : "图片位于左侧，文本位于右侧",
+      "textBoxCount" : 6
+    },
+    "sourceFile" : "1.2 安全生产方针政策.pptx",
+    "tags" : [ "图片", "文本", "图文混排", "经典布局" ]
+  }, {
+    "features" : {
+      "imageCount" : 1,
+      "imagePlaceholder" : "主图片",
+      "textBoxCount" : 2,
+      "layoutStructure" : "图片位于左侧，文本位于右侧",
+      "hasImage" : true,
+      "textPlaceholders" : [ "标题", "正文内容" ]
+    },
+    "useCases" : [ "产品介绍", "案例展示", "图文说明", "内容讲解" ],
+    "pageNumber" : 10,
+    "detailedDescription" : "左侧或上方包含图片，右侧或下方包含文本内容的经典布局 该布局包含 2 个文本框和 1 个图片，排版格式清晰，适合用于展示相关内容。",
+    "displayName" : "图片+文本布局（经典）",
+    "name" : "classic_image_text_10",
+    "description" : "左侧或上方包含图片，右侧或下方包含文本内容的经典布局",
+    "type" : "classic",
+    "category" : "image_with_text",
+    "layoutFormat" : {
+      "imageCount" : 1,
+      "textBoxes" : [ {
+        "x" : 33.57904,
+        "width" : 469.02283,
+        "index" : 1,
+        "y" : 119.88252,
+        "fontSize" : 0.4,
+        "alignment" : "center",
+        "height" : 247.23615
+      }, {
+        "x" : -1.5258789E-4,
+        "width" : 953.5618,
+        "index" : 2,
+        "y" : 235.23842,
+        "fontSize" : 0.48,
+        "alignment" : "center",
+        "height" : 65.35
+      } ],
+      "images" : [ {
+        "x" : 0.0,
+        "width" : 960.0,
+        "index" : 1,
+        "y" : 0.480011,
+        "height" : 539.52
+      } ],
+      "layoutStructure" : "图片位于左侧，文本位于右侧",
+      "textBoxCount" : 2
+    },
+    "sourceFile" : "1.2 安全生产方针政策.pptx",
+    "tags" : [ "图片", "文本", "图文混排", "经典布局" ]
+  }, {
+    "features" : {
+      "imageCount" : 2,
+      "imagePlaceholder" : "主图片",
+      "textBoxCount" : 6,
+      "layoutStructure" : "图片位于左侧，文本位于右侧",
+      "hasImage" : true,
+      "textPlaceholders" : [ "标题", "正文内容", "要点1", "要点2", "要点3", "要点4" ]
+    },
+    "useCases" : [ "产品介绍", "案例展示", "图文说明", "内容讲解" ],
+    "pageNumber" : 11,
+    "detailedDescription" : "左侧或上方包含图片，右侧或下方包含文本内容的经典布局 该布局包含 6 个文本框和 2 个图片，排版格式清晰，适合用于展示相关内容。",
+    "displayName" : "图片+文本布局（经典）",
+    "name" : "classic_image_text_11",
+    "description" : "左侧或上方包含图片，右侧或下方包含文本内容的经典布局",
+    "type" : "classic",
+    "category" : "image_with_text",
+    "layoutFormat" : {
+      "imageCount" : 2,
+      "textBoxes" : [ {
+        "x" : 83.100006,
+        "width" : 692.8,
+        "index" : 1,
+        "y" : 89.05,
+        "fontSize" : 0.32,
+        "alignment" : "left",
+        "height" : 46.045277
+      }, {
+        "x" : 108.44998,
+        "width" : 563.95,
+        "index" : 2,
+        "y" : 16.249998,
+        "fontSize" : 0.28,
+        "alignment" : "center",
+        "height" : 37.45
+      }, {
+        "x" : 117.99748,
+        "width" : 290.631,
+        "index" : 3,
+        "y" : 50.999924,
+        "fontSize" : 0.16,
+        "alignment" : "left",
+        "height" : 45.95
+      }, {
+        "x" : 44.0,
+        "width" : 641.5,
+        "index" : 4,
+        "y" : 153.0,
+        "fontSize" : "NaN",
+        "alignment" : "left",
+        "height" : 48.0
+      }, {
+        "x" : 44.0,
+        "width" : 641.45,
+        "index" : 5,
+        "y" : 296.0,
+        "fontSize" : "NaN",
+        "alignment" : "left",
+        "height" : 48.0
+      }, {
+        "x" : 44.0,
+        "width" : 641.5,
+        "index" : 6,
+        "y" : 425.0,
+        "fontSize" : "NaN",
+        "alignment" : "left",
+        "height" : 48.0
+      } ],
+      "images" : [ {
+        "x" : 0.0,
+        "width" : 960.0,
+        "index" : 1,
+        "y" : 0.480011,
+        "height" : 539.52
+      }, {
+        "x" : 29.139448,
+        "width" : 55.574802,
+        "index" : 2,
+        "y" : 21.61189,
+        "height" : 55.574802
+      } ],
+      "layoutStructure" : "图片位于左侧，文本位于右侧",
+      "textBoxCount" : 6
+    },
+    "sourceFile" : "1.2 安全生产方针政策.pptx",
+    "tags" : [ "图片", "文本", "图文混排", "经典布局" ]
+  }, {
+    "features" : {
+      "imageCount" : 2,
+      "imagePlaceholder" : "主图片",
+      "textBoxCount" : 6,
+      "layoutStructure" : "图片位于左侧，文本位于右侧",
+      "hasImage" : true,
+      "textPlaceholders" : [ "标题", "正文内容", "要点1", "要点2", "要点3", "要点4" ]
+    },
+    "useCases" : [ "产品介绍", "案例展示", "图文说明", "内容讲解" ],
+    "pageNumber" : 12,
+    "detailedDescription" : "左侧或上方包含图片，右侧或下方包含文本内容的经典布局 该布局包含 6 个文本框和 2 个图片，排版格式清晰，适合用于展示相关内容。",
+    "displayName" : "图片+文本布局（经典）",
+    "name" : "classic_image_text_12",
+    "description" : "左侧或上方包含图片，右侧或下方包含文本内容的经典布局",
+    "type" : "classic",
+    "category" : "image_with_text",
+    "layoutFormat" : {
+      "imageCount" : 2,
+      "textBoxes" : [ {
+        "x" : 83.100006,
+        "width" : 692.8,
+        "index" : 1,
+        "y" : 89.05,
+        "fontSize" : 0.32,
+        "alignment" : "left",
+        "height" : 46.045277
+      }, {
+        "x" : 108.44998,
+        "width" : 563.95,
+        "index" : 2,
+        "y" : 16.249998,
+        "fontSize" : 0.28,
+        "alignment" : "center",
+        "height" : 37.45
+      }, {
+        "x" : 118.0,
+        "width" : 183.6,
+        "index" : 3,
+        "y" : 51.0,
+        "fontSize" : 0.16,
+        "alignment" : "left",
+        "height" : 25.35
+      }, {
+        "x" : 271.5,
+        "width" : 626.5,
+        "index" : 4,
+        "y" : 153.0,
+        "fontSize" : "NaN",
+        "alignment" : "left",
+        "height" : 48.0
+      }, {
+        "x" : 271.5,
+        "width" : 626.5,
+        "index" : 5,
+        "y" : 296.0,
+        "fontSize" : "NaN",
+        "alignment" : "left",
+        "height" : 48.0
+      }, {
+        "x" : 271.5,
+        "width" : 626.5,
+        "index" : 6,
+        "y" : 425.0,
+        "fontSize" : "NaN",
+        "alignment" : "left",
+        "height" : 48.0
+      } ],
+      "images" : [ {
+        "x" : 0.0,
+        "width" : 960.0,
+        "index" : 1,
+        "y" : 0.480011,
+        "height" : 539.52
+      }, {
+        "x" : 29.139448,
+        "width" : 55.574802,
+        "index" : 2,
+        "y" : 21.61189,
+        "height" : 55.574802
+      } ],
+      "layoutStructure" : "图片位于左侧，文本位于右侧",
+      "textBoxCount" : 6
+    },
+    "sourceFile" : "1.2 安全生产方针政策.pptx",
+    "tags" : [ "图片", "文本", "图文混排", "经典布局" ]
+  }, {
+    "features" : {
+      "imageCount" : 2,
+      "imagePlaceholder" : "主图片",
+      "textBoxCount" : 5,
+      "layoutStructure" : "图片位于左侧，文本位于右侧",
+      "hasImage" : true,
+      "textPlaceholders" : [ "标题", "正文内容", "要点1", "要点2", "要点3" ]
+    },
+    "useCases" : [ "产品介绍", "案例展示", "图文说明", "内容讲解" ],
+    "pageNumber" : 13,
+    "detailedDescription" : "左侧或上方包含图片，右侧或下方包含文本内容的经典布局 该布局包含 5 个文本框和 2 个图片，排版格式清晰，适合用于展示相关内容。",
+    "displayName" : "图片+文本布局（经典）",
+    "name" : "classic_image_text_13",
+    "description" : "左侧或上方包含图片，右侧或下方包含文本内容的经典布局",
+    "type" : "classic",
+    "category" : "image_with_text",
+    "layoutFormat" : {
+      "imageCount" : 2,
+      "textBoxes" : [ {
+        "x" : 83.100006,
+        "width" : 692.8,
+        "index" : 1,
+        "y" : 89.05,
+        "fontSize" : 0.32,
+        "alignment" : "left",
+        "height" : 46.045277
+      }, {
+        "x" : 108.44998,
+        "width" : 563.95,
+        "index" : 2,
+        "y" : 16.249998,
+        "fontSize" : 0.28,
+        "alignment" : "center",
+        "height" : 37.45
+      }, {
+        "x" : 118.0,
+        "width" : 197.65,
+        "index" : 3,
+        "y" : 51.0,
+        "fontSize" : 0.16,
+        "alignment" : "left",
+        "height" : 26.2
+      }, {
+        "x" : 250.95001,
+        "width" : 626.5,
+        "index" : 4,
+        "y" : 208.4,
+        "fontSize" : "NaN",
+        "alignment" : "left",
+        "height" : 48.0
+      }, {
+        "x" : 250.95001,
+        "width" : 626.5,
+        "index" : 5,
+        "y" : 366.4,
+        "fontSize" : "NaN",
+        "alignment" : "left",
+        "height" : 48.0
+      } ],
+      "images" : [ {
+        "x" : 0.0,
+        "width" : 960.0,
+        "index" : 1,
+        "y" : -0.019989014,
+        "height" : 539.52
+      }, {
+        "x" : 29.139448,
+        "width" : 55.574802,
+        "index" : 2,
+        "y" : 21.61189,
+        "height" : 55.574802
+      } ],
+      "layoutStructure" : "图片位于左侧，文本位于右侧",
+      "textBoxCount" : 5
+    },
+    "sourceFile" : "1.2 安全生产方针政策.pptx",
+    "tags" : [ "图片", "文本", "图文混排", "经典布局" ]
+  }, {
+    "features" : {
+      "imageCount" : 1,
+      "imagePlaceholder" : "主图片",
+      "textBoxCount" : 2,
+      "layoutStructure" : "图片位于左侧，文本位于右侧",
+      "hasImage" : true,
+      "textPlaceholders" : [ "标题", "正文内容" ]
+    },
+    "useCases" : [ "产品介绍", "案例展示", "图文说明", "内容讲解" ],
+    "pageNumber" : 14,
+    "detailedDescription" : "左侧或上方包含图片，右侧或下方包含文本内容的经典布局 该布局包含 2 个文本框和 1 个图片，排版格式清晰，适合用于展示相关内容。",
+    "displayName" : "图片+文本布局（经典）",
+    "name" : "classic_image_text_14",
+    "description" : "左侧或上方包含图片，右侧或下方包含文本内容的经典布局",
+    "type" : "classic",
+    "category" : "image_with_text",
+    "layoutFormat" : {
+      "imageCount" : 1,
+      "textBoxes" : [ {
+        "x" : 33.57904,
+        "width" : 469.02283,
+        "index" : 1,
+        "y" : 119.88252,
+        "fontSize" : 0.4,
+        "alignment" : "center",
+        "height" : 247.23615
+      }, {
+        "x" : -1.5258789E-4,
+        "width" : 953.5618,
+        "index" : 2,
+        "y" : 226.7384,
+        "fontSize" : 0.48,
+        "alignment" : "center",
+        "height" : 123.5
+      } ],
+      "images" : [ {
+        "x" : 0.0,
+        "width" : 960.0,
+        "index" : 1,
+        "y" : 0.480011,
+        "height" : 539.52
+      } ],
+      "layoutStructure" : "图片位于左侧，文本位于右侧",
+      "textBoxCount" : 2
+    },
+    "sourceFile" : "1.2 安全生产方针政策.pptx",
+    "tags" : [ "图片", "文本", "图文混排", "经典布局" ]
+  }, {
+    "features" : {
+      "imageCount" : 2,
+      "imagePlaceholder" : "主图片",
+      "textBoxCount" : 3,
+      "layoutStructure" : "图片位于左侧，文本位于右侧",
+      "hasImage" : true,
+      "textPlaceholders" : [ "标题", "正文内容", "要点1" ]
+    },
+    "useCases" : [ "产品介绍", "案例展示", "图文说明", "内容讲解" ],
+    "pageNumber" : 15,
+    "detailedDescription" : "左侧或上方包含图片，右侧或下方包含文本内容的经典布局 该布局包含 3 个文本框和 2 个图片，排版格式清晰，适合用于展示相关内容。",
+    "displayName" : "图片+文本布局（经典）",
+    "name" : "classic_image_text_15",
+    "description" : "左侧或上方包含图片，右侧或下方包含文本内容的经典布局",
+    "type" : "classic",
+    "category" : "image_with_text",
+    "layoutFormat" : {
+      "imageCount" : 2,
+      "textBoxes" : [ {
+        "x" : 83.100006,
+        "width" : 692.8,
+        "index" : 1,
+        "y" : 89.05,
+        "fontSize" : 0.32,
+        "alignment" : "left",
+        "height" : 46.045277
+      }, {
+        "x" : 108.44998,
+        "width" : 563.95,
+        "index" : 2,
+        "y" : 16.25,
+        "fontSize" : 0.28,
+        "alignment" : "left",
+        "height" : 67.75
+      }, {
+        "x" : 118.0,
+        "width" : 197.65,
+        "index" : 3,
+        "y" : 51.0,
+        "fontSize" : 0.16,
+        "alignment" : "left",
+        "height" : 26.2
+      } ],
+      "images" : [ {
+        "x" : 0.0,
+        "width" : 960.0,
+        "index" : 1,
+        "y" : 0.480011,
+        "height" : 539.52
+      }, {
+        "x" : 29.139448,
+        "width" : 55.574802,
+        "index" : 2,
+        "y" : 21.61189,
+        "height" : 55.574802
+      } ],
+      "layoutStructure" : "图片位于左侧，文本位于右侧",
+      "textBoxCount" : 3
+    },
+    "sourceFile" : "1.2 安全生产方针政策.pptx",
+    "tags" : [ "图片", "文本", "图文混排", "经典布局" ]
+  }, {
+    "features" : {
+      "imageCount" : 2,
+      "imagePlaceholder" : "主图片",
+      "textBoxCount" : 4,
+      "layoutStructure" : "图片位于左侧，文本位于右侧",
+      "hasImage" : true,
+      "textPlaceholders" : [ "标题", "正文内容", "要点1", "要点2" ]
+    },
+    "useCases" : [ "产品介绍", "案例展示", "图文说明", "内容讲解" ],
+    "pageNumber" : 16,
+    "detailedDescription" : "左侧或上方包含图片，右侧或下方包含文本内容的经典布局 该布局包含 4 个文本框和 2 个图片，排版格式清晰，适合用于展示相关内容。",
+    "displayName" : "图片+文本布局（经典）",
+    "name" : "classic_image_text_16",
+    "description" : "左侧或上方包含图片，右侧或下方包含文本内容的经典布局",
+    "type" : "classic",
+    "category" : "image_with_text",
+    "layoutFormat" : {
+      "imageCount" : 2,
+      "textBoxes" : [ {
+        "x" : 83.100006,
+        "width" : 692.8,
+        "index" : 1,
+        "y" : 89.05,
+        "fontSize" : 0.32,
+        "alignment" : "left",
+        "height" : 46.045277
+      }, {
+        "x" : 108.44998,
+        "width" : 563.95,
+        "index" : 2,
+        "y" : 16.25,
+        "fontSize" : 0.28,
+        "alignment" : "left",
+        "height" : 67.75
+      }, {
+        "x" : 118.0,
+        "width" : 197.65,
+        "index" : 3,
+        "y" : 51.0,
+        "fontSize" : 0.16,
+        "alignment" : "left",
+        "height" : 26.2
+      }, {
+        "x" : 60.0,
+        "width" : 852.0,
+        "index" : 4,
+        "y" : 444.0,
+        "fontSize" : "NaN",
+        "alignment" : "left",
+        "height" : 48.0
+      } ],
+      "images" : [ {
+        "x" : 0.0,
+        "width" : 960.0,
+        "index" : 1,
+        "y" : 0.480011,
+        "height" : 539.52
+      }, {
+        "x" : 29.139448,
+        "width" : 55.574802,
+        "index" : 2,
+        "y" : 21.61189,
+        "height" : 55.574802
+      } ],
+      "layoutStructure" : "图片位于左侧，文本位于右侧",
+      "textBoxCount" : 4
+    },
+    "sourceFile" : "1.2 安全生产方针政策.pptx",
+    "tags" : [ "图片", "文本", "图文混排", "经典布局" ]
+  }, {
+    "features" : {
+      "imageCount" : 2,
+      "imagePlaceholder" : "主图片",
+      "textBoxCount" : 4,
+      "layoutStructure" : "图片位于左侧，文本位于右侧",
+      "hasImage" : true,
+      "textPlaceholders" : [ "标题", "正文内容", "要点1", "要点2" ]
+    },
+    "useCases" : [ "产品介绍", "案例展示", "图文说明", "内容讲解" ],
+    "pageNumber" : 17,
+    "detailedDescription" : "左侧或上方包含图片，右侧或下方包含文本内容的经典布局 该布局包含 4 个文本框和 2 个图片，排版格式清晰，适合用于展示相关内容。",
+    "displayName" : "图片+文本布局（经典）",
+    "name" : "classic_image_text_17",
+    "description" : "左侧或上方包含图片，右侧或下方包含文本内容的经典布局",
+    "type" : "classic",
+    "category" : "image_with_text",
+    "layoutFormat" : {
+      "imageCount" : 2,
+      "textBoxes" : [ {
+        "x" : 83.100006,
+        "width" : 692.8,
+        "index" : 1,
+        "y" : 89.05,
+        "fontSize" : 0.32,
+        "alignment" : "left",
+        "height" : 46.045277
+      }, {
+        "x" : 108.44998,
+        "width" : 563.95,
+        "index" : 2,
+        "y" : 16.25,
+        "fontSize" : 0.28,
+        "alignment" : "left",
+        "height" : 67.75
+      }, {
+        "x" : 118.0,
+        "width" : 197.65,
+        "index" : 3,
+        "y" : 51.0,
+        "fontSize" : 0.16,
+        "alignment" : "left",
+        "height" : 26.2
+      }, {
+        "x" : 336.85004,
+        "width" : 563.9,
+        "index" : 4,
+        "y" : 118.8,
+        "fontSize" : "NaN",
+        "alignment" : "left",
+        "height" : 72.0
+      } ],
+      "images" : [ {
+        "x" : 0.0,
+        "width" : 960.0,
+        "index" : 1,
+        "y" : 0.480011,
+        "height" : 539.52
+      }, {
+        "x" : 29.139448,
+        "width" : 55.574802,
+        "index" : 2,
+        "y" : 21.61189,
+        "height" : 55.574802
+      } ],
+      "layoutStructure" : "图片位于左侧，文本位于右侧",
+      "textBoxCount" : 4
+    },
+    "sourceFile" : "1.2 安全生产方针政策.pptx",
+    "tags" : [ "图片", "文本", "图文混排", "经典布局" ]
+  } ]
+}

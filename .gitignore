@@ -1,0 +1,39 @@
+# Python 相关（项目已转换为 Java）
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+ENV/
+
+# Python 模块文件夹（已转换为 Java）
+template_engine/
+styles/__pycache__/
+lm/__pycache__/
+
+# Java 相关
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
+*~
+

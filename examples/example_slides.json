@@ -1,0 +1,44 @@
+{
+  "slides": [
+    {
+      "layout": "title_page",
+      "title": "PPT模板引擎演示",
+      "subtitle": "使用大模型生成结构化内容，模板引擎负责排版布局"
+    },
+    {
+      "layout": "content_page",
+      "title": "核心特性",
+      "bullets": [
+        "分离内容与样式：大模型只输出结构化内容",
+        "模板引擎负责所有排版和布局工作",
+        "支持多种布局类型：标题页、内容页、两列布局等",
+        "易于扩展新的布局类型"
+      ]
+    },
+    {
+      "layout": "two_column",
+      "title": "技术架构",
+      "left_content": [
+        "输入：JSON格式的结构化内容",
+        "处理：模板引擎解析并渲染",
+        "输出：标准PPTX文件"
+      ],
+      "right_content": [
+        "使用python-pptx库",
+        "支持自定义样式",
+        "灵活可扩展"
+      ]
+    },
+    {
+      "layout": "content_page",
+      "title": "使用示例",
+      "bullets": [
+        "准备slides.json文件",
+        "运行: python main.py slides.json -o output.pptx",
+        "查看生成的PPT文件"
+      ]
+    }
+  ]
+}
+
+

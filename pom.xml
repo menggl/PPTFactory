@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.pptfactory</groupId>
+    <artifactId>ppt-template-engine</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <name>PPT Template Engine</name>
+    <description>PPT模板引擎 - 使用大模型输出结构化内容，模板引擎负责排版和布局</description>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <poi.version>5.2.5</poi.version>
+        <jackson.version>2.15.2</jackson.version>
+        <slf4j.version>2.0.7</slf4j.version>
+        <logback.version>1.4.8</logback.version>
+    </properties>
+
+    <dependencies>
+        <!-- Apache POI for PPTX processing -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>${poi.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>${poi.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-scratchpad</artifactId>
+            <version>${poi.version}</version>
+        </dependency>
+
+        <!-- Aspose.Slides for Java (optional, for advanced slide copying with animations/videos) -->
+        <!-- Note: Aspose.Slides requires a license. Add to local Maven repository if needed. -->
+        <!--
+        <dependency>
+            <groupId>com.aspose</groupId>
+            <artifactId>aspose-slides</artifactId>
+            <version>23.10</version>
+        </dependency>
+        -->
+
+        <!-- Jackson for JSON processing -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+
+        <!-- Logging -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>${logback.version}</version>
+        </dependency>
+
+        <!-- JUnit for testing -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Aspose.Slides for Java (从本地 lib 文件夹加载) -->
+        <!-- 注意：Aspose.Slides 是商业库，需要许可证 -->
+        <!-- 请将 aspose-slides-25.10-jdk17.jar 文件下载到 lib/ 文件夹后，取消下面的注释 -->
+        <dependency>
+            <groupId>com.aspose</groupId>
+            <artifactId>aspose-slides</artifactId>
+            <version>25.11</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/aspose-slides-25.11-jdk16.jar</systemPath>
+        </dependency>
+
+    </dependencies>
+
+
+    <!-- Aspose.Slides repository -->
+    <repositories>
+        <repository>
+            <id>AsposeJavaAPI</id>
+            <name>Aspose Java API</name>
+            <url>https://releases.aspose.com/java/repo/</url>
+        </repository>
+    </repositories>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>
+                <configuration>
+                    <source>17</source>
+                    <target>17</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0</version>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.5.1</version>
+                <configuration>
+                    <mainClass>com.pptfactory.cli.GeneratePPT</mainClass>
+                    <classpathScope>runtime</classpathScope>
+                    <!-- 手动添加 system scope 的依赖到 classpath -->
+                    <additionalClasspathElements>
+                        <additionalClasspathElement>${project.basedir}/lib/aspose-slides-25.11-jdk16.jar</additionalClasspathElement>
+                    </additionalClasspathElements>
+                    <!-- 设置区域设置为 en-US，避免 Aspose.Slides 不支持的系统区域设置问题 -->
+                    <systemProperties>
+                        <systemProperty>
+                            <key>user.language</key>
+                            <value>en</value>
+                        </systemProperty>
+                        <systemProperty>
+                            <key>user.country</key>
+                            <value>US</value>
+                        </systemProperty>
+                    </systemProperties>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>3.6.0</version>
+                <configuration>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                    <archive>
+                        <manifest>
+                            <mainClass>com.pptfactory.cli.GeneratePPT</mainClass>
+                        </manifest>
+                    </archive>
+                    <!-- 包含 system scope 的依赖（lib 文件夹中的 JAR） -->
+                    <includeSystemScope>true</includeSystemScope>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>make-assembly</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
+
