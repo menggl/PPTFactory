@@ -1,0 +1,88 @@
+{
+  "template_id": "T003",
+  "page_index": 3,
+  "layout_type": "section_title_with_left_image_and_two_paragraphs",
+
+  "placeholders": [
+    {
+      "placeholder_id": "p1",
+      "type": "section_title",
+      "bbox": [0.05, 0.05, 0.9, 0.12],
+      "suggested_length": "10-25 chars",
+      "font_size": "32-44"
+    },
+    {
+      "placeholder_id": "p2",
+      "type": "subtitle",
+      "bbox": [0.05, 0.18, 0.9, 0.08],
+      "suggested_length": "10-30 chars",
+      "font_size": "18-26"
+    },
+    {
+      "placeholder_id": "p3",
+      "type": "image",
+      "bbox": [0.06, 0.32, 0.22, 0.45],
+      "note": "方形图片或图标，位置在页面左侧"
+    },
+    {
+      "placeholder_id": "p4",
+      "type": "heading",
+      "bbox": [0.32, 0.32, 0.62, 0.09],
+      "suggested_length": "15-40 chars",
+      "font_size": "22-28"
+    },
+    {
+      "placeholder_id": "p5",
+      "type": "body_text",
+      "bbox": [0.32, 0.42, 0.62, 0.18],
+      "suggested_length": "80-200 chars"
+    },
+    {
+      "placeholder_id": "p6",
+      "type": "heading",
+      "bbox": [0.32, 0.63, 0.62, 0.09],
+      "suggested_length": "15-40 chars",
+      "font_size": "22-28"
+    },
+    {
+      "placeholder_id": "p7",
+      "type": "body_text",
+      "bbox": [0.32, 0.73, 0.62, 0.18],
+      "suggested_length": "80-200 chars"
+    }
+  ],
+
+  "example_text": {
+    "section_title": "煤矿安全生产核心方针",
+    "subtitle": "“预防为主”：提前排查规避风险",
+    "paragraphs": [
+      {
+        "heading": "通过提前检查、规范操作，从源头减少事故发生",
+        "body": "要从源头上减少事故的发生，就需要提前进行检查和规范操作。对于采煤机司机来说，开机前必须完成“设备检查”，如电缆、截齿、喷雾装置等，以及“环境检查”，如瓦斯浓度、煤壁稳定性等。"
+      },
+      {
+        "heading": "《煤矿安全规程》对“事前预防”的明确要求",
+        "body": "《煤矿安全规程》明确要求采煤机司机做好“事前预防”。司机开机前要进行设备和环境检查，避免因检查不到位引发设备损坏或人身伤害，这是保障安全生产的重要环节。"
+      }
+    ]
+  },
+
+  "text_capacity_score": 0.75,
+  "visual_density": 0.70,
+
+  "recommended_usage": [
+    "制度规范分点阐述",
+    "安全操作规程说明",
+    "图文结合内容展示",
+    "政策法规解读",
+    "多要点并列说明"
+  ],
+
+  "style_tags": [
+    "左侧图片布局",
+    "双段落结构",
+    "蓝色标题栏",
+    "图文分离",
+    "正式文档风格"
+  ]
+}

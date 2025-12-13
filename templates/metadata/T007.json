@@ -1,0 +1,106 @@
+{
+  "template_id": "T007",
+  "page_index": 7,
+  "layout_type": "section_title_with_three_paragraphs_right_image",
+
+  "placeholders": [
+    {
+      "placeholder_id": "p1",
+      "type": "section_title",
+      "bbox": [0.05, 0.05, 0.9, 0.12],
+      "suggested_length": "10-30 chars",
+      "font_size": "32-44"
+    },
+    {
+      "placeholder_id": "p2",
+      "type": "subtitle",
+      "bbox": [0.05, 0.18, 0.9, 0.08],
+      "suggested_length": "10-40 chars",
+      "font_size": "18-26"
+    },
+    {
+      "placeholder_id": "p3",
+      "type": "heading",
+      "bbox": [0.05, 0.30, 0.6, 0.08],
+      "suggested_length": "15-50 chars",
+      "font_size": "20-26"
+    },
+    {
+      "placeholder_id": "p4",
+      "type": "body_text",
+      "bbox": [0.05, 0.39, 0.6, 0.10],
+      "suggested_length": "60-150 chars"
+    },
+    {
+      "placeholder_id": "p5",
+      "type": "heading",
+      "bbox": [0.05, 0.52, 0.6, 0.08],
+      "suggested_length": "15-50 chars",
+      "font_size": "20-26"
+    },
+    {
+      "placeholder_id": "p6",
+      "type": "body_text",
+      "bbox": [0.05, 0.61, 0.6, 0.10],
+      "suggested_length": "60-150 chars"
+    },
+    {
+      "placeholder_id": "p7",
+      "type": "heading",
+      "bbox": [0.05, 0.74, 0.6, 0.08],
+      "suggested_length": "15-50 chars",
+      "font_size": "20-26"
+    },
+    {
+      "placeholder_id": "p8",
+      "type": "body_text",
+      "bbox": [0.05, 0.83, 0.6, 0.10],
+      "suggested_length": "60-150 chars"
+    },
+    {
+      "placeholder_id": "p9",
+      "type": "image",
+      "bbox": [0.70, 0.30, 0.25, 0.60],
+      "note": "右侧矩形图片，可能包含相关法律法规图示或图标"
+    }
+  ],
+
+  "example_text": {
+    "section_title": "二、与采煤机司机岗位密切相关的法律法规",
+    "subtitle": "1. 《中华人民共和国安全生产法》",
+    "paragraphs": [
+      {
+        "heading": "从业人员须经专门安全培训并取得相应资格上岗",
+        "body": "《中华人民共和国安全生产法》规定，从业人员必须经专门安全培训，取得相应资格方可上岗。对应采煤机司机\"上岗条件\"中\"培训考试合格、持证上岗\"，司机需主动参加矿内安全培训，不无证上岗。"
+      },
+      {
+        "heading": "从业人员有权拒绝违章指挥、强令冒险作业",
+        "body": "此法律明确从业人员有权拒绝违章指挥、强令冒险作业，如采煤机司机可拒绝\"强行截割硬岩\"\"带载启动\"等违规指令，发现管理人员强令违规操作时，有权拒绝并上报。"
+      },
+      {
+        "heading": "生产经营单位需为从业人员提供符合标准的劳动防护用品",
+        "body": "生产经营单位需为从业人员提供符合标准的劳动防护用品，像防尘口罩、安全帽等，以保障采煤机司机在喷雾降尘不足时的健康，确保其在工作环境中的安全。"
+      }
+    ]
+  },
+
+  "text_capacity_score": 0.85,
+  "visual_density": 0.78,
+
+  "recommended_usage": [
+    "法律法规条款展示",
+    "多要点并列说明",
+    "法律条文解读",
+    "制度规定讲解",
+    "图文结合内容展示"
+  ],
+
+  "style_tags": [
+    "右侧图片布局",
+    "三段落结构",
+    "蓝色标题栏",
+    "正式法律文档风格",
+    "条文分点展示",
+    "左侧文字右侧图片"
+  ]
+}

@@ -27,7 +27,7 @@ public class CleanWatermarksUtil {
         removeWatermarksFromXML("/Users/menggl/workspace/PPTFactory/templates/master_template.pptx");
     }
 
-    private static void removeWatermarksFromXML(String filename) throws Exception {
+    public static void removeWatermarksFromXML(String filename) throws Exception {
         System.out.println("  使用 XML 方式移除水印...");
         
         // 定义水印关键词

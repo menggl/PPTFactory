@@ -1,0 +1,69 @@
+{
+  "template_id": "T012",
+  "page_index": 12,
+  "layout_type": "section_title_with_split_text_bottom_image",
+
+  "placeholders": [
+    {
+      "placeholder_id": "p1",
+      "type": "section_title",
+      "bbox": [0.05, 0.05, 0.9, 0.12],
+      "suggested_length": "10-30 chars",
+      "font_size": "32-44"
+    },
+    {
+      "placeholder_id": "p2",
+      "type": "subtitle",
+      "bbox": [0.05, 0.18, 0.9, 0.08],
+      "suggested_length": "10-40 chars",
+      "font_size": "18-26"
+    },
+    {
+      "placeholder_id": "p3",
+      "type": "heading",
+      "bbox": [0.08, 0.30, 0.4, 0.10],
+      "suggested_length": "10-30 chars",
+      "font_size": "24-30"
+    },
+    {
+      "placeholder_id": "p4",
+      "type": "body_text",
+      "bbox": [0.52, 0.30, 0.40, 0.25],
+      "suggested_length": "100-250 chars",
+      "font_size": "18-24"
+    },
+    {
+      "placeholder_id": "p5",
+      "type": "image",
+      "bbox": [0.08, 0.58, 0.84, 0.35],
+      "note": "底部大长方形图片，可能展示法律后果相关图示或警示图片"
+    }
+  ],
+
+  "example_text": {
+    "section_title": "三、法律法规的岗位落实要求",
+    "subtitle": "3. 责任认知\"知法懂责\"",
+    "heading": "明确违规操作的法律后果",
+    "body": "采煤机司机要清楚若因无证上岗、违反规程导致事故，需承担相应责任，如行政处分、经济处罚，情节严重者还会被追究法律责任，从而树立\"违法必担责\"的敬畏意识。"
+  },
+
+  "text_capacity_score": 0.68,
+  "visual_density": 0.70,
+
+  "recommended_usage": [
+    "责任认知说明",
+    "法律后果强调",
+    "左右分栏文本布局",
+    "警示性内容展示",
+    "法规教育内容"
+  ],
+
+  "style_tags": [
+    "左右分栏文本",
+    "底部大图布局",
+    "蓝色标题栏",
+    "正式法律文档",
+    "警示性风格",
+    "责任认知教育"
+  ]
+}

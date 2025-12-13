@@ -1,0 +1,99 @@
+{
+    "template_id": "T002",
+    "page_index": 2,
+    "layout_type": "section_title_with_two_icon_paragraphs",
+  
+    "placeholders": [
+      {
+        "placeholder_id": "p1",
+        "type": "section_title",
+        "bbox": [0.05, 0.05, 0.9, 0.12],
+        "suggested_length": "10-25 chars",
+        "font_size": "32-44"
+      },
+      {
+        "placeholder_id": "p2",
+        "type": "subtitle",
+        "bbox": [0.05, 0.13, 0.9, 0.07],
+        "suggested_length": "10-25 chars",
+        "font_size": "18-26"
+      },
+  
+      {
+        "placeholder_id": "p3",
+        "type": "image",
+        "bbox": [0.06, 0.28, 0.16, 0.22],
+        "note": "圆形图标，图中含有文字但不视为PPT可替换文本"
+      },
+      {
+        "placeholder_id": "p4",
+        "type": "heading",
+        "bbox": [0.25, 0.28, 0.7, 0.1],
+        "suggested_length": "10-25 chars",
+        "font_size": "24-30",
+        "style": "highlight_red"
+      },
+      {
+        "placeholder_id": "p5",
+        "type": "body_text",
+        "bbox": [0.25, 0.36, 0.7, 0.22],
+        "suggested_length": "80-200 chars"
+      },
+  
+      {
+        "placeholder_id": "p6",
+        "type": "image",
+        "bbox": [0.06, 0.58, 0.16, 0.22],
+        "note": "圆形图标，图中文字STOP不视为PPT可替换文本"
+      },
+      {
+        "placeholder_id": "p7",
+        "type": "heading",
+        "bbox": [0.25, 0.58, 0.7, 0.1],
+        "suggested_length": "10-25 chars",
+        "font_size": "24-30",
+        "style": "highlight_red"
+      },
+      {
+        "placeholder_id": "p8",
+        "type": "body_text",
+        "bbox": [0.25, 0.66, 0.7, 0.22],
+        "suggested_length": "80-200 chars"
+      }
+    ],
+  
+    "example_text": {
+      "section_title": "煤矿安全生产核心方针",
+      "subtitle": "“安全第一”：优先保障生命安全",
+      "paragraphs": [
+        {
+          "heading": "在煤矿生产全过程中，必须将人员安全置于产量、效率之上",
+          "body": "在煤矿生产过程中，人员安全的重要性必须远高于产量和效率……"
+        },
+        {
+          "heading": "对应岗位操作中的“紧急停机情形”",
+          "body": "在岗位作业时如遇到冒顶预兆等危险情况，采煤机司机必须立即停机……"
+        }
+      ]
+    },
+  
+    "text_capacity_score": 0.85,
+    "visual_density": 0.65,
+  
+    "recommended_usage": [
+      "概念 + 图标说明型内容",
+      "安全制度讲解",
+      "两段式说明文内容展示",
+      "流程风险说明",
+      "重要政策分点阐述"
+    ],
+  
+    "style_tags": [
+      "标题栏蓝色",
+      "双段落布局",
+      "图标左侧",
+      "强调红色标题",
+      "图文结合"
+    ]
+  }
+  

@@ -1,0 +1,106 @@
+{
+  "template_id": "T008",
+  "page_index": 8,
+  "layout_type": "section_title_with_left_image_three_paragraphs",
+
+  "placeholders": [
+    {
+      "placeholder_id": "p1",
+      "type": "section_title",
+      "bbox": [0.05, 0.05, 0.9, 0.12],
+      "suggested_length": "10-35 chars",
+      "font_size": "32-44"
+    },
+    {
+      "placeholder_id": "p2",
+      "type": "subtitle",
+      "bbox": [0.05, 0.18, 0.9, 0.08],
+      "suggested_length": "10-40 chars",
+      "font_size": "18-26"
+    },
+    {
+      "placeholder_id": "p3",
+      "type": "image",
+      "bbox": [0.05, 0.30, 0.35, 0.60],
+      "note": "左侧矩形图片，可能包含《煤矿安全规程》相关图示或图标"
+    },
+    {
+      "placeholder_id": "p4",
+      "type": "heading",
+      "bbox": [0.45, 0.30, 0.5, 0.08],
+      "suggested_length": "15-60 chars",
+      "font_size": "20-26"
+    },
+    {
+      "placeholder_id": "p5",
+      "type": "body_text",
+      "bbox": [0.45, 0.39, 0.5, 0.12],
+      "suggested_length": "60-150 chars"
+    },
+    {
+      "placeholder_id": "p6",
+      "type": "heading",
+      "bbox": [0.45, 0.54, 0.5, 0.08],
+      "suggested_length": "15-60 chars",
+      "font_size": "20-26"
+    },
+    {
+      "placeholder_id": "p7",
+      "type": "body_text",
+      "bbox": [0.45, 0.63, 0.5, 0.12],
+      "suggested_length": "60-150 chars"
+    },
+    {
+      "placeholder_id": "p8",
+      "type": "heading",
+      "bbox": [0.45, 0.78, 0.5, 0.08],
+      "suggested_length": "15-60 chars",
+      "font_size": "20-26"
+    },
+    {
+      "placeholder_id": "p9",
+      "type": "body_text",
+      "bbox": [0.45, 0.87, 0.5, 0.12],
+      "suggested_length": "60-150 chars"
+    }
+  ],
+
+  "example_text": {
+    "section_title": "二、与采煤机司机岗位密切相关的法律法规",
+    "subtitle": "2.《煤矿安全规程》",
+    "paragraphs": [
+      {
+        "heading": "电动机、开关附近 20 米内风流中瓦斯浓度达到 1.5% 时的操作要求",
+        "body": "《煤矿安全规程》规定，电动机、开关附近 20 米内风流中瓦斯浓度达到 1.5% 时，必须停止运转、切断电源、撤出人员，对应\"安全规定\"第 5 条，采煤机司机要严格执行。"
+      },
+      {
+        "heading": "采煤机截煤时喷雾装置的使用要求",
+        "body": "规程要求采煤机截煤时必须开启喷雾装置，无水或喷雾损坏的停机，对应\"安全规定\"第 6 条，司机需将此条款融入日常操作，作业中确认喷雾正常。"
+      },
+      {
+        "heading": "采煤机停止工作或检修时的电源操作要求",
+        "body": "当采煤机停止工作或检修时，必须切断电源、打开隔离开关，对应\"安全规定\"第 7 条，司机要在日常操作中严格遵守，严禁违反规程操作。"
+      }
+    ]
+  },
+
+  "text_capacity_score": 0.88,
+  "visual_density": 0.82,
+
+  "recommended_usage": [
+    "具体规程条款展示",
+    "操作要求详细说明",
+    "安全规定分点阐述",
+    "图文结合内容展示",
+    "多要点并列说明"
+  ],
+
+  "style_tags": [
+    "左侧图片布局",
+    "三段落结构",
+    "蓝色标题栏",
+    "正式规程文档风格",
+    "具体操作要求展示",
+    "安全规定分条说明"
+  ]
+}

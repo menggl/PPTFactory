@@ -1,0 +1,88 @@
+{
+  "template_id": "T010",
+  "page_index": 10,
+  "layout_type": "section_title_with_summary_image_three_points",
+
+  "placeholders": [
+    {
+      "placeholder_id": "p1",
+      "type": "section_title",
+      "bbox": [0.05, 0.05, 0.9, 0.12],
+      "suggested_length": "10-30 chars",
+      "font_size": "32-44"
+    },
+    {
+      "placeholder_id": "p2",
+      "type": "subtitle",
+      "bbox": [0.05, 0.18, 0.9, 0.08],
+      "suggested_length": "10-40 chars",
+      "font_size": "18-26"
+    },
+    {
+      "placeholder_id": "p3",
+      "type": "body_text",
+      "bbox": [0.08, 0.28, 0.84, 0.12],
+      "suggested_length": "40-100 chars",
+      "font_size": "20-26",
+      "style": "bold_center"
+    },
+    {
+      "placeholder_id": "p4",
+      "type": "image",
+      "bbox": [0.08, 0.42, 0.84, 0.30],
+      "note": "大横向图片，可能展示操作流程或对照自查图示"
+    },
+    {
+      "placeholder_id": "p5",
+      "type": "body_text",
+      "bbox": [0.08, 0.74, 0.25, 0.12],
+      "suggested_length": "30-80 chars",
+      "font_size": "16-22"
+    },
+    {
+      "placeholder_id": "p6",
+      "type": "body_text",
+      "bbox": [0.37, 0.74, 0.25, 0.12],
+      "suggested_length": "30-80 chars",
+      "font_size": "16-22"
+    },
+    {
+      "placeholder_id": "p7",
+      "type": "body_text",
+      "bbox": [0.66, 0.74, 0.25, 0.12],
+      "suggested_length": "30-80 chars",
+      "font_size": "16-22"
+    }
+  ],
+
+  "example_text": {
+    "section_title": "三、法律法规的岗位落实要求",
+    "subtitle": "1. 日常操作\"对标法规\"",
+    "summary": "每次开机前，作业中，停机后，对照《煤矿安全规程》等条款自查操作行为",
+    "points": [
+      "每次开机前，需严格对照《煤矿安全规程》等条款，检查周围是否无人员、瓦斯浓度是否正常等；",
+      "作业中，确认喷雾正常、设备运行无异常；",
+      "停机后，切断电源闭锁，避免\"习惯性违规\"。"
+    ]
+  },
+
+  "text_capacity_score": 0.75,
+  "visual_density": 0.68,
+
+  "recommended_usage": [
+    "流程步骤展示",
+    "操作要点说明",
+    "三点式要点归纳",
+    "图文结合内容",
+    "日常规范讲解"
+  ],
+
+  "style_tags": [
+    "标题+总结+图片+三点式",
+    "横向图片布局",
+    "蓝色标题栏",
+    "三点并列底部",
+    "流程可视化",
+    "简洁明了"
+  ]
+}

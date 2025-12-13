@@ -1,0 +1,356 @@
+{
+  "slide_title": "一、煤矿从业人员主要权利",
+  "slide_subtitle": "",
+  "layout": "title_with_three_image_cards",
+  "templateId": "T001",
+  "key_points": [
+    "健康保障权",
+    "拒绝违章指挥权",
+    "停止作业避险权"
+  ],
+  "optional_graphics": "三张图卡对应三项核心权利",
+  "notes": "T001；caption 2-5字"
+}
+
+{
+  "slide_title": "一、煤矿从业人员主要权利",
+  "slide_subtitle": "",
+  "layout": "title_with_three_image_cards",
+  "templateId": "T001",
+  "key_points": [
+    "工伤保险与民事赔偿权",
+    "批评、检举和控告权",
+    "权利保护=安全保障"
+  ],
+  "optional_graphics": "三图卡：保险/举报/安全盾牌",
+  "notes": "T001，同模板拆分总览"
+}
+
+{
+  "slide_title": "一、煤矿从业人员主要权利",
+  "slide_subtitle": "1. 健康保障权",
+  "layout": "section_title_with_two_icon_paragraphs",
+  "templateId": "T002",
+  "key_points": [
+    {
+      "heading": "确诊尘肺病，企业需提供治疗康复",
+      "body": "经职业病诊断机构确诊尘肺病后，用人单位应及时安排规范治疗与康复，包含诊疗费用保障、阶段性复查评估、康复训练与岗位适配调整；建立个人健康档案，持续监测粉尘暴露与呼吸功能，必要时调整作业强度或调离高粉尘岗位，确保疾病稳定与劳动者生命健康。"
+    },
+    {
+      "heading": "离职可索要历年体检报告",
+      "body": "从业人员离职或岗位变更时有权索取完整的历年职业健康检查报告（含胸片/CT、肺功能、粉尘暴露记录等），企业不得以任何理由拒绝或拖延；体检资料用于评估职业病风险、作为后续诊疗与工伤认定依据，并为劳动者维权、申请补偿与持续治疗提供必要凭证。"
+    }
+  ],
+  "optional_graphics": "医疗/体检图标",
+  "notes": "T002；每段80-200字"
+}
+
+{
+  "slide_title": "一、煤矿从业人员主要权利",
+  "slide_subtitle": "2. 拒绝违章指挥权",
+  "layout": "section_title_with_left_image_and_two_paragraphs",
+  "templateId": "T003",
+  "key_points": [
+    {
+      "heading": "有权拒绝违反安全规程的指令",
+      "body": "当指令违反《煤矿安全规程》等强制性规范（如带载启动、瓦斯超限作业、停喷雾生产）时，司机可当场口头拒绝并记录时间、地点、指令内容；立即通过调度或安全管理系统上报，启动现场纠偏流程。企业及管理人员不得以降薪、调岗等方式打击报复，安全权利高于生产任务。"
+    },
+    {
+      "heading": "实例：强令带载割煤",
+      "body": "如班长未进行空转预热即强令带载割煤，或监测显示瓦斯浓度超标仍要求继续作业，司机应立刻拒绝并按程序上报调度，暂停相关设备；同时设置现场警戒、通知支架工与瓦检员核查，待隐患消除后方可恢复生产，以中断事故链。"
+    }
+  ],
+  "optional_graphics": "左侧违章场景图，右侧双段正文",
+  "notes": "T003；每段160-260字"
+}
+
+{
+  "slide_title": "一、煤矿从业人员主要权利",
+  "slide_subtitle": "3. 停止作业避险权",
+  "layout": "section_title_with_two_icon_paragraphs",
+  "templateId": "T002",
+  "key_points": [
+    {
+      "heading": "遇危及生命情况可立即停机撤离",
+      "body": "出现顶板冒顶预兆、煤壁异常裂隙、采煤机齿轮卡死、喷雾失效或瓦斯读数异常等危及生命的征兆时，应立即执行紧急停机、人员迅速撤离至安全地点并清点人数；随后上报调度与安全管理部门，封控现场、排险复核。企业不得以停产为由扣减工资。"
+    },
+    {
+      "heading": "生命优先，先避险再处置",
+      "body": "任何情况下以人员生命安全为先，不得因等待上级指令而延误撤离；避险后由专业人员评估风险源并制定处置方案，必要时实施通风、加固、停送电等措施。司机应配合记录事件经过与监测数据，为后续事故分析与改进提供依据。"
+    }
+  ],
+  "optional_graphics": "警示/撤离图标",
+  "notes": "T002；每段80-200字"
+}
+
+{
+  "slide_title": "一、煤矿从业人员主要权利",
+  "slide_subtitle": "4. 工伤保险与民事赔偿权",
+  "layout": "title_subtitle_top_two_card_style_text_blocks",
+  "templateId": "T009",
+  "key_points": [
+    {
+      "heading": "工伤保险义务",
+      "body": "企业依法为职工缴纳工伤保险，发生因工伤害时，劳动者享有工伤认定与待遇：覆盖急救与住院医疗、康复治疗、停工留薪期工资、伤残等级评定及相应待遇等；同时由单位配合材料提交与费用结算，确保救治与补偿及时到位。"
+    },
+    {
+      "heading": "民事赔偿范围",
+      "body": "在工伤待遇之外，如存在第三方或管理过失，劳动者可依法主张民事赔偿，包括误工费、护理费、交通与康复费用、残疾赔偿金等合理损失；形成工伤保险待遇与民事赔偿的双重保障机制，提升伤后救治与生活保障能力。实例：防护栏损坏导致受伤，可申请工伤报销并索赔误工费及护理费。"
+    }
+  ],
+  "optional_graphics": "保险/法律图标，双卡片",
+  "notes": "T009；每卡150-250字"
+}
+
+{
+  "slide_title": "一、煤矿从业人员主要权利",
+  "slide_subtitle": "5. 批评、检举和控告权",
+  "layout": "section_title_with_left_image_and_two_paragraphs",
+  "templateId": "T003",
+  "key_points": [
+    {
+      "heading": "可实名/匿名举报违章和隐患",
+      "body": "矿内应设置多渠道举报（热线、微信/平台、信箱与当面报告），支持匿名与实名；接报后由安全监察及时核查与反馈整改措施。企业须保护举报人身份与合法权益，严禁打击报复，并将整改结果向班组公示，形成闭环治理。"
+    },
+    {
+      "heading": "实例：无证上岗与报复控告",
+      "body": "发现新司机无证上岗可立即向调度与安监举报，要求停岗培训与复审；若因此遭遇调岗降薪等报复，可向上级监管或劳动监察部门控告，并提交班组记录、排班单与对话截图等证据，维护监督秩序与人身安全。"
+    }
+  ],
+  "optional_graphics": "左侧举报/信箱图，右侧双段",
+  "notes": "T003；每段160-260字"
+}
+
+{
+  "slide_title": "二、采煤机司机主要义务",
+  "slide_subtitle": "",
+  "layout": "title_with_three_image_cards",
+  "templateId": "T001",
+  "key_points": [
+    "遵守规程与操作规范",
+    "服从安全管理并如实记录",
+    "正确佩戴防护用品"
+  ],
+  "optional_graphics": "三要点图标/卡片",
+  "notes": "T001；同模板拆分"
+}
+
+{
+  "slide_title": "二、采煤机司机主要义务",
+  "slide_subtitle": "",
+  "layout": "title_with_three_image_cards",
+  "templateId": "T001",
+  "key_points": [
+    "及时报告隐患并参与抢险",
+    "接受培训持证上岗",
+    "爱护设备与作业环境"
+  ],
+  "optional_graphics": "三要点图标/卡片",
+  "notes": "T001；同模板拆分"
+}
+
+{
+  "slide_title": "二、采煤机司机主要义务",
+  "slide_subtitle": "1. 遵守安全规章和操作规程",
+  "layout": "title_subtitle_top_left_multi_text_right_single_image",
+  "templateId": "T007",
+  "key_points": [
+    {
+      "heading": "作业前检查与规范启动",
+      "paragraph": "严格执行《煤矿安全规程》和采煤机操作规范，包括检查截齿、隔离开关、电缆、喷雾、瓦斯浓度等关键部件，确认合格再作业，减少设备和人员风险。开机前必须完成设备检查和环境检查，确保设备状态良好。"
+    },
+    {
+      "heading": "停机断电，严禁习惯性违章",
+      "paragraph": "操作结束后必须断电，按规程操作，避免因省略步骤造成设备损坏或人身伤害。严禁省略安全步骤，杜绝习惯性违章操作，保障作业安全。"
+    }
+  ],
+  "optional_graphics": "右侧检查/规程示意图",
+  "notes": "T007；每段200-350字"
+}
+
+{
+  "slide_title": "二、采煤机司机主要义务",
+  "slide_subtitle": "2. 服从安全生产管理",
+  "layout": "section_title_with_two_icon_paragraphs",
+  "templateId": "T002",
+  "key_points": [
+    {
+      "heading": "配合检查，提供真实记录",
+      "body": "按规定配合安监、机电与瓦检等例行检查与抽查，完整填写操作日志、巡检记录与异常处置过程；确保数据真实可追溯，为隐患分析、设备维护与制度改进提供依据。对发现的问题及时签收整改通知并落实闭环。"
+    },
+    {
+      "heading": "遇违章指挥可拒绝",
+      "body": "在遵守安全生产管理的前提下，坚持原则不盲从；遇到违章指挥或与规程冲突的安排，应当场拒绝并同步上报调度与安监，说明风险点与相关条款依据；必要时申请现场复核，确保处置以安全为最高准则。"
+    }
+  ],
+  "optional_graphics": "管理/STOP警示图标",
+  "notes": "T002；每段80-200字"
+}
+
+{
+  "slide_title": "二、采煤机司机主要义务",
+  "slide_subtitle": "3. 正确佩戴和使用劳动防护用品",
+  "layout": "section_title_with_left_image_and_two_paragraphs",
+  "templateId": "T003",
+  "key_points": [
+    {
+      "heading": "规范佩戴防尘口罩、安全帽、防滑手套",
+      "body": "防尘口罩需按颗粒物等级正确选择并密合性检查，安全帽系紧下颌带，手套选择防滑耐磨材质；进入作业面前进行外观与有效性自检，严禁虚戴、替换不合格用品或在高风险工序中省略佩戴，以保障个人安全。"
+    },
+    {
+      "heading": "使用防护栏与防护装置",
+      "body": "采煤机与输送设备周边的防护栏、隔离板及急停装置必须保持完好并按规定使用；作业前检查安装位置与固定状态，作业中保持安全距离与可视范围，防止飞溅、卷入或误触旋转部件，提高现场本质安全水平。"
+    }
+  ],
+  "optional_graphics": "左侧防护用品示意图",
+  "notes": "T003；每段160-260字"
+}
+
+{
+  "slide_title": "二、采煤机司机主要义务",
+  "slide_subtitle": "4. 发现事故隐患及时报告并参与抢险",
+  "layout": "title_subtitle_top_banner_image_single_text_block",
+  "templateId": "T011",
+  "key_points": [
+    {
+      "heading": "发现隐患立即报告，安全前提下抢险",
+      "paragraph": "发现设备隐患或异常情况，应立即报告并在确保安全前提下参与抢险救灾。当发现如瓦斯特续超限、设备重大故障等超出自身处理能力的隐患时，采煤机司机必须立即停机，然后严格按照流程上报跟班队长或分管领导，严禁隐瞒隐患或自行冒险处置。"
+    }
+  ],
+  "optional_graphics": "横幅隐患/抢险场景图",
+  "notes": "T011；正文200-350字"
+}
+
+{
+  "slide_title": "二、采煤机司机主要义务",
+  "slide_subtitle": "5. 接受安全生产培训教育",
+  "layout": "title_subtitle_top_two_card_style_text_blocks",
+  "templateId": "T009",
+  "key_points": [
+    {
+      "heading": "参加培训并按期复审持证",
+      "body": "必须参加安全培训，持证上岗，按时复审。定期培训与复审保持证书有效，确保技能与规程知识更新，确保证书有效，以保障自身合法上岗。"
+    },
+    {
+      "heading": "重点演练：紧急停机与瓦斯超限处置",
+      "body": "重点培训包括紧急停机操作及瓦斯超限处置演练。通过演练提升应急处置能力，遇突发情况能快速合规响应，确保在紧急情况下能够正确执行操作规程，保障人员安全。"
+    }
+  ],
+  "optional_graphics": "培训/证书图标，双卡片展示",
+  "notes": "T009；每卡150-250字"
+}
+
+{
+  "slide_title": "二、采煤机司机主要义务",
+  "slide_subtitle": "6. 改善工作环境和爱护设备",
+  "layout": "title_subtitle_top_two_image_text_blocks",
+  "templateId": "T004",
+  "key_points": [
+    {
+      "heading": "清理浮煤，保持环境整洁",
+      "paragraph": "定期清理浮煤和杂物，保持作业面通畅，降低火灾和滑倒风险。改善工作环境，确保作业区域整洁有序，为安全生产创造良好条件。"
+    },
+    {
+      "heading": "维护关键部件，禁止拆解防护装置",
+      "paragraph": "维护齿轮箱等关键部件，严禁拆解防护装置，确保设备与人员安全。爱护设备，禁止拆解防护装置，确保设备和人员安全，延长设备使用寿命。"
+    }
+  ],
+  "optional_graphics": "双圆图：环境清理/设备维护",
+  "notes": "T004；每段150-300字"
+}
+
+{
+  "slide_title": "三、案例分析与思政要点",
+  "slide_subtitle": "",
+  "layout": "title_with_three_image_cards",
+  "templateId": "T001",
+  "key_points": [
+    "瓦斯超限停机案例",
+    "忽视隐患导致事故案例",
+    "多岗位协同避险案例"
+  ],
+  "optional_graphics": "三个案例缩略图/图标",
+  "notes": "T001；caption 2-5字"
+}
+
+{
+  "slide_title": "三、案例分析与思政要点",
+  "slide_subtitle": "",
+  "layout": "title_with_three_image_cards",
+  "templateId": "T001",
+  "key_points": [
+    "法规意识、果断执行",
+    "安全第一、风险防控",
+    "团队协作、责任意识"
+  ],
+  "optional_graphics": "三个启示图标/关键词",
+  "notes": "T001；同模板拆分"
+}
+
+{
+  "slide_title": "三、案例分析与思政要点",
+  "slide_subtitle": "1. 瓦斯超限停机案例",
+  "layout": "section_title_with_left_image_and_two_paragraphs",
+  "templateId": "T003",
+  "key_points": [
+    {
+      "heading": "发现瓦斯异常，紧急停机撤人",
+      "body": "司机李伟在巡检中发现瓦斯浓度异常，立即按规范执行紧急停机、关闭相关开关并组织现场人员快速撤离至安全地点；随即向调度与安监报告，设置警戒并等待复核。该处置切断了潜在事故链，体现了制度执行力与风险识别能力。"
+    },
+    {
+      "heading": "启示：法规意识、果断执行",
+      "body": "严格遵守监测报警阈值与停机标准，发现异常即停、先人后物，避免犹豫与侥幸心理；通过及时上报与现场封控，争取处置时间并降低次生风险。岗位人员需强化法规意识、熟悉应急流程，以提升团队整体安全水平。"
+    }
+  ],
+  "optional_graphics": "左侧瓦斯检测/停机场景图",
+  "notes": "T003；每段160-260字"
+}
+
+{
+  "slide_title": "三、案例分析与思政要点",
+  "slide_subtitle": "2. 忽视隐患导致事故案例",
+  "layout": "title_subtitle_top_heading_text_image",
+  "templateId": "T012",
+  "key_points": [
+    {
+      "heading": "截齿磨损仍作业，导致煤尘爆炸",
+      "paragraph": "司机张强忽视截齿严重磨损继续作业，引发煤尘爆炸并造成人员伤亡，警示隐患不可忽视。该案例深刻说明安全第一的重要性，任何设备隐患都可能导致严重后果，必须及时报告并处理，绝不能因追求产量而忽视安全风险。"
+    }
+  ],
+  "optional_graphics": "下方通栏事故警示图",
+  "notes": "T012；正文200-350字"
+}
+
+{
+  "slide_title": "三、案例分析与思政要点",
+  "slide_subtitle": "3. 多岗位协同避险案例",
+  "layout": "title_subtitle_top_two_image_text_pair",
+  "templateId": "T005",
+  "key_points": [
+    {
+      "heading": "发现顶板异常，及时停机报警并加固",
+      "paragraph": "司机王磊发现顶板异常，立即停机报警；支架工加固，输送机停机配合，成功避免事故。该案例展现了多岗位协同作业的重要性，当发现安全隐患时，各岗位人员应迅速响应、密切配合，形成有效的应急处置机制。"
+    },
+    {
+      "heading": "启示：团队协作与应急配合",
+      "paragraph": "多岗位协同可快速处置险情，凸显职责清晰与应急协同的重要性。团队协作、应急处理能力和责任意识是保障安全生产的关键要素，每个岗位都应明确自身职责，在紧急情况下能够快速响应、有效配合。"
+    }
+  ],
+  "optional_graphics": "上下双图（支护/协同示意）",
+  "notes": "T005；每段150-300字"
+}
+
+{
+  "slide_title": "四、总结",
+  "slide_subtitle": "1. 总结要点",
+  "layout": "title_subtitle_top_banner_image_single_text_block",
+  "templateId": "T011",
+  "key_points": [
+    {
+      "heading": "权利与义务并重，构建安全防线",
+      "paragraph": "安全是生命的守护，法律是安全的保障。作为采煤机司机，应用权利保护自身，用义务守护同事与设备安全。权利与义务并重，共同构建安全防线，确保煤矿生产安全有序进行，保障每一位从业人员的生命安全和身体健康。"
+    }
+  ],
+  "optional_graphics": "安全守护/总结性横幅图",
+  "notes": "T011；正文200-350字"
+}

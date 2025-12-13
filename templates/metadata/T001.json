@@ -1,0 +1,69 @@
+{
+    "template_id": "T001",
+    "page_index": 1,
+    "layout_type": "title_with_three_image_cards",
+  
+    "placeholders": [
+      {
+        "placeholder_id": "p1",
+        "type": "title",
+        "bbox": [0.05, 0.05, 0.9, 0.18],
+        "suggested_length": "5-20 chars",
+        "font_size": "40-55"
+      },
+      {
+        "placeholder_id": "p2",
+        "type": "image",
+        "bbox": [0.06, 0.32, 0.25, 0.26],
+        "note": "此图片区域含图片内文字，但图片本身不能作为文本识别"
+      },
+      {
+        "placeholder_id": "p3",
+        "type": "caption",
+        "bbox": [0.06, 0.60, 0.25, 0.08],
+        "suggested_length": "2-5 chars"
+      },
+      {
+        "placeholder_id": "p4",
+        "type": "image",
+        "bbox": [0.37, 0.32, 0.25, 0.26],
+        "note": "图片含文字，不视为 PPT 文本"
+      },
+      {
+        "placeholder_id": "p5",
+        "type": "caption",
+        "bbox": [0.37, 0.60, 0.25, 0.08],
+        "suggested_length": "2-5 chars"
+      },
+      {
+        "placeholder_id": "p6",
+        "type": "image",
+        "bbox": [0.68, 0.32, 0.25, 0.26],
+        "note": "真实图片，无文字识别"
+      },
+      {
+        "placeholder_id": "p7",
+        "type": "caption",
+        "bbox": [0.68, 0.60, 0.25, 0.08],
+        "suggested_length": "2-5 chars"
+      }
+    ],
+  
+    "example_text": {
+      "title": "煤矿安全生产核心方针",
+      "captions": ["安全第一", "预防为主", "综合治理"]
+    },
+  
+    "text_capacity_score": 0.3,
+    "visual_density": 0.75,
+  
+    "recommended_usage": [
+      "概念三要点展示",
+      "三分类内容介绍",
+      "安全/管理类政策口诀展示",
+      "步骤三分法展示"
+    ],
+  
+    "style_tags": ["浅色背景", "图文结合", "分栏布局"]
+  }
+  

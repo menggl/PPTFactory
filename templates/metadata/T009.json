@@ -1,0 +1,95 @@
+{
+  "template_id": "T009",
+  "page_index": 9,
+  "layout_type": "section_title_with_two_icon_paragraphs_horizontal",
+
+  "placeholders": [
+    {
+      "placeholder_id": "p1",
+      "type": "section_title",
+      "bbox": [0.05, 0.05, 0.9, 0.12],
+      "suggested_length": "10-35 chars",
+      "font_size": "32-44"
+    },
+    {
+      "placeholder_id": "p2",
+      "type": "subtitle",
+      "bbox": [0.05, 0.18, 0.9, 0.08],
+      "suggested_length": "10-40 chars",
+      "font_size": "18-26"
+    },
+    {
+      "placeholder_id": "p3",
+      "type": "image",
+      "bbox": [0.08, 0.32, 0.18, 0.28],
+      "note": "左侧上方简洁图标，可能代表培训或证书"
+    },
+    {
+      "placeholder_id": "p4",
+      "type": "image",
+      "bbox": [0.08, 0.68, 0.18, 0.28],
+      "note": "左侧下方简洁图标，可能代表复审或有效期"
+    },
+    {
+      "placeholder_id": "p5",
+      "type": "heading",
+      "bbox": [0.30, 0.32, 0.62, 0.10],
+      "suggested_length": "15-60 chars",
+      "font_size": "22-28"
+    },
+    {
+      "placeholder_id": "p6",
+      "type": "body_text",
+      "bbox": [0.30, 0.44, 0.62, 0.16],
+      "suggested_length": "80-200 chars"
+    },
+    {
+      "placeholder_id": "p7",
+      "type": "heading",
+      "bbox": [0.30, 0.68, 0.62, 0.10],
+      "suggested_length": "15-60 chars",
+      "font_size": "22-28"
+    },
+    {
+      "placeholder_id": "p8",
+      "type": "body_text",
+      "bbox": [0.30, 0.80, 0.62, 0.16],
+      "suggested_length": "80-200 chars"
+    }
+  ],
+
+  "example_text": {
+    "section_title": "二、与采煤机司机岗位密切相关的法律法规",
+    "subtitle": "3.《煤矿安全培训规定》",
+    "paragraphs": [
+      {
+        "heading": "煤矿特种作业人员须经专门培训并取得《特种作业操作证》上岗",
+        "body": "《煤矿安全培训规定》指出，煤矿特种作业人员（含采煤机司机）必须接受专门培训，经考核合格取得《特种作业操作证》后，方可上岗，新司机需通过\"师带徒\"实操培训。"
+      },
+      {
+        "heading": "证书有效期内需定期复审",
+        "body": "规定明确证书有效期内需定期复审，复审不合格不得继续上岗，采煤机司机需妥善保管操作证，按时参加复审培训，确保证书有效，以保障自身合法上岗。"
+      }
+    ]
+  },
+
+  "text_capacity_score": 0.80,
+  "visual_density": 0.70,
+
+  "recommended_usage": [
+    "培训要求说明",
+    "证书管理相关",
+    "双要点并列展示",
+    "图文结合内容",
+    "制度规定讲解"
+  ],
+
+  "style_tags": [
+    "左侧双图标布局",
+    "右对齐文字结构",
+    "蓝色标题栏",
+    "简洁图标风格",
+    "正式文档格式",
+    "双段落垂直排列"
+  ]
+}

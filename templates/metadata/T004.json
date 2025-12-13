@@ -1,0 +1,94 @@
+{
+  "template_id": "T004",
+  "page_index": 4,
+  "layout_type": "section_title_with_two_icon_paragraphs_dual_icons",
+
+  "placeholders": [
+    {
+      "placeholder_id": "p1",
+      "type": "section_title",
+      "bbox": [0.05, 0.05, 0.9, 0.12],
+      "suggested_length": "10-25 chars",
+      "font_size": "32-44"
+    },
+    {
+      "placeholder_id": "p2",
+      "type": "subtitle",
+      "bbox": [0.05, 0.18, 0.9, 0.08],
+      "suggested_length": "10-30 chars",
+      "font_size": "18-26"
+    },
+    {
+      "placeholder_id": "p3",
+      "type": "image",
+      "bbox": [0.06, 0.32, 0.16, 0.16],
+      "note": "圆形图标，位置在左上区域"
+    },
+    {
+      "placeholder_id": "p4",
+      "type": "heading",
+      "bbox": [0.25, 0.32, 0.7, 0.09],
+      "suggested_length": "15-40 chars",
+      "font_size": "22-28"
+    },
+    {
+      "placeholder_id": "p5",
+      "type": "body_text",
+      "bbox": [0.25, 0.42, 0.7, 0.18],
+      "suggested_length": "80-200 chars"
+    },
+    {
+      "placeholder_id": "p6",
+      "type": "image",
+      "bbox": [0.06, 0.63, 0.16, 0.16],
+      "note": "圆形图标，位置在左下区域"
+    },
+    {
+      "placeholder_id": "p7",
+      "type": "heading",
+      "bbox": [0.25, 0.63, 0.7, 0.09],
+      "suggested_length": "15-40 chars",
+      "font_size": "22-28"
+    },
+    {
+      "placeholder_id": "p8",
+      "type": "body_text",
+      "bbox": [0.25, 0.73, 0.7, 0.18],
+      "suggested_length": "80-200 chars"
+    }
+  ],
+
+  "example_text": {
+    "section_title": "煤矿安全生产核心方针",
+    "subtitle": "3. \"综合治理\"：多维度协同保障",
+    "paragraphs": [
+      {
+        "heading": "核心内涵：结合技术、管理、人员协作等多方面措施保障安全",
+        "body": "详细描述：保障煤矿安全需要结合技术、管理、人员协作等多方面措施。采煤机司机一方面要熟练掌握设备操作技术，另一方面要与支架工、输送机司机等岗位协同，同时遵守矿内安全管理制度。"
+      },
+      {
+        "heading": "采煤机司机需掌握的设备操作技术",
+        "body": "详细描述：采煤机司机需要熟练掌握设备操作技术，例如正确进刀、调速等。这是保障采煤机正常运行和安全生产的基础，只有掌握好这些技术，才能更好地完成工作任务。"
+      }
+    ]
+  },
+
+  "text_capacity_score": 0.78,
+  "visual_density": 0.72,
+
+  "recommended_usage": [
+    "多维度概念说明",
+    "并列要点展示",
+    "技能与要求分点阐述",
+    "综合措施讲解",
+    "岗位职责说明"
+  ],
+
+  "style_tags": [
+    "双图标布局",
+    "左右对齐结构",
+    "蓝色标题栏",
+    "圆形图标装饰",
+    "正式文档风格"
+  ]
+}

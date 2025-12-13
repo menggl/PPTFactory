@@ -1,0 +1,95 @@
+{
+  "template_id": "T005",
+  "page_index": 5,
+  "layout_type": "section_title_with_two_rectangle_paragraphs",
+
+  "placeholders": [
+    {
+      "placeholder_id": "p1",
+      "type": "section_title",
+      "bbox": [0.05, 0.05, 0.9, 0.12],
+      "suggested_length": "10-25 chars",
+      "font_size": "32-44"
+    },
+    {
+      "placeholder_id": "p2",
+      "type": "subtitle",
+      "bbox": [0.05, 0.18, 0.9, 0.08],
+      "suggested_length": "10-30 chars",
+      "font_size": "18-26"
+    },
+    {
+      "placeholder_id": "p3",
+      "type": "image",
+      "bbox": [0.06, 0.32, 0.22, 0.22],
+      "note": "矩形图片或图标，位置在左上区域，可能包含图示或图标"
+    },
+    {
+      "placeholder_id": "p4",
+      "type": "heading",
+      "bbox": [0.32, 0.32, 0.62, 0.09],
+      "suggested_length": "15-40 chars",
+      "font_size": "22-28"
+    },
+    {
+      "placeholder_id": "p5",
+      "type": "body_text",
+      "bbox": [0.32, 0.42, 0.62, 0.18],
+      "suggested_length": "80-200 chars"
+    },
+    {
+      "placeholder_id": "p6",
+      "type": "image",
+      "bbox": [0.06, 0.68, 0.22, 0.22],
+      "note": "矩形图片或图标，位置在左下区域，可能包含图示或图标"
+    },
+    {
+      "placeholder_id": "p7",
+      "type": "heading",
+      "bbox": [0.32, 0.68, 0.62, 0.09],
+      "suggested_length": "15-40 chars",
+      "font_size": "22-28"
+    },
+    {
+      "placeholder_id": "p8",
+      "type": "body_text",
+      "bbox": [0.32, 0.78, 0.62, 0.18],
+      "suggested_length": "80-200 chars"
+    }
+  ],
+
+  "example_text": {
+    "section_title": "煤矿安全生产核心方针",
+    "subtitle": "3. \"综合治理\"：多维度协同保障",
+    "paragraphs": [
+      {
+        "heading": "采煤机司机与其他岗位的协同要求",
+        "body": "采煤机司机要与支架工、输送机司机等岗位协同作业，按顺序开机停机。这种协同作业能够提高工作效率，同时也能保障整个采煤过程的安全，形成良好的工作秩序。"
+      },
+      {
+        "heading": "采煤机司机需遵守的矿内安全管理制度",
+        "body": "采煤机司机要遵守矿内的安全管理制度，如交接班、日志填写等。这些制度有助于规范司机的行为，保证工作的连续性和可追溯性，从而为安全生产提供有力保障。"
+      }
+    ]
+  },
+
+  "text_capacity_score": 0.80,
+  "visual_density": 0.75,
+
+  "recommended_usage": [
+    "工作流程说明",
+    "岗位职责与制度",
+    "协同作业要求",
+    "管理制度讲解",
+    "多维度协同保障展示"
+  ],
+
+  "style_tags": [
+    "双矩形图标布局",
+    "左右对齐结构",
+    "蓝色标题栏",
+    "矩形图标装饰",
+    "正式文档风格",
+    "制度规范展示"
+  ]
+}

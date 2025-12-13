@@ -1,0 +1,69 @@
+{
+  "template_id": "T011",
+  "page_index": 11,
+  "layout_type": "section_title_with_central_image_text_below",
+
+  "placeholders": [
+    {
+      "placeholder_id": "p1",
+      "type": "section_title",
+      "bbox": [0.05, 0.05, 0.9, 0.12],
+      "suggested_length": "10-30 chars",
+      "font_size": "32-44"
+    },
+    {
+      "placeholder_id": "p2",
+      "type": "subtitle",
+      "bbox": [0.05, 0.18, 0.9, 0.08],
+      "suggested_length": "10-40 chars",
+      "font_size": "18-26"
+    },
+    {
+      "placeholder_id": "p3",
+      "type": "image",
+      "bbox": [0.08, 0.30, 0.84, 0.40],
+      "note": "长方形横向图片，可能展示隐患报告流程或相关场景"
+    },
+    {
+      "placeholder_id": "p4",
+      "type": "heading",
+      "bbox": [0.08, 0.72, 0.84, 0.08],
+      "suggested_length": "15-80 chars",
+      "font_size": "22-28"
+    },
+    {
+      "placeholder_id": "p5",
+      "type": "body_text",
+      "bbox": [0.08, 0.81, 0.84, 0.15],
+      "suggested_length": "100-300 chars",
+      "font_size": "18-24"
+    }
+  ],
+
+  "example_text": {
+    "section_title": "三、法律法规的岗位落实要求",
+    "subtitle": "2. 隐患处置 \"依规报告\"",
+    "heading": "发现超出自身处理能力的隐患，需立即停机并按流程上报跟班队长或分管领导",
+    "body": "当发现如瓦斯特续超限、设备重大故障等超出自身处理能力的隐患时，采煤机司机必须立即停机，然后严格按照流程上报跟班队长或分管领导，严禁\"隐瞒隐患\"\"自行冒险处置\"。"
+  },
+
+  "text_capacity_score": 0.70,
+  "visual_density": 0.65,
+
+  "recommended_usage": [
+    "单要点深度阐述",
+    "隐患处置流程说明",
+    "图文结合内容展示",
+    "安全规程强调",
+    "报告流程讲解"
+  ],
+
+  "style_tags": [
+    "中央大图布局",
+    "标题-图片-文字结构",
+    "蓝色标题栏",
+    "简洁明了",
+    "流程可视化",
+    "正式安全文档"
+  ]
+}

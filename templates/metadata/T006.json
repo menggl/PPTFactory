@@ -1,0 +1,35 @@
+{
+    "template_id": "T006",
+    "page_index": 6,
+    "layout_type": "title_only_top_blue_bar",
+    "placeholders": [
+      {
+        "placeholder_id": "p1",
+        "type": "section_title",
+        "bbox": [
+          0.02,
+          0.35,
+          0.98,
+          0.3
+        ],
+        "font_size": "32-44",
+        "suggested_length": "15–40 chars"
+      }
+    ],
+    "text_capacity_score": 0.3,
+    "visual_density": 0.15,
+    "recommended_usage": [
+      "章节标题页",
+      "内容分块引导页",
+      "主题切换过渡页"
+    ],
+    "style_tags": [
+      "顶部蓝色标题横条",
+      "简洁标题页",
+      "大字号标题展示",
+      "正式、安全教育风格"
+    ],
+    "example_text": {
+      "section_title": "三、采煤机司机岗位安全操作规范"
+    }
+  }
