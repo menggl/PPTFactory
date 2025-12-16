@@ -1,6 +1,9 @@
 package com.pptfactory.util;
 
 import com.aspose.slides.ISlide;
+import com.aspose.slides.IShape;
+import com.aspose.slides.IPictureFrame;
+import com.aspose.slides.IShapeCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -610,156 +613,136 @@ public class ProduceUtil {
             System.out.println("\n2. 解压PPTX文件: " + pptxFile);
             unzipPPTX(pptxFile, tempDir.toString());
             
-            // 3. 获取所有幻灯片文件
-            List<String> slideFiles = getAvailableSlides(tempDir);
-            System.out.println("   ✓ 找到 " + slideFiles.size() + " 个幻灯片文件");
-            
-            if (slideFiles.size() < mappings.size()) {
-                throw new RuntimeException("幻灯片数量(" + slideFiles.size() + ")少于映射数量(" + mappings.size() + ")");
+            // 3. 使用 ScanPPTImageInfoUtil 扫描 PPTX，获取图片注释与显示尺寸
+            System.out.println("\n3. 使用 ScanPPTImageInfoUtil 扫描 PPTX，获取图片注释与显示尺寸");
+            // ScanPPTImageInfoUtil 会在 produce 目录下生成 ppt_image_info_*.json
+            ScanPPTImageInfoUtil.scanPptx(pptxFile);
+
+            // 找到刚生成的最新文件
+            File produceDir = new File(PROJECT_ROOT, "produce");
+            File[] jsonFiles = produceDir.listFiles((d, name) -> name.startsWith("ppt_image_info_") && name.endsWith(".json"));
+            if (jsonFiles == null || jsonFiles.length == 0) {
+                System.out.println("   未找到 ScanPPTImageInfoUtil 生成的结果文件，跳过图片映射生成");
+                return;
             }
-            
-            // 4. 遍历每一页，查找图片标注
-            System.out.println("\n3. 遍历幻灯片，查找图片标注");
-            final String PML_NS = "http://schemas.openxmlformats.org/presentationml/2006/main";
-            
+            File latest = Arrays.stream(jsonFiles).max(Comparator.comparingLong(File::lastModified)).get();
+
+            ObjectMapper mapper = new ObjectMapper();
+            @SuppressWarnings("unchecked")
+            Map<String, Object> scanResult = mapper.readValue(latest, Map.class);
+            @SuppressWarnings("unchecked")
+            List<Map<String, Object>> items = (List<Map<String, Object>>) scanResult.getOrDefault("items", Collections.emptyList());
+
+            // 按 slide_index 分组
+            Map<Integer, List<Map<String, Object>>> bySlide = new HashMap<>();
+            for (Map<String, Object> it : items) {
+                Object si = it.get("slide_index");
+                if (si == null) continue;
+                int idx = (si instanceof Number) ? ((Number) si).intValue() : Integer.parseInt(si.toString());
+                bySlide.computeIfAbsent(idx, k -> new ArrayList<>()).add(it);
+            }
+
             boolean hasNewMappings = false;
-            
-            for (int i = 0; i < mappings.size() && i < slideFiles.size(); i++) {
-                int slideIndex = i + 1; // 幻灯片页码从1开始
+
+            // 遍历映射并匹配扫描结果
+            for (int i = 0; i < mappings.size(); i++) {
+                int slideIndex = i + 1;
                 Map<String, Object> mapping = mappings.get(i);
-                
-                // 获取文本映射
                 Map<String, Object> textMapping = (Map<String, Object>) mapping.get("文本映射");
                 if (textMapping == null || textMapping.isEmpty()) {
                     System.out.println("   跳过第 " + slideIndex + " 页（无文本映射）");
                     continue;
                 }
-                
-                // 获取对应的slide文件
-                String slideFileName = slideFiles.get(slideIndex - 1);
-                Path slidePath = tempDir.resolve("ppt/slides").resolve(slideFileName);
-                Path relPath = tempDir.resolve("ppt/slides/_rels").resolve(slideFileName + ".rels");
-                
-                if (!Files.exists(slidePath) || !Files.exists(relPath)) {
-                    System.out.println("   跳过第 " + slideIndex + " 页（文件不存在）");
+
+                Map<String, String> imageAnnotationMapping = (Map<String, String>) mapping.get("图片提示词准备");
+                if (imageAnnotationMapping == null) {
+                    Map<String, String> legacy = (Map<String, String>) mapping.get("图片标注映射");
+                    if (legacy != null) {
+                        imageAnnotationMapping = new LinkedHashMap<>(legacy);
+                        hasNewMappings = true;
+                    } else {
+                        imageAnnotationMapping = new LinkedHashMap<>();
+                    }
+                    mapping.put("图片提示词准备", imageAnnotationMapping);
+                }
+
+                List<Map<String, Object>> slideItems = bySlide.getOrDefault(slideIndex, Collections.emptyList());
+                if (slideItems.isEmpty()) {
+                    System.out.println("   第 " + slideIndex + " 页未发现图片注释");
                     continue;
                 }
-                
-                System.out.println("   处理第 " + slideIndex + " 页: " + slideFileName);
-                
-                // 解析幻灯片XML，查找图片标注
-                DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-                factory.setNamespaceAware(true);
-                DocumentBuilder builder = factory.newDocumentBuilder();
-                Document doc = builder.parse(slidePath.toFile());
-                
-                // 查找所有图片
-                NodeList picNodes = doc.getElementsByTagNameNS(PML_NS, "pic");
-                if (picNodes == null || picNodes.getLength() == 0) {
-                    System.out.println("     未找到图片");
-                    continue;
-                }
-                
-                // 初始化图片映射（如果不存在）
-                Map<String, String> imageMapping = (Map<String, String>) mapping.get("图片映射");
-                if (imageMapping == null) {
-                    imageMapping = new LinkedHashMap<>();
-                    mapping.put("图片映射", imageMapping);
-                    hasNewMappings = true;
-                }
-                
-                // 遍历图片
-                for (int j = 0; j < picNodes.getLength(); j++) {
-                    Element pic = (Element) picNodes.item(j);
-                    
-                    // 获取图片的标题标注
-                    String title = "";
-                    NodeList cNvPrList = pic.getElementsByTagNameNS(PML_NS, "cNvPr");
-                    if (cNvPrList != null && cNvPrList.getLength() > 0) {
-                        Element cNvPr = (Element) cNvPrList.item(0);
-                        title = Optional.ofNullable(cNvPr.getAttribute("title")).orElse("");
-                        if (title.isEmpty()) {
-                            title = Optional.ofNullable(cNvPr.getAttribute("descr")).orElse("");
-                        }
-                    }
-                    
-                    if (title == null || title.trim().isEmpty()) {
-                        continue; // 标题/描述为空，跳过
-                    }
-                    
-                    System.out.println("     找到图片标注: " + title);
-                    
-                    // 如果图片映射中已存在，跳过
-                    if (imageMapping.containsKey(title)) {
-                        System.out.println("       已存在映射，跳过");
-                        continue;
-                    }
-                    
-                    // 拆分标注内容（用|拆分）
-                    String[] annotationParts = title.split("\\|");
+
+                System.out.println("   处理第 " + slideIndex + " 页，发现 " + slideItems.size() + " 个注释图片");
+
+                for (Map<String, Object> it : slideItems) {
+                    String title = Optional.ofNullable(it.get("annotation")).map(Object::toString).orElse("");
+                    if (title == null || title.trim().isEmpty()) continue;
+                    if ("警告".equals(title.trim())) continue;
+                    if (!(title.contains("我是文本") || title.contains("我是长文本"))) continue;
+
+                    if (imageAnnotationMapping.containsKey(title)) continue;
+
+                    // 拆分标注并匹配文本映射
+                    String[] parts = title.split("\\|");
                     List<String> replacementTexts = new ArrayList<>();
-                    List<String> otherInfo = new ArrayList<>(); // 保存其他信息（如"圆形图片"、"矩形图片"、"图片分辨率640x480"）
-                    
-                    // 匹配文本映射，找到替换文本
-                    for (String annotationPart : annotationParts) {
-                        annotationPart = annotationPart.trim();
-                        if (annotationPart.isEmpty()) {
-                            continue;
-                        }
-                        
-                        // 尝试在文本映射中查找（直接匹配）
-                        String replacementText = null;
-                        if (textMapping.containsKey(annotationPart)) {
-                            replacementText = textMapping.get(annotationPart).toString();
-                        } else {
-                            // 尝试匹配长文本版本
-                            String longTextKey = annotationPart.replace("我是文本", "我是长文本");
-                            if (textMapping.containsKey(longTextKey)) {
-                                replacementText = textMapping.get(longTextKey).toString();
-                            } else {
-                                // 尝试匹配短文本版本
-                                String shortTextKey = annotationPart.replace("我是长文本", "我是文本");
-                                if (textMapping.containsKey(shortTextKey)) {
-                                    replacementText = textMapping.get(shortTextKey).toString();
-                                }
+                    List<String> otherInfo = new ArrayList<>();
+                    for (String part : parts) {
+                        part = part.trim();
+                        if (part.isEmpty()) continue;
+                        String replacement = null;
+                        if (textMapping.containsKey(part)) replacement = textMapping.get(part).toString();
+                        else {
+                            String longKey = part.replace("我是文本", "我是长文本");
+                            if (textMapping.containsKey(longKey)) replacement = textMapping.get(longKey).toString();
+                            else {
+                                String shortKey = part.replace("我是长文本", "我是文本");
+                                if (textMapping.containsKey(shortKey)) replacement = textMapping.get(shortKey).toString();
                             }
                         }
-                        
-                        if (replacementText != null && !replacementText.isEmpty()) {
-                            // 找到了替换文本，说明这是待替换文本
-                            replacementTexts.add(replacementText);
-                        } else {
-                            // 在文本映射中找不到，认为是其他信息（如"圆形图片"、"矩形图片"、"图片分辨率640x480"）
-                            otherInfo.add(annotationPart);
-                            System.out.println("       保留其他信息: " + annotationPart);
+                        if (replacement != null && !replacement.isEmpty()) replacementTexts.add(replacement);
+                        else { otherInfo.add(part); }
+                    }
+
+                    // 图片大小信息：优先使用扫描结果中的 width_px_120dpi/height_px_120dpi
+                    String imageSizeInfo = "";
+                    int widthPx = -1, heightPx = -1;
+                    Object wObj = it.get("width_px_120dpi");
+                    Object hObj = it.get("height_px_120dpi");
+                    if (wObj instanceof Number) widthPx = ((Number) wObj).intValue();
+                    if (hObj instanceof Number) heightPx = ((Number) hObj).intValue();
+                    if (widthPx <= 0 || heightPx <= 0) {
+                        Object wc = it.get("width_cm");
+                        Object hc = it.get("height_cm");
+                        if (wc instanceof Number && hc instanceof Number) {
+                            widthPx = (int) Math.round(((Number) wc).doubleValue() * 120);
+                            heightPx = (int) Math.round(((Number) hc).doubleValue() * 120);
                         }
                     }
-                    
-                    // 生成图片提示词（用|连接替换文本和其他信息）
-                    if (!replacementTexts.isEmpty()) {
-                        List<String> imagePromptParts = new ArrayList<>(replacementTexts);
-                        imagePromptParts.addAll(otherInfo); // 将其他信息追加到后面
-                        String imagePrompt = String.join("|", imagePromptParts);
-                        imageMapping.put(title, imagePrompt);
+                    if (widthPx > 0 && heightPx > 0) {
+                        imageSizeInfo = String.format("图片尺寸为像素%d宽 × %d像素高", widthPx, heightPx);
+                    }
+
+                    if (!replacementTexts.isEmpty() || !otherInfo.isEmpty()) {
+                        List<String> promptParts = new ArrayList<>();
+                        promptParts.addAll(replacementTexts);
+                        promptParts.addAll(otherInfo);
+                        if (!imageSizeInfo.isEmpty()) promptParts.add(imageSizeInfo);
+                        String imagePrompt = String.join("|", promptParts);
+                        imageAnnotationMapping.put(title, imagePrompt);
                         hasNewMappings = true;
-                        System.out.println("       ✓ 生成图片映射: " + title + " => " + 
-                            (imagePrompt.length() > 50 ? imagePrompt.substring(0, 50) + "..." : imagePrompt));
-                    } else {
-                        System.out.println("       ⚠ 无法生成图片提示词（未找到匹配的替换文本）");
+                        System.out.println("       生成图片提示词: " + title + " => " + (imagePrompt.length() > 80 ? imagePrompt.substring(0,80)+"..." : imagePrompt));
                     }
                 }
             }
-            
-            // 5. 如果有新的映射，更新映射文件
+
+            // 保存映射
             if (hasNewMappings) {
                 System.out.println("\n4. 更新映射文件");
-                ObjectMapper mapper = new ObjectMapper();
                 mapper.writerWithDefaultPrettyPrinter().writeValue(new File(MAPPING_FILE), mappings);
                 System.out.println("   ✓ 已更新映射文件: " + MAPPING_FILE);
             } else {
                 System.out.println("\n4. 无需更新映射文件（没有新的图片映射）");
             }
-            
         } finally {
             // 清理临时目录
             cleanTempDirectory(tempDir);
