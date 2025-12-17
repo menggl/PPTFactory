@@ -4,17 +4,21 @@
    - slide_title: 该页主标题，必须带中文大写序号（如“一、煤矿安全生产核心方针”），在页面最顶部显示
    - slide_subtitle: 该页副标题，必须带阿拉伯数字序号（如“1. 安全第一：优先保障生命安全”），紧跟在主标题下方，在页面最顶部显示
    - layout: 建议排版类型（使用模板layout_type，如 title_with_three_image_cards、section_title_with_left_image_and_two_paragraphs 等）
-   - key_points: 按模板结构组织内容
+   - key_points: 按模板结构组织内容（必须与所选模板占位一一匹配）
        * 仅要点列表类：数组字符串
        * heading+body/paragraph 类：数组对象 { "heading": "...", "body"/"paragraph": "..." }
        * multi_text_block / card_block / info_block：数组对象，字段名与模板占位一致
+       * 强制要求：
+         - T011/T012：key_points 必须是 1 个对象，包含 heading 和 body/paragraph，两字段都要给值；不要只给字符串数组，否则无法填充 heading/body 占位
+         - T003/T004/T005/T007/T008：多段正文的模板，数组元素必须为对象，包含 heading 与 body/paragraph；不要用纯字符串
+         - 占位数量对齐：选用模板后，key_points 数量必须等于模板正文占位数；不足则补齐（同一主题补充要点），超出则拆成多页并重复该模板
    - optional_graphics: 建议配图/图表类型或视觉元素（可选）
    - notes: 补充说明或重要强调信息（可选）
 
 2. 内容要求（基于模板规范）：
    - 文本内容紧扣原始文本和大纲条目，不新增无关内容。
    - 每页必须有带序号的 slide_title、slide_subtitle；标题区居上。
-   - key_points 结构需匹配所选模板占位：列表类写字符串，heading/paragraph 类写对象。
+   - key_points 结构需匹配所选模板占位：列表类写字符串，heading/paragraph 类写对象；遇到模板带 heading/body 的，务必提供这两个字段，且数量与模板占位数一致（如 T007/T008 需 3 组，T002/T003/T004/T005/T009 需 2 组，T011/T012 需 1 组）。
 
    **标题长度参考：**
    - slide_title：10-25 或 15-40 字符，字体 30-44
@@ -35,7 +39,7 @@
    **文本数量：**
    - 选用的模板中的文本数量不足以塞入新生成的slide页文本，则拆分ppt页面，拆分的ppt页面要使用相同的模板
    - 副标题如果没有或者【总览（上）】或【总览（下）】，则赋值为空字符串，比如【  "slide_subtitle": "0. 总览（上）",】则修改为【  "slide_subtitle": "",】
-   - 优先匹配文本数量相同的模板
+   - 优先匹配文本数量相同的模板，输出的信息中包含模板文本数量和ppt内容页的文本数量
    - 主标题、副标题、heading文本可以精简，body内容要丰富
    - heading、body字数尽量与模板给的字数相等，body内容要丰满一些便于教师根据ppt内容授课
    - 生成的信息中要包含ppt模板编号[T001][T002][T003]...，json中的key为[templateId]

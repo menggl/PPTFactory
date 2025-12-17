@@ -22,7 +22,7 @@ chinese_nums = ['', '一', '二', '三', '四', '五', '六', '七', '八', '九
 
 def parse_json_objects(content):
     """
-    解析多个JSON对象（每个对象可能在不同行）
+    解析JSON数组或JSON对象列表
     
     Args:
         content: 文件内容字符串
@@ -30,26 +30,36 @@ def parse_json_objects(content):
     Returns:
         JSON对象列表
     """
-    json_objects = []
-    current_json = ''
-    brace_count = 0
-    
-    for char in content:
-        current_json += char
-        if char == '{':
-            brace_count += 1
-        elif char == '}':
-            brace_count -= 1
-            if brace_count == 0:
-                try:
-                    json_objects.append(json.loads(current_json.strip()))
-                    current_json = ''
-                except json.JSONDecodeError:
-                    # 如果解析失败，清空当前JSON继续
-                    current_json = ''
-                    pass
-    
-    return json_objects
+    try:
+        # 尝试解析为JSON数组
+        data = json.loads(content)
+        if isinstance(data, list):
+            return data
+        elif isinstance(data, dict):
+            return [data]
+        else:
+            return []
+    except json.JSONDecodeError:
+        # 如果解析失败，尝试逐个解析JSON对象
+        json_objects = []
+        current_json = ''
+        brace_count = 0
+        
+        for char in content:
+            current_json += char
+            if char == '{':
+                brace_count += 1
+            elif char == '}':
+                brace_count -= 1
+                if brace_count == 0:
+                    try:
+                        json_objects.append(json.loads(current_json.strip()))
+                        current_json = ''
+                    except json.JSONDecodeError:
+                        current_json = ''
+                        pass
+        
+        return json_objects
 
 
 def generate_mapping(obj):
@@ -121,6 +131,51 @@ def generate_mapping(obj):
                     # paragraph同时提供文本和长文本映射
                     mapping['文本映射'][f'{chinese_nums[text_idx]}我是文本'] = paragraph
                     mapping['文本映射'][f'{chinese_nums[text_idx]}我是长文本'] = paragraph
+                    text_idx += 1
+                    
+    elif template_id == 'T006':
+        # T006: 只有标题，没有其他文本内容
+        # 只映射主标题即可
+        pass
+        
+    elif template_id == 'T008':
+        # T008: 3组(heading + body)
+        text_idx = 3
+        for point in key_points[:3]:
+            if isinstance(point, dict):
+                heading = point.get('heading', '')
+                body = point.get('body', '') or point.get('paragraph', '')
+                if heading and text_idx <= 10:
+                    mapping['文本映射'][f'{chinese_nums[text_idx]}我是文本'] = heading
+                    mapping['文本映射'][f'{chinese_nums[text_idx]}我是长文本'] = heading
+                    text_idx += 1
+                if body and text_idx <= 10:
+                    mapping['文本映射'][f'{chinese_nums[text_idx]}我是文本'] = body
+                    mapping['文本映射'][f'{chinese_nums[text_idx]}我是长文本'] = body
+                    text_idx += 1
+                    
+    elif template_id == 'T010':
+        # T010: 特殊格式，包含summary和points
+        # 根据实际内容结构处理
+        text_idx = 3
+        for point in key_points:
+            if isinstance(point, dict):
+                # 处理heading和body/paragraph
+                heading = point.get('heading', '')
+                body = point.get('body', '') or point.get('paragraph', '')
+                if heading and text_idx <= 10:
+                    mapping['文本映射'][f'{chinese_nums[text_idx]}我是文本'] = heading
+                    mapping['文本映射'][f'{chinese_nums[text_idx]}我是长文本'] = heading
+                    text_idx += 1
+                if body and text_idx <= 10:
+                    mapping['文本映射'][f'{chinese_nums[text_idx]}我是文本'] = body
+                    mapping['文本映射'][f'{chinese_nums[text_idx]}我是长文本'] = body
+                    text_idx += 1
+            elif isinstance(point, str):
+                # 处理字符串类型的要点
+                if text_idx <= 10:
+                    mapping['文本映射'][f'{chinese_nums[text_idx]}我是文本'] = point
+                    mapping['文本映射'][f'{chinese_nums[text_idx]}我是长文本'] = point
                     text_idx += 1
                     
     elif template_id in ['T011', 'T012']:
