@@ -84,52 +84,98 @@
 {
   "slide_title": "一、煤矿从业人员主要权利",
   "slide_subtitle": "3. 停止作业避险权",
-  "layout": "section_title_with_two_icon_paragraphs",
-  "key_points": [
-    {
-      "heading": "遇到危及生命的紧急情况可立即停机撤离",
-      "body": "紧急情况包括：顶板冒顶预兆、煤壁裂缝、采煤机齿轮卡死等。从业人员无需等待指令，可立即停机撤离，企业不得扣减工资。"
-    },
-    {
-      "heading": "生命安全优先于生产任务",
-      "body": "当发现任何可能危及生命安全的异常情况时，采煤机司机应果断采取避险措施，及时报告并配合应急处置，确保人员安全。"
-    }
-  ],
-  "optional_graphics": "双圆形图标（警示/设备）",
-  "notes": "每段 80-200 字，标题 10-25 字"
-}
+  ```plaintext
+  你是 PPT 内容生成专家。目标：根据模板元信息（templates/type_purchase/pages/模板_master_template.json）和我提供的【原始文本内容】与【大纲目录】，为每个大纲条目生成可直接映射到模板占位的 slide 对象。请严格遵守下面三部分规范：
 
-**示例3：三要点卡片（T001）**
-{
-  "slide_title": "一、煤矿从业人员主要权利",
-  "slide_subtitle": "总览",
-  "layout": "title_with_three_image_cards",
-  "key_points": [
-    "健康保障权",
-    "拒绝违章指挥权",
-    "停止作业避险权"
-  ],
-  "optional_graphics": "三张配图/图标，对应三要点",
-  "notes": "caption 2-5 字，标题 10-20 字"
-}
+  1) 核心输出格式（必须）
+    - `templateId`: 模板编号（例如 T003），优先匹配模板的 `layout_type` 与占位数量
+    - `slide_title`: 带中文大写序号的主标题（如“一、XXX”），10-25 字为首选（可按模板建议微调）
+    - `slide_subtitle`: 带阿拉伯数字序号的副标题（如“1. XXX”），或空字符串（当无需副标题时）
+    - `layout`: 使用模板的 `layout_type`（例如 `section_title_with_left_image_and_two_paragraphs`）
+    - `key_points`: 严格按模板占位输出：
+        * 若模板正文占位为短要点（如 T001/T008 的短文本），则输出字符串数组；
+        * 若模板占位为 heading+body（如 T003/T004/T005/T007/T011/T012），则输出对象数组，字段名与占位语义一致（`heading` 与 `body`/`paragraph`）；
+        * 占位数量必须一致：不足时补齐（基于同主题扩展要点）；超出时拆页并复用同模板。
+    - `optional_graphics`: 建议配图类型（示意、图标、横幅、右侧单图等）
+    - `notes`: 额外说明（如字数约束、拆分规则、讲稿提示）
 
-**示例4：多文本块 + 单图（T007）**
-{
-  "slide_title": "二、采煤机司机主要义务",
-  "slide_subtitle": "1. 遵守安全规章和操作规程",
-  "layout": "title_subtitle_top_left_multi_text_right_single_image",
-  "key_points": [
-    {
-      "heading": "严格执行《煤矿安全规程》和采煤机操作规范",
-      "paragraph": "包括检查截齿、隔离开关等关键部件，确保设备状态良好。开机前必须完成设备检查和环境检查，如电缆、喷雾装置、瓦斯浓度等。"
-    },
-    {
-      "heading": "停机后必须断电，杜绝习惯性违章",
-      "paragraph": "操作结束后应按照规程要求切断电源，确保设备安全。严禁省略安全步骤，杜绝习惯性违章操作，保障作业安全。"
-    }
-  ],
-  "optional_graphics": "右侧单图（规程封面或操作示意）",
-  "notes": "每段 200-350 字，支持多组标题+正文"
-}
+  2) 优化后的内容要求（基于模板 meta）
+    - 必须优先使用 `模板元信息` 中的 `placeholders.suggested_length` 与 `font_size` 作为长度/密度参考；当模板 `text_capacity_score` 较低（<0.3）时输出精简标题/要点；较高（>0.7）时允许更长的段落。
+    - 标题/副标题应简洁、命中主题；`slide_title` 保留章节序号（“一、二、三…”），`slide_subtitle` 用数字序号（“1.”、“2.”…）。
+    - `heading` 保持 15-40 字；`body`/`paragraph` 按模板 `suggested_length` 调整：短位 80-160 字，长位 160-350 字。保持句子清晰、分段合理，便于授课朗读。
+    - 严禁引入与原始文本无关的信息；必要时做合理压缩或补充（如把长段拆成 2 段并保持主题一致）。
+    - 若模板中有 `image` 占位，生成 `optional_graphics` 时应说明图像语义与像素/比例建议（例如"左侧示意图，人物近景，建议横向16:9裁切"或直接写“图片尺寸约 xxx × xxx 像素”）。
 
-请根据提供的【原始文本内容】和【大纲目录】，生成完整的内容页信息列表，每个大纲条目对应一页。
+  3) 排版建议（以模板 `layout_type` 对应具体写法，便于自动映射）
+    - `title_with_three_image_cards`（T001）：三要点卡片；每项为短文本（5-15 字）；建议配三图或图标，卡片间留白。适合“总览/目录/三要点”。
+    - `section_title_with_two_icon_paragraphs`（T002）：两列图标+短段；每段 80-160 字；图标置于左或上方，句首加小标题。适合政策/权利/两点说明。
+    - `section_title_with_left_image_and_two_paragraphs`（T003）：左图（示意/流程/证据图），右侧两组 `heading`+`body`；`body` 建议 120-260 字。
+    - `title_subtitle_illustrated_definition` / `title_subtitle_top_two_image_text_blocks`（T004/T005）：上下或左右图文配对，正文分块清晰，段落不超过 220 字。
+    - `title_only_top_blue_bar`（T006）：仅大标题用于分节或过渡；`slide_subtitle` 可为空。
+    - `title_subtitle_top_left_multi_text_right_single_image`（T007）：多条 heading+paragraph，右侧放单图；每段 120-260 字，图像用于示意或强调。
+    - `title_subtitle_top_left_single_image_right_multi_text`（T008）：左侧单图，右侧多文本块；短要点建议 5-25 字。
+    - `title_subtitle_top_two_card_style_text_blocks`（T009）：卡片式信息，适合列出学习目标或关键指标，每卡 60-180 字。
+    - `title_subtitle_top_banner_image_three_info_blocks`（T010）：横幅图上方标题，下方 3 个信息块，每块 40-120 字。
+    - `title_subtitle_top_banner_image_single_text_block`（T011）：大型横幅 + 单段深度解读，段落 160-350 字，适合案例或警示。
+    - `title_subtitle_top_heading_text_image`（T012）：标题+段落+通栏图，段落 120-300 字，图用于强调结论或行动点。
+
+  4) 输出示例（精简、可映射版）
+
+  示例 A（T003，左图右两段）：
+  {
+    "templateId": "T003",
+    "slide_title": "一、煤矿从业人员主要权利",
+    "slide_subtitle": "1. 健康保障权",
+    "layout": "section_title_with_left_image_and_two_paragraphs",
+    "key_points": [
+      {
+        "heading": "确诊尘肺病的及时救治与保障",
+        "body": "企业必须为确诊尘肺病的员工提供及时治疗、康复和随访，保证医疗通道畅通并配套职业康复服务。"
+      },
+      {
+        "heading": "劳动者持有完整健康档案的权利",
+        "body": "按规定完整提供历年体检与粉尘接触记录，确保资料真实、可追溯，便于日后申请工伤或职业病鉴定与索赔。"
+      }
+    ],
+    "optional_graphics": "左侧示意图（体检流程或职业健康图），建议 440×581 像素",
+    "notes": "右侧每段 120-260 字；占位对齐：2 段"
+  }
+
+  示例 B（T002，双图标双段）：
+  {
+    "templateId": "T002",
+    "slide_title": "一、煤矿从业人员主要权利",
+    "slide_subtitle": "2. 拒绝违章指挥权",
+    "layout": "section_title_with_two_icon_paragraphs",
+    "key_points": [
+      {
+        "heading": "拒绝违章的权利与上报流程",
+        "body": "遇到违章指挥可当场拒绝并按照企业上报流程向调度或安全管理部门报告，企业不得打击报复。"
+      },
+      {
+        "heading": "保护措施与证据留存",
+        "body": "建议记录时间、地点、当事人及现场照片或视频，便于后续调查与维权。"
+      }
+    ],
+    "optional_graphics": "双图标：警示/流程图",
+    "notes": "每段 80-160 字；标题 10-30 字"
+  }
+
+  示例 C（T001，总览三要点）：
+  {
+    "templateId": "T001",
+    "slide_title": "一、煤矿从业人员主要权利",
+    "slide_subtitle": "总览",
+    "layout": "title_with_three_image_cards",
+    "key_points": ["健康保障权","拒绝违章指挥权","停止作业避险权"],
+    "optional_graphics": "三图：权利图标/场景剪影",
+    "notes": "卡片短文本 5-15 字"
+  }
+
+  使用说明（简短）：
+  - 在生成每页 JSON 时请同时输出 `templateId` 与 `layout`，以便后续自动匹配模板占位和图片位置。
+  - 若模板 `placeholders` 中包含 `image`，请在 `optional_graphics` 中给出图片语义与像素建议（参考模板注释）。
+  - 若页面正文超出模板容量，请在输出中加标记 `"need_split": true` 并将拆分后的页分别输出，且保留相同 `templateId`。
+
+  请基于以上规则，用模板元信息严格校验并生成内容页 JSON 列表。
+  ```

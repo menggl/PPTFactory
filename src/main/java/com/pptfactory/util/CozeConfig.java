@@ -12,8 +12,8 @@ public final class CozeConfig {
     // 用于 Authorization: Bearer <token> 的 token（可由 COZE_TOKEN 或 COZE_API_KEY 环境变量覆盖）
     // 缺省值已设置为当前运行常用 token（可在 CI/环境中通过环境变量覆盖以避免在代码中存储明文）。
     // 当需要强制使用代码中配置的默认 token 时，请使用 GenerateImagesViaCozeUtil 的 --use-config-token 选项。
-+    public static final String DEFAULT_TOKEN = "pat_CNSVEaa3BbRFHThYjyqsp3wvR7ZogthTpG0rK5jj200dO32ETYhK4lTdTB5DhxXz";
-+    public static final String TOKEN =  DEFAULT_TOKEN;
+    public static final String DEFAULT_TOKEN = "pat_CNSVEaa3BbRFHThYjyqsp3wvR7ZogthTpG0rK5jj200dO32ETYhK4lTdTB5DhxXz";
+    public static final String TOKEN =  DEFAULT_TOKEN;
 
     // 专用于生成图片的 workflow id（可由 COZE_WORKFLOW_ID 覆盖）
     public static final String IMAGE_WORKFLOW_ID = "7582876497963647027";

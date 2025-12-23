@@ -173,7 +173,7 @@ public class GenerateImagesViaCozeUtil {
             String token = CozeConfig.TOKEN;
             String workflowId = CozeConfig.IMAGE_WORKFLOW_ID;
             int type = CozeConfig.TYPE;
-            return callCozeForImage(prompt, endpoint, token, workflowId, type);
+            return callCozeForImage(prompt, endpoint, token, workflowId, type, false);
         } catch (Exception e) {
             System.out.println("生成图片失败: " + e.getMessage());
             return null;

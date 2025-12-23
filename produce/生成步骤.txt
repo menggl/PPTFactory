@@ -1,4 +1,4 @@
-重新读取并理解ppt模板页的meta信息（templates/metadata/T_xxx.json），优化下《produce/生成ppt_slide内容页的提示词.txt》这个文件中的【内容要求】和【排版建议】和【输出示例】
+重新读取并理解ppt模板页的meta信息（/Users/menggl/workspace/PPTFactory/templates/type_purchase/pages/模板_master_template.json），优化下《produce/生成ppt_slide内容页的提示词.txt》这个文件中的【内容要求】和【排版建议】和【输出示例】
 
 deepseek api key: sk-9d81ddfc62f94da2bb5193c67fa50a1f
 
@@ -122,3 +122,8 @@ python3 python/generate_ppt_content_mapping.py
 该功能在**src/main/java/com/pptfactory/util**目录下新建一个java类来实现，可以参考ReplacePPTImageUtil.java中的代码实现逻辑
 
 
+在这个目录（/Users/menggl/workspace/PPTFactory/src/main/java/com/pptfactory/util）中新建一个java类，用于解析**提供的pptx**中每页ppt里保存的**备注**信息
+**备注**信息是该ppt页json格式的metadata数据（包括排版布局，适合什么场景使用），将该**备注**信息提取出来，保存成json文件（json文件名为T001.json,T002.json，Txxx中的xxx就是该metadata的json从第几页ppt拿取出来的编号）
+json文件中的**"template_id": "T002"**字段值为该json的文件名（比如T003.json中的template_id值就是T003）,json文件中的**"page_index": 2**值表示模板第几页，跟json文件名中的数字保持一致（比如T009.json中page_index值就为9）
+将保存好的json文件保存到与该模板pptx目录相同的metadata文件夹中，没有metadata文件夹就新建一个（比如提供的pptx路径是：/Users/menggl/workspace/PPTFactory/templates/type_purchase/master_template.pptx，那就需要创建一个/Users/menggl/workspace/PPTFactory/templates/type_purchase/metadata文件夹）
+请将/Users/menggl/workspace/PPTFactory/templates/type_purchase/master_template.pptx文件中的备注信息中的metadata信息提取到对应json文件中

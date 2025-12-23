@@ -99,3 +99,6 @@ stable_diffusion_url = "http://localhost:7860"  # 你的SD API地址
 
 
 
+
+
+

@@ -1,0 +1,3729 @@
+[ {
+  "template_id" : "T001",
+  "page_index" : 1,
+  "layout_type" : "single_title",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.4, 0.8, 0.2 ],
+    "suggested_length" : "4-8 chars",
+    "font_size" : "44-60",
+    "note" : "主标题，通常用于封面或章节分隔页"
+  } ],
+  "example_text" : {
+    "title" : "集中采购"
+  },
+  "text_capacity_score" : 0.1,
+  "visual_density" : 0.1,
+  "recommended_usage" : [ "封面标题", "章节分隔页", "核心主题展示" ],
+  "style_tags" : [ "极简", "标题突出", "居中布局", "浅色背景" ]
+}, {
+  "template_id" : "T002",
+  "page_index" : 2,
+  "layout_type" : "single_title",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.4, 0.8, 0.2 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "44-60",
+    "note" : "主标题，通常用于封面或章节分隔页"
+  } ],
+  "example_text" : {
+    "title" : "传统采购管理与现代采购管理的区别"
+  },
+  "text_capacity_score" : 0.1,
+  "visual_density" : 0.1,
+  "recommended_usage" : [ "封面标题", "章节分隔页", "核心主题展示" ],
+  "style_tags" : [ "极简", "标题突出", "居中布局", "浅色背景" ]
+}, {
+  "template_id" : "T003",
+  "page_index" : 3,
+  "layout_type" : "title_subtitle_illustrated_example",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.12 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，点明核心主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.22, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，补充说明主题内容"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "image",
+    "bbox" : [ 0.1, 0.32, 0.35, 0.55 ],
+    "note" : "左侧大图区域，用于展示示意图、流程图、组织结构图或案例相关的视觉元素"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.5, 0.32, 0.4, 0.55 ],
+    "suggested_length" : "100-400 chars",
+    "font_size" : "20-28",
+    "note" : "右侧长文本区域，用于详细说明案例、举例分析或阐述优缺点"
+  } ],
+  "example_text" : {
+    "title" : "公司采购",
+    "subtitle" : "——集中采购的优缺点",
+    "body_right" : "企业集团下有生产电视、冰箱、电脑等不同产品的子公司，因所需物料通用性低，不太适合完全采用集中采购。"
+  },
+  "text_capacity_score" : 0.35,
+  "visual_density" : 0.3,
+  "recommended_usage" : [ "案例分析", "优缺点阐述", "图文结合说明", "举例论证" ],
+  "style_tags" : [ "图文混排", "左右布局", "案例展示", "商务分析", "视觉辅助" ]
+}, {
+  "template_id" : "T004",
+  "page_index" : 4,
+  "layout_type" : "title_subtitle_illustrated_definition",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.12 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，点明核心主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.22, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，补充说明主题内容"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "image",
+    "bbox" : [ 0.1, 0.32, 0.35, 0.55 ],
+    "note" : "左侧装饰性图片区域，包含艺术字或图形化文字（如'分 采 购'和'散 购'的创意排版）"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.5, 0.32, 0.4, 0.55 ],
+    "suggested_length" : "80-300 chars",
+    "font_size" : "20-28",
+    "note" : "右侧长文本区域，用于详细解释定义、概念或描述"
+  } ],
+  "example_text" : {
+    "title" : "公司采购",
+    "subtitle" : "分散采购定义",
+    "body_right" : "分散采购是指采购活动由各需求单位分散进行。也就是说，每个事业部或者每个部门根据自身的需求，自己负责采购事宜。"
+  },
+  "text_capacity_score" : 0.3,
+  "visual_density" : 0.25,
+  "recommended_usage" : [ "概念定义展示", "术语解释", "图文结合说明", "创意排版展示" ],
+  "style_tags" : [ "图文混排", "左右布局", "定义展示", "创意视觉", "概念说明" ]
+}, {
+  "template_id" : "T005",
+  "page_index" : 5,
+  "layout_type" : "title_subtitle_example_with_bottom_image",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.12 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，点明核心主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.22, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，补充说明主题内容或焦点"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.32, 0.8, 0.35 ],
+    "suggested_length" : "100-400 chars",
+    "font_size" : "20-28",
+    "note" : "正文区域，用于举例说明、案例分析或阐述具体内容"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "image",
+    "bbox" : [ 0.1, 0.7, 0.8, 0.25 ],
+    "note" : "底部图片区域，用于展示示意图、流程图、案例相关图片或补充视觉元素"
+  } ],
+  "example_text" : {
+    "title" : "公司采购",
+    "subtitle" : "——分散采购的优缺点",
+    "body" : "某国有企业曾放权让利，各分厂自行采购，出现采购价格不一、物料质量参差不齐等问题。"
+  },
+  "text_capacity_score" : 0.4,
+  "visual_density" : 0.3,
+  "recommended_usage" : [ "案例分析说明", "优缺点举例", "问题阐述与可视化", "上下图文结合展示" ],
+  "style_tags" : [ "上下布局", "图文结合", "案例说明", "商务分析", "示例展示" ]
+}, {
+  "template_id" : "T006",
+  "page_index" : 6,
+  "layout_type" : "title_subtitle_body_simple",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.12 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，点明核心主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.22, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，补充说明主题内容"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.32, 0.8, 0.6 ],
+    "suggested_length" : "100-400 chars",
+    "font_size" : "20-28",
+    "note" : "长文本区域，用于解释定义、阐述概念或描述详细内容"
+  } ],
+  "example_text" : {
+    "title" : "公司采购",
+    "subtitle" : "集中采购定义",
+    "body" : "集中采购是指企业或企业集团的采购活动由专门的采购部门集中进行。\n日常生活中的团购，通过整合需求形成规模优势，从而获得更好的价格和服务。"
+  },
+  "text_capacity_score" : 0.45,
+  "visual_density" : 0.2,
+  "recommended_usage" : [ "概念定义阐述", "术语解释说明", "简单文字说明", "无图纯文字展示" ],
+  "style_tags" : [ "简约布局", "文字主导", "定义说明", "纯文本", "商务简洁" ]
+}, {
+  "template_id" : "T007",
+  "page_index" : 7,
+  "layout_type" : "title_subtitle_body_strategy",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.12 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，点明核心主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.22, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，补充说明主题内容"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.32, 0.8, 0.6 ],
+    "suggested_length" : "100-400 chars",
+    "font_size" : "20-28",
+    "note" : "长文本区域，用于阐述策略、模式、应用方法或综合分析"
+  } ],
+  "example_text" : {
+    "title" : "公司采购",
+    "subtitle" : "混合制采购",
+    "body" : "实际操作中，很多企业采用混合制采购模式，结合集中采购和分散采购优点。对于通用性强、采购金额大的核心物料，集中采购获规模效应；小额、个性化、因地制宜或临时性采购需求，由各用料单位分散进行。"
+  },
+  "text_capacity_score" : 0.45,
+  "visual_density" : 0.2,
+  "recommended_usage" : [ "策略模式说明", "混合方法阐述", "实际应用介绍", "综合分析展示" ],
+  "style_tags" : [ "简约布局", "文字主导", "策略说明", "商务阐述", "纯文本" ]
+}, {
+  "template_id" : "T008",
+  "page_index" : 8,
+  "layout_type" : "title_with_two_bullet_points",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.15, 0.8, 0.18 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "40-55",
+    "note" : "主标题（大纲中的副标题），列举多个相关概念"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "body",
+    "bbox" : [ 0.15, 0.4, 0.7, 0.1 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "24-32",
+    "note" : "第一个要点短文本"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "body",
+    "bbox" : [ 0.15, 0.55, 0.7, 0.1 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "24-32",
+    "note" : "第二个要点短文本"
+  } ],
+  "example_text" : {
+    "title" : "集中采购、分散采购与联合采购",
+    "body1" : "优化采购流程",
+    "body2" : "降低成本"
+  },
+  "text_capacity_score" : 0.2,
+  "visual_density" : 0.2,
+  "recommended_usage" : [ "要点列举", "优势总结", "采购方式介绍", "简短列表展示" ],
+  "style_tags" : [ "简洁", "文字主导", "列表形式", "浅色背景" ]
+}, {
+  "template_id" : "T009",
+  "page_index" : 9,
+  "layout_type" : "title_with_three_bodies",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.15 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "40-52",
+    "note" : "主标题，页面主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.25, 0.8, 0.2 ],
+    "suggested_length" : "100-250 chars",
+    "font_size" : "20-28",
+    "note" : "第一个学习目标，详细描述"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.47, 0.8, 0.2 ],
+    "suggested_length" : "100-250 chars",
+    "font_size" : "20-28",
+    "note" : "第二个学习目标，详细描述"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.69, 0.8, 0.2 ],
+    "suggested_length" : "100-250 chars",
+    "font_size" : "20-28",
+    "note" : "第三个学习目标，详细描述"
+  } ],
+  "example_text" : {
+    "title" : "学习目标",
+    "body1" : "掌握这三种采购方式的定义、特点、优缺点及适用场景，理解它们的组织机构模式；",
+    "body2" : "能够根据企业的实际情况选择合适的采购模式，并能分析混合采购模式的合理性；",
+    "body3" : "树立采购模式与企业需求相适配的意识，培养综合权衡成本与灵活性的思维。"
+  },
+  "text_capacity_score" : 0.8,
+  "visual_density" : 0.2,
+  "recommended_usage" : [ "学习目标展示", "课程要求说明", "多要点详细列举", "教学目标阐述" ],
+  "style_tags" : [ "简洁", "文字主导", "垂直排列", "浅色背景" ]
+}, {
+  "template_id" : "T010",
+  "page_index" : 10,
+  "layout_type" : "title_subtitle_double_body",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.12 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，点明核心主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.22, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，补充说明主题内容"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.32, 0.8, 0.28 ],
+    "suggested_length" : "80-200 chars",
+    "font_size" : "20-28",
+    "note" : "第一个正文区域，阐述第一个方面的作用或要求"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.62, 0.8, 0.28 ],
+    "suggested_length" : "80-200 chars",
+    "font_size" : "20-28",
+    "note" : "第二个正文区域，阐述另一个方面的作用或要求"
+  } ],
+  "example_text" : {
+    "title" : "公司采购",
+    "subtitle" : "——采购管理的作用",
+    "body_1" : "企业采购不仅要追求经济效益，还需承担社会责任，如优先采购环保材料、支持中小企业、杜绝采购腐败。",
+    "body_2" : "采购人员作为执行者，要坚守诚信合规底线，不接受回扣、不为私利选不合格供应商，这既是职业操守，也是法律要求。"
+  },
+  "text_capacity_score" : 0.5,
+  "visual_density" : 0.25,
+  "recommended_usage" : [ "双重要点阐述", "作用与要求说明", "社会责任与职业操守说明", "文字型双段展示" ],
+  "style_tags" : [ "简约布局", "文字主导", "双段结构", "商务阐述", "纯文本" ]
+}, {
+  "template_id" : "T011",
+  "page_index" : 11,
+  "layout_type" : "title_subtitle_body_definition",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.12 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，点明核心主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.22, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，补充说明主题内容"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.32, 0.8, 0.6 ],
+    "suggested_length" : "100-350 chars",
+    "font_size" : "20-28",
+    "note" : "正文区域，用于详细解释定义、概念，可包含比喻、举例等说明性文字"
+  } ],
+  "example_text" : {
+    "title" : "公司采购",
+    "subtitle" : "——联合采购定义",
+    "body" : "联合采购，简单来说，就是抱团取暖。它是指联合相关的、有共同需求的多个企业，将原本零散的采购项目集合起来，形成大规模的采购订单，以此来提高规模经济效益，降低采购成本。大家可以把它理解为企业与企业之间的团购。"
+  },
+  "text_capacity_score" : 0.45,
+  "visual_density" : 0.2,
+  "recommended_usage" : [ "概念定义阐述", "术语通俗化解释", "比喻说明", "纯文字知识介绍" ],
+  "style_tags" : [ "简约布局", "文字主导", "定义说明", "纯文本", "知识阐述" ]
+}, {
+  "template_id" : "T012",
+  "page_index" : 12,
+  "layout_type" : "title_subtitle_image_right_case_study",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.12 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，点明核心主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.22, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，补充说明主题内容"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "image",
+    "bbox" : [ 0.1, 0.32, 0.35, 0.55 ],
+    "note" : "左侧图片区域，可能包含概念关键词的艺术字或相关图标"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.5, 0.32, 0.4, 0.55 ],
+    "suggested_length" : "100-350 chars",
+    "font_size" : "20-28",
+    "note" : "右侧长文本区域，用于提供案例说明、具体实例或详细解释"
+  } ],
+  "example_text" : {
+    "title" : "公司采购",
+    "subtitle" : "联合采购定义",
+    "body_right" : "在山东省和江苏、上海一带，曾经有一些中小超市组成了采购联盟，通过联合采购，他们采购苹果的成本从原来的每斤1元降到了0.6元，大大提升了自身的市场竞争力。"
+  },
+  "text_capacity_score" : 0.35,
+  "visual_density" : 0.25,
+  "recommended_usage" : [ "案例分析展示", "概念实例说明", "图文结合阐述", "实际效果证明" ],
+  "style_tags" : [ "图文混排", "左右布局", "案例展示", "商务实例", "视觉辅助" ]
+}, {
+  "template_id" : "T013",
+  "page_index" : 13,
+  "layout_type" : "title_subtitle_two_rows_left_right_mixed",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.12 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，点明核心主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.22, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，补充说明主题内容"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.32, 0.35, 0.3 ],
+    "suggested_length" : "100-250 chars",
+    "font_size" : "20-28",
+    "note" : "第一行左侧正文，用于阐述原理或一般性说明"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "image",
+    "bbox" : [ 0.5, 0.32, 0.4, 0.3 ],
+    "note" : "第一行右侧图片区域，用于展示原理示意图或相关图表"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "image",
+    "bbox" : [ 0.1, 0.65, 0.35, 0.3 ],
+    "note" : "第二行左侧图片区域，用于展示案例相关图片或示意图"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "body",
+    "bbox" : [ 0.5, 0.65, 0.4, 0.3 ],
+    "suggested_length" : "100-250 chars",
+    "font_size" : "20-28",
+    "note" : "第二行右侧正文，用于提供具体案例或实例说明"
+  } ],
+  "example_text" : {
+    "title" : "公司采购",
+    "subtitle" : "——集体效应原则",
+    "body_left_top" : "比如采购大批量原材料，虽然单价低，但会增加仓储成本；采购小批量原材料，单价可能高，但仓储成本低。这时候就要计算总成本，找到最优平衡点。",
+    "body_right_bottom" : "某食品企业采购面粉，要是一次采购太多，需要租更大的仓库，还得承担面粉变质的风险；要是采购太少，频繁补货会增加运输成本，所以要根据生产需求和仓储能力确定采购量。"
+  },
+  "text_capacity_score" : 0.5,
+  "visual_density" : 0.35,
+  "recommended_usage" : [ "原理与案例结合说明", "对比分析展示", "图文混排阐述", "商务策略分析" ],
+  "style_tags" : [ "图文混排", "左右布局", "上下交替", "案例分析", "商务阐述" ]
+}, {
+  "template_id" : "T014",
+  "page_index" : 14,
+  "layout_type" : "title_subtitle_image_text",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.12 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，核心主题或对比维度"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.22, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，用于进一步说明对比的具体方面"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "image",
+    "bbox" : [ 0.1, 0.35, 0.4, 0.5 ],
+    "note" : "左侧矩形图片区域，用于放置对比示意图、流程图表或案例图片"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.55, 0.35, 0.35, 0.5 ],
+    "suggested_length" : "200-500 chars",
+    "font_size" : "20-28",
+    "note" : "右侧长文本区域，用于详细说明对比内容、案例分析或解释说明"
+  } ],
+  "example_text" : {
+    "title" : "传统采购管理与现代采购管理的区别",
+    "subtitle" : "质量问题处理和信息沟通维度",
+    "body" : "如苹果公司会派驻工程师到核心芯片供应商工厂监督生产，从源头把控质量，到货后基本不重复检验；信息沟通通过网络实时进行，供应商能通过系统查看苹果生产计划提前备货，苹果也能实时查看供应商生产进度，有问题随时沟通。"
+  },
+  "text_capacity_score" : 0.6,
+  "visual_density" : 0.5,
+  "recommended_usage" : [ "维度对比分析", "案例图文详解", "区别说明", "趋势对比展示" ],
+  "style_tags" : [ "图文对比", "左右分栏", "案例分析", "浅色背景" ]
+}, {
+  "template_id" : "T015",
+  "page_index" : 15,
+  "layout_type" : "title_subtitle_text_bottom_image",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.12 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，核心主题或对比维度"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.22, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，用于进一步说明对比的具体方面"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.33, 0.8, 0.3 ],
+    "suggested_length" : "100-300 chars",
+    "font_size" : "20-28",
+    "note" : "长文本区域，用于详细说明对比内容、案例分析或解释说明"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "image",
+    "bbox" : [ 0.1, 0.66, 0.8, 0.25 ],
+    "note" : "底部长方形图片区域，用于放置相关的主题图片、示意图或图标"
+  } ],
+  "example_text" : {
+    "title" : "传统采购管理与现代采购管理的区别",
+    "subtitle" : "库存认知和供应商数量维度",
+    "body" : "华为采购5G芯片，主要和高通、联发科等少数几家合作，保证供应稳定和技术同步。"
+  },
+  "text_capacity_score" : 0.55,
+  "visual_density" : 0.45,
+  "recommended_usage" : [ "维度对比分析", "案例图文详解", "概念说明配图", "趋势对比展示" ],
+  "style_tags" : [ "垂直布局", "图文结合", "案例分析", "浅色背景" ]
+}, {
+  "template_id" : "T016",
+  "page_index" : 16,
+  "layout_type" : "title_subtitle_left_image_right_texts",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.12 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "40-52",
+    "note" : "主标题，发展趋势或主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.22, 0.8, 0.08 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，具体发展方向"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "image",
+    "bbox" : [ 0.1, 0.35, 0.4, 0.5 ],
+    "note" : "左侧大图片，用于展示与内容相关的图表或示意图"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.55, 0.35, 0.35, 0.12 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "20-28",
+    "note" : "右侧第一个文本，简要说明措施或做法"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "body",
+    "bbox" : [ 0.55, 0.5, 0.35, 0.12 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "20-28",
+    "note" : "右侧第二个文本，说明优势或效果"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "body",
+    "bbox" : [ 0.55, 0.65, 0.35, 0.2 ],
+    "suggested_length" : "50-150 chars",
+    "font_size" : "20-28",
+    "note" : "右侧第三个文本，总结说明或案例"
+  } ],
+  "example_text" : {
+    "title" : "采购管理的发展趋势",
+    "subtitle" : "采购管理中心化",
+    "body1" : "集团统一招标、统一谈判",
+    "body2" : "既能降低成本，又能保证质量标准统一。",
+    "body3" : "大型企业越来越倾向于把采购权集中到集团总部，比如中石化、中石油这样的央企"
+  },
+  "text_capacity_score" : 0.6,
+  "visual_density" : 0.4,
+  "recommended_usage" : [ "趋势介绍", "中心化管理说明", "图文结合展示", "企业案例说明" ],
+  "style_tags" : [ "图文结合", "左侧图片右侧文字", "趋势展示", "浅色背景" ]
+}, {
+  "template_id" : "T017",
+  "page_index" : 17,
+  "layout_type" : "title_subtitle_three_short_texts",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.1, 0.8, 0.12 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "40-52",
+    "note" : "主标题，发展趋势或主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.24, 0.8, 0.08 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，具体发展方向"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.35, 0.25, 0.15 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "24-32",
+    "note" : "第一个短文本，要点或关键词"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.375, 0.35, 0.25, 0.15 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "24-32",
+    "note" : "第二个短文本，要点或关键词"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "body",
+    "bbox" : [ 0.65, 0.35, 0.25, 0.15 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "24-32",
+    "note" : "第三个短文本，要点或关键词"
+  } ],
+  "example_text" : {
+    "title" : "采购管理的发展趋势",
+    "subtitle" : "参与制造或外购决策",
+    "body1" : "参与企业决策",
+    "body2" : "提供数据支持",
+    "body3" : "帮助企业做决策"
+  },
+  "text_capacity_score" : 0.4,
+  "visual_density" : 0.3,
+  "recommended_usage" : [ "要点列举", "趋势说明", "简短列表展示", "决策参与展示" ],
+  "style_tags" : [ "简洁", "文字主导", "分栏布局", "浅色背景" ]
+}, {
+  "template_id" : "T018",
+  "page_index" : 18,
+  "layout_type" : "title_subtitle_text_large_image",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.1, 0.8, 0.12 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，整体主题或趋势名称"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.24, 0.8, 0.08 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，用于说明具体的发展方向或细分主题"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.35, 0.8, 0.2 ],
+    "suggested_length" : "100-250 chars",
+    "font_size" : "20-28",
+    "note" : "正文区域，用于详细解释概念、趋势或提供案例说明"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "image",
+    "bbox" : [ 0.1, 0.58, 0.8, 0.35 ],
+    "note" : "大型图片区域，用于展示相关的示意图、平台界面或流程图"
+  } ],
+  "example_text" : {
+    "title" : "采购管理的发展趋势",
+    "subtitle" : "网络采购",
+    "body" : "通过互联网平台实现招标、询价、签约等流程，比如阿里1688、京东企业购，都是常用的网络采购平台，能大幅提高采购效率。"
+  },
+  "text_capacity_score" : 0.5,
+  "visual_density" : 0.5,
+  "recommended_usage" : [ "趋势介绍与图解", "概念说明配图", "技术或模式发展展示", "平台或工具介绍" ],
+  "style_tags" : [ "图文结合", "垂直分层", "趋势展示", "浅色背景" ]
+}, {
+  "template_id" : "T019",
+  "page_index" : 19,
+  "layout_type" : "title_subtitle_three_long_bodies",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.12 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "40-52",
+    "note" : "主标题，发展趋势或主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.22, 0.8, 0.08 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，具体发展方向或主题细化"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.32, 0.8, 0.2 ],
+    "suggested_length" : "100-250 chars",
+    "font_size" : "20-28",
+    "note" : "第一个长文本，用于描述案例或实践的第一部分"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.54, 0.8, 0.2 ],
+    "suggested_length" : "100-250 chars",
+    "font_size" : "20-28",
+    "note" : "第二个长文本，用于描述案例或实践的第二部分"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.76, 0.8, 0.2 ],
+    "suggested_length" : "100-250 chars",
+    "font_size" : "20-28",
+    "note" : "第三个长文本，用于总结或展望"
+  } ],
+  "example_text" : {
+    "title" : "采购管理的发展趋势",
+    "subtitle" : "绿色采购与可持续采购",
+    "body1" : "中国企业在东南亚建设铁路时，采购当地的建材和服务，优先选择符合环保标准的供应商，同时为当地创造就业岗位；",
+    "body2" : "在采购原材料时，严格遵守当地的劳动法规，杜绝使用童工、强制劳动等情况。",
+    "body3" : "这种采购模式不仅保证了项目的顺利推进，也向世界展示了中国企业的社会责任和大国担当，我们未来从业者也需要具备这样的全球视野。"
+  },
+  "text_capacity_score" : 0.75,
+  "visual_density" : 0.25,
+  "recommended_usage" : [ "案例详细分析", "可持续发展实践展示", "企业社会责任说明", "多段落叙述性内容" ],
+  "style_tags" : [ "文字主导", "垂直排列", "案例叙述", "浅色背景" ]
+}, {
+  "template_id" : "T020",
+  "page_index" : 20,
+  "layout_type" : "title_subtitle_three_icon_texts",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.12 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "40-52",
+    "note" : "主标题，发展趋势或主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.22, 0.8, 0.08 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，具体发展方向"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "image",
+    "bbox" : [ 0.1, 0.35, 0.2, 0.2 ],
+    "note" : "第一个圆形图标，代表大数据分析"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.57, 0.2, 0.35 ],
+    "suggested_length" : "50-150 chars",
+    "font_size" : "18-26",
+    "note" : "第一个长文本，描述大数据应用"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "image",
+    "bbox" : [ 0.4, 0.35, 0.2, 0.2 ],
+    "note" : "第二个圆形图标，代表物联网"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "body",
+    "bbox" : [ 0.4, 0.57, 0.2, 0.35 ],
+    "suggested_length" : "50-150 chars",
+    "font_size" : "18-26",
+    "note" : "第二个长文本，描述物联网应用"
+  }, {
+    "placeholder_id" : "p7",
+    "type" : "image",
+    "bbox" : [ 0.7, 0.35, 0.2, 0.2 ],
+    "note" : "第三个圆形图标，代表人工智能"
+  }, {
+    "placeholder_id" : "p8",
+    "type" : "body",
+    "bbox" : [ 0.7, 0.57, 0.2, 0.35 ],
+    "suggested_length" : "50-200 chars",
+    "font_size" : "18-26",
+    "note" : "第三个长文本，描述人工智能应用"
+  } ],
+  "example_text" : {
+    "title" : "采购管理的发展趋势",
+    "subtitle" : "智能化采购",
+    "body1" : "用大数据分析市场价格趋势，预测原材料价格上涨，提前锁定采购成本；",
+    "body2" : "用物联网实时跟踪货物运输情况。",
+    "body3" : "用人工智能自动筛选供应商，根据供应商的历史供货数据、质量评分，自动推荐最优供应商；"
+  },
+  "text_capacity_score" : 0.6,
+  "visual_density" : 0.5,
+  "recommended_usage" : [ "技术应用介绍", "智能化趋势展示", "多技术点并列说明", "图文结合展示" ],
+  "style_tags" : [ "图文结合", "三栏布局", "圆形图标", "浅色背景" ]
+}, {
+  "template_id" : "T021",
+  "page_index" : 21,
+  "layout_type" : "title_subtitle_four_body_vertical",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.05, 0.8, 0.1 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，点明核心主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.15, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，补充说明主题内容"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.25, 0.8, 0.15 ],
+    "suggested_length" : "80-200 chars",
+    "font_size" : "20-28",
+    "note" : "第一个正文区域"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.42, 0.8, 0.15 ],
+    "suggested_length" : "80-200 chars",
+    "font_size" : "20-28",
+    "note" : "第二个正文区域"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.59, 0.8, 0.15 ],
+    "suggested_length" : "80-200 chars",
+    "font_size" : "20-28",
+    "note" : "第三个正文区域"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.76, 0.8, 0.15 ],
+    "suggested_length" : "80-200 chars",
+    "font_size" : "20-28",
+    "note" : "第四个正文区域"
+  } ],
+  "example_text" : {
+    "title" : "公司采购",
+    "subtitle" : "——采购原则",
+    "body_1" : "他们不仅考察供应商的价格和质量，还会严格审核供应商的环保资质，要求供应商必须符合国家环保标准，减少碳排放。",
+    "body_2" : "比亚迪会和供应商协同优化运输方案，采用铁路运输、集中配送等方式，降低物流成本和环境影响。",
+    "body_3" : "咱们国家的新能源汽车企业比亚迪，在采购电池原材料时，始终坚持集体效应和可持续发展原则。",
+    "body_4" : "这种采购不仅满足了企业生产需求，还承担了社会责任，推动了整个供应链的绿色发展，这就是采购原则和社会责任的完美结合。"
+  },
+  "text_capacity_score" : 0.6,
+  "visual_density" : 0.4,
+  "recommended_usage" : [ "多段落阐述", "案例说明", "原则与实例结合", "垂直顺序阅读" ],
+  "style_tags" : [ "垂直布局", "多文本段落", "案例展示", "商务阐述", "纯文本" ]
+}, {
+  "template_id" : "T022",
+  "page_index" : 22,
+  "layout_type" : "title_subtitle_two_body_vertical",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.05, 0.8, 0.1 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，点明核心主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.17, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，补充说明主题内容"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.27, 0.8, 0.3 ],
+    "suggested_length" : "80-200 chars",
+    "font_size" : "20-28",
+    "note" : "第一个正文区域，用于阐述第一个方面的作用或要求"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.59, 0.8, 0.3 ],
+    "suggested_length" : "80-200 chars",
+    "font_size" : "20-28",
+    "note" : "第二个正文区域，用于阐述另一个方面的作用或要求"
+  } ],
+  "example_text" : {
+    "title" : "公司采购",
+    "subtitle" : "采购管理的作用",
+    "body_1" : "企业采购不仅要追求经济效益，还需承担社会责任，如优先采购环保材料、支持中小企业、杜绝采购腐败。",
+    "body_2" : "采购人员作为执行者，要坚守诚信合规底线，不接受回扣、不为私利选不合格供应商，这既是职业操守，也是法律要求。"
+  },
+  "text_capacity_score" : 0.5,
+  "visual_density" : 0.3,
+  "recommended_usage" : [ "双重要点阐述", "作用与要求说明", "社会责任与职业操守展示", "文字型双段内容" ],
+  "style_tags" : [ "垂直布局", "双文本段落", "纯文字", "商务阐述", "简洁结构" ]
+}, {
+  "template_id" : "T023",
+  "page_index" : 23,
+  "layout_type" : "title_subtitle_three_image_text_horizontal",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.05, 0.8, 0.1 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，点明核心主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.17, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，补充说明主题内容"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "image",
+    "bbox" : [ 0.1, 0.27, 0.25, 0.35 ],
+    "note" : "第一张图片，位于左侧"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.64, 0.25, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "20-28",
+    "note" : "第一张图片下方的短文本，用于说明图片内容"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "image",
+    "bbox" : [ 0.375, 0.27, 0.25, 0.35 ],
+    "note" : "第二张图片，位于中间"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "heading",
+    "bbox" : [ 0.375, 0.64, 0.25, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "20-28",
+    "note" : "第二张图片下方的短文本"
+  }, {
+    "placeholder_id" : "p7",
+    "type" : "image",
+    "bbox" : [ 0.65, 0.27, 0.25, 0.35 ],
+    "note" : "第三张图片，位于右侧"
+  }, {
+    "placeholder_id" : "p8",
+    "type" : "heading",
+    "bbox" : [ 0.65, 0.64, 0.25, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "20-28",
+    "note" : "第三张图片下方的短文本"
+  } ],
+  "example_text" : {
+    "title" : "公司采购",
+    "subtitle" : "——采购的主体和客体",
+    "heading_1" : "有形商品采购",
+    "heading_2" : "无形服务采购",
+    "heading_3" : "项目采购"
+  },
+  "text_capacity_score" : 0.3,
+  "visual_density" : 0.35,
+  "recommended_usage" : [ "分类展示", "图文结合说明", "三个并列项目介绍", "产品/服务类型展示" ],
+  "style_tags" : [ "三栏布局", "图文混排", "水平排列", "简洁商务", "分类说明" ]
+}, {
+  "template_id" : "T024",
+  "page_index" : 24,
+  "layout_type" : "title_subtitle_heading_two_body_vertical",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.05, 0.8, 0.1 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，点明核心主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.17, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，补充说明主题内容或焦点"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.27, 0.8, 0.06 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "24-32",
+    "note" : "次级标题，用于引出下方具体内容"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.35, 0.8, 0.15 ],
+    "suggested_length" : "50-150 chars",
+    "font_size" : "20-28",
+    "note" : "第一个正文段落，阐述第一个要点或缺点"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.52, 0.8, 0.15 ],
+    "suggested_length" : "50-150 chars",
+    "font_size" : "20-28",
+    "note" : "第二个正文段落，阐述第二个要点或缺点"
+  } ],
+  "example_text" : {
+    "title" : "公司采购",
+    "subtitle" : "集中采购的优缺点",
+    "heading" : "集中采购的缺点",
+    "body_1" : "可能造成组织分割、远离用户，无法及时满足各部门独特需求；",
+    "body_2" : "流程长，会延误时效，对紧急、个性化需求响应不迅速。"
+  },
+  "text_capacity_score" : 0.45,
+  "visual_density" : 0.25,
+  "recommended_usage" : [ "优缺点列举", "要点分条说明", "垂直顺序阅读", "纯文字阐述" ],
+  "style_tags" : [ "垂直布局", "纯文本", "标题引导", "商务说明", "简洁结构" ]
+}, {
+  "template_id" : "T025",
+  "page_index" : 25,
+  "layout_type" : "title_subtitle_heading_three_body_list",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.05, 0.8, 0.1 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，点明核心主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.17, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，补充说明主题内容或焦点"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.27, 0.8, 0.06 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "24-32",
+    "note" : "次级标题，用于引出下方具体列表内容"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.35, 0.8, 0.12 ],
+    "suggested_length" : "50-120 chars",
+    "font_size" : "20-28",
+    "note" : "第一个要点正文，可包含数字编号，如'1. 缺乏规模效应，采购成本可能偏高；'"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.49, 0.8, 0.12 ],
+    "suggested_length" : "50-150 chars",
+    "font_size" : "20-28",
+    "note" : "第二个要点正文，可包含数字编号，如'2. 不利于企业标准化管理，易造成各部门采购物料规格和质量不统一'"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.63, 0.8, 0.12 ],
+    "suggested_length" : "50-120 chars",
+    "font_size" : "20-28",
+    "note" : "第三个要点正文，可包含数字编号，如'3. 难形成专业化采购技能和知识沉淀'"
+  } ],
+  "example_text" : {
+    "title" : "公司采购",
+    "subtitle" : "——分散采购的优缺点",
+    "heading" : "分散采购的缺点",
+    "body_1" : "1. 缺乏规模效应，采购成本可能偏高；",
+    "body_2" : "2. 不利于企业标准化管理，易造成各部门采购物料规格和质量不统一",
+    "body_3" : "3. 难形成专业化采购技能和知识沉淀"
+  },
+  "text_capacity_score" : 0.5,
+  "visual_density" : 0.3,
+  "recommended_usage" : [ "缺点或要点列举", "编号列表展示", "垂直顺序阅读", "纯文字阐述" ],
+  "style_tags" : [ "垂直布局", "纯文本", "标题引导", "编号列表", "商务说明" ]
+}, {
+  "template_id" : "T026",
+  "page_index" : 26,
+  "layout_type" : "title_subtitle_heading_four_column_grid",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.12 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，点明核心主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.22, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，补充说明主题内容"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.32, 0.8, 0.06 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "24-32",
+    "note" : "三级标题，用于引出下方表格或网格内容"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.4, 0.175, 0.18 ],
+    "suggested_length" : "30-80 chars",
+    "font_size" : "20-28",
+    "note" : "第一列正文，对应01号要点（可包含编号），如'与具体业务部门直接沟通，协调更顺畅；'"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "body",
+    "bbox" : [ 0.325, 0.4, 0.175, 0.18 ],
+    "suggested_length" : "30-80 chars",
+    "font_size" : "20-28",
+    "note" : "第二列正文，对应02号要点，如'对业务部门的需求及时响应；'"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "body",
+    "bbox" : [ 0.55, 0.4, 0.175, 0.18 ],
+    "suggested_length" : "30-80 chars",
+    "font_size" : "20-28",
+    "note" : "第三列正文，对应03号要点，如'对本地供应商的了解增加；'"
+  }, {
+    "placeholder_id" : "p7",
+    "type" : "body",
+    "bbox" : [ 0.775, 0.4, 0.175, 0.18 ],
+    "suggested_length" : "30-80 chars",
+    "font_size" : "20-28",
+    "note" : "第四列正文，对应04号要点，如'采购政策可准确支持当地需求。'"
+  } ],
+  "example_text" : {
+    "title" : "公司采购",
+    "subtitle" : "分散采购的优缺点",
+    "heading" : "分散采购的优点",
+    "body_1" : "01 与具体业务部门直接沟通，协调更顺畅；",
+    "body_2" : "02 对业务部门的需求及时响应；",
+    "body_3" : "03 对本地供应商的了解增加；",
+    "body_4" : "04 采购政策可准确支持当地需求。"
+  },
+  "text_capacity_score" : 0.4,
+  "visual_density" : 0.3,
+  "recommended_usage" : [ "优点或要点分类列举", "四栏网格展示", "横向对比说明", "简洁商务要点展示" ],
+  "style_tags" : [ "四栏网格", "横向布局", "表格风格", "商务分析", "要点列举" ]
+}, {
+  "template_id" : "T027",
+  "page_index" : 27,
+  "layout_type" : "title_subtitle_five_body_bottom_heading",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.05, 0.8, 0.1 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，点明核心主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.17, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，补充说明主题内容"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.27, 0.8, 0.09 ],
+    "suggested_length" : "30-80 chars",
+    "font_size" : "20-28",
+    "note" : "第一个要点正文，可包含编号，如'01 量大价优，降低采购成本；'"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.37, 0.8, 0.09 ],
+    "suggested_length" : "30-80 chars",
+    "font_size" : "20-28",
+    "note" : "第二个要点正文，可包含编号，如'02 减少采购人员，便于人才培养；'"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.47, 0.8, 0.09 ],
+    "suggested_length" : "30-80 chars",
+    "font_size" : "20-28",
+    "note" : "第三个要点正文，可包含编号，如'03 降低企业储备，加速资金周转；'"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.57, 0.8, 0.09 ],
+    "suggested_length" : "30-80 chars",
+    "font_size" : "20-28",
+    "note" : "第四个要点正文，可包含编号，如'04 专业性强，择优选购，保证质量；'"
+  }, {
+    "placeholder_id" : "p7",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.67, 0.8, 0.09 ],
+    "suggested_length" : "30-80 chars",
+    "font_size" : "20-28",
+    "note" : "第五个要点正文，可包含编号，如'05 批量运输，减少运费。'"
+  }, {
+    "placeholder_id" : "p8",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.78, 0.8, 0.1 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "24-32",
+    "note" : "底部标题，用于总结或强调上方内容"
+  } ],
+  "example_text" : {
+    "title" : "公司采购",
+    "subtitle" : "集中采购的优缺点",
+    "body_1" : "量大价优，降低采购成本；",
+    "body_2" : "减少采购人员，便于人才培养；",
+    "body_3" : "降低企业储备，加速资金周转；",
+    "body_4" : "专业性强，择优选购，保证质量；",
+    "body_5" : "批量运输，减少运费。",
+    "heading" : "集中采购的优势"
+  },
+  "text_capacity_score" : 0.55,
+  "visual_density" : 0.35,
+  "recommended_usage" : [ "优点或要点列举", "垂直列表展示", "总结性标题强调", "纯文字阐述" ],
+  "style_tags" : [ "垂直布局", "纯文本", "编号列表", "底部强调", "商务说明" ]
+}, {
+  "template_id" : "T028",
+  "page_index" : 28,
+  "layout_type" : "title_subtitle_body_heading_bottom",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.12 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，点明核心主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.22, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，补充说明主题内容"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.32, 0.8, 0.45 ],
+    "suggested_length" : "80-300 chars",
+    "font_size" : "20-28",
+    "note" : "正文区域，用于展示案例、举例说明或具体阐述"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.78, 0.8, 0.1 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "24-32",
+    "note" : "底部标题，用于总结、概括或强调上方案例的核心价值"
+  } ],
+  "example_text" : {
+    "title" : "公司采购",
+    "subtitle" : "——混合制采购",
+    "body" : "如汽车企业，底盘、发动机等通用且价值高的部件集中采购，区域性、满足当地客户特殊偏好的内饰配件由各地区工厂分散采购。",
+    "heading_bottom" : "兼顾成本效益与灵活性"
+  },
+  "text_capacity_score" : 0.4,
+  "visual_density" : 0.2,
+  "recommended_usage" : [ "策略案例说明", "模式优势总结", "图文结合前的纯文本阐述", "带有总结标题的页面" ],
+  "style_tags" : [ "简约布局", "案例说明", "底部总结", "纯文本", "策略展示" ]
+}, {
+  "template_id" : "T029",
+  "page_index" : 29,
+  "layout_type" : "title_subtitle_heading_body_example_with_icons",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.05, 0.8, 0.1 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，点明核心主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.17, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，补充说明主题内容"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.27, 0.8, 0.06 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "24-32",
+    "note" : "小标题，用于概括第一个优点或要点"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.35, 0.8, 0.1 ],
+    "suggested_length" : "50-120 chars",
+    "font_size" : "20-28",
+    "note" : "第一个正文区域，阐述优点的具体说明"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.47, 0.8, 0.18 ],
+    "suggested_length" : "80-250 chars",
+    "font_size" : "20-28",
+    "note" : "第二个正文区域，用于案例描述或详细解释"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "image",
+    "bbox" : [ 0.1, 0.67, 0.2, 0.2 ],
+    "note" : "左侧图标区域，第一个合作企业logo"
+  }, {
+    "placeholder_id" : "p7",
+    "type" : "image",
+    "bbox" : [ 0.4, 0.67, 0.2, 0.2 ],
+    "note" : "中间图标区域，第二个合作企业logo"
+  }, {
+    "placeholder_id" : "p8",
+    "type" : "image",
+    "bbox" : [ 0.7, 0.67, 0.2, 0.2 ],
+    "note" : "右侧图标区域，第三个合作企业logo"
+  } ],
+  "example_text" : {
+    "title" : "公司采购",
+    "subtitle" : "联合采购的优点",
+    "heading" : "第一，获得采购批量优惠",
+    "body_1" : "整合后的大订单能让参与企业从供应商处获更优价格折扣。",
+    "body_2" : "宝钢曾联合鞍钢、武钢等国内大型钢铁企业，组成采购联盟共同向国外采购铁矿石，提升了谈判话语权。"
+  },
+  "text_capacity_score" : 0.45,
+  "visual_density" : 0.35,
+  "recommended_usage" : [ "优点阐述与案例结合", "合作联盟展示", "图文结合说明", "多企业合作案例" ],
+  "style_tags" : [ "垂直布局", "案例说明", "图标展示", "商务合作", "图文结合" ]
+}, {
+  "template_id" : "T030",
+  "page_index" : 30,
+  "layout_type" : "title_subtitle_heading_body_simple",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.05, 0.8, 0.1 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，点明核心主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.17, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，补充说明主题内容或具体方向"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.27, 0.8, 0.06 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "24-32",
+    "note" : "小标题，用于概括当前要点（例如'第二，降低储备成本'）"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.35, 0.8, 0.5 ],
+    "suggested_length" : "80-300 chars",
+    "font_size" : "20-28",
+    "note" : "正文区域，详细阐述该优点的具体内容、原理或解释"
+  } ],
+  "example_text" : {
+    "title" : "公司采购",
+    "subtitle" : "联合采购的优点",
+    "heading" : "第二，降低储备成本",
+    "body" : "联合采购能统一规划安排库存，避免企业各自为战、重复储备物料，如同多家超市共用大型仓库，可提高库存周转率、减少资金占用。"
+  },
+  "text_capacity_score" : 0.4,
+  "visual_density" : 0.2,
+  "recommended_usage" : [ "单个优点或要点阐述", "简洁概念解释", "纯文字知识说明", "要点分页展示" ],
+  "style_tags" : [ "简约布局", "垂直结构", "纯文本", "商务简洁", "要点说明" ]
+}, {
+  "template_id" : "T031",
+  "page_index" : 31,
+  "layout_type" : "title_subtitle_heading_image_body_vertical",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.05, 0.8, 0.1 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，点明核心主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.17, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，补充说明主题内容或具体方向"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.27, 0.8, 0.06 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "24-32",
+    "note" : "三级标题，用于概括当前要点（例如'第三，合并运输，节省运费'）"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "image",
+    "bbox" : [ 0.1, 0.35, 0.8, 0.3 ],
+    "note" : "图片区域，用于展示与当前优点相关的示意图、流程图或图标，如货车、运输路线等"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.67, 0.8, 0.25 ],
+    "suggested_length" : "80-250 chars",
+    "font_size" : "20-28",
+    "note" : "正文区域，详细阐述该优点的具体内容、原理或举例说明"
+  } ],
+  "example_text" : {
+    "title" : "公司采购",
+    "subtitle" : "联合采购的优点",
+    "heading" : "第三，合并运输，节省运费",
+    "body" : "批量运输能够降低单位物流成本，比如多家企业联合租用货运专线，运费通常可以降低30%以上。"
+  },
+  "text_capacity_score" : 0.35,
+  "visual_density" : 0.25,
+  "recommended_usage" : [ "单个优点图文结合展示", "概念与示例配合说明", "垂直视觉流布局", "要点分页阐述" ],
+  "style_tags" : [ "垂直布局", "图文结合", "要点说明", "商务简洁", "视觉辅助" ]
+}, {
+  "template_id" : "T032",
+  "page_index" : 32,
+  "layout_type" : "title_subtitle_heading_body",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.1, 0.8, 0.15 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "40-52",
+    "note" : "主标题，整体主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.27, 0.8, 0.1 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，简要说明分类维度"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.39, 0.8, 0.1 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "28-36",
+    "note" : "小标题，指示具体维度序号及说明"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.51, 0.8, 0.25 ],
+    "suggested_length" : "20-80 chars",
+    "font_size" : "20-28",
+    "note" : "正文，用于详细解释或定义"
+  } ],
+  "example_text" : {
+    "title" : "采购分类",
+    "subtitle" : "按采购定价方式分",
+    "heading" : "第三，按采购定价方式来分",
+    "body" : "采购定价方式是指确定采购商品价格的方法。"
+  },
+  "text_capacity_score" : 0.4,
+  "visual_density" : 0.2,
+  "recommended_usage" : [ "分类展示", "概念定义", "维度说明", "简短条目解释" ],
+  "style_tags" : [ "简洁", "文字主导", "垂直排列", "浅色背景" ]
+}, {
+  "template_id" : "T033",
+  "page_index" : 33,
+  "layout_type" : "title_subtitle_heading_two_texts",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.12 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "40-52",
+    "note" : "主标题，整体主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.22, 0.8, 0.08 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，简要说明分类或维度"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.32, 0.8, 0.08 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "28-36",
+    "note" : "小标题，内容通常与副标题一致"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.45, 0.8, 0.1 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "24-32",
+    "note" : "第一个短文本，例如分类项或要点"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.57, 0.8, 0.1 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "24-32",
+    "note" : "第二个短文本，例如分类项或要点"
+  } ],
+  "example_text" : {
+    "title" : "采购分类——按时间维度分",
+    "subtitle" : "第四，按时间维度来分",
+    "heading" : "第四，按时间维度来分",
+    "body1" : "1. 即期采购",
+    "body2" : "2. 远期采购"
+  },
+  "text_capacity_score" : 0.35,
+  "visual_density" : 0.25,
+  "recommended_usage" : [ "分类展示", "要点列表", "维度说明", "简短条目列举" ],
+  "style_tags" : [ "简洁", "文字主导", "垂直排列", "浅色背景" ]
+}, {
+  "template_id" : "T034",
+  "page_index" : 34,
+  "layout_type" : "title_subtitle_heading_two_column_content",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.12 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，核心对比主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.22, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，具体说明对比的维度"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.32, 0.8, 0.06 ],
+    "suggested_length" : "15-40 chars",
+    "font_size" : "24-32",
+    "note" : "维度说明标题，用于引入具体内容"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.41, 0.2, 0.08 ],
+    "suggested_length" : "2-8 chars",
+    "font_size" : "28-36",
+    "note" : "左侧栏目标题，标识内容类别（如'传统采购'）"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "body",
+    "bbox" : [ 0.35, 0.41, 0.25, 0.35 ],
+    "suggested_length" : "80-200 chars",
+    "font_size" : "20-28",
+    "note" : "右侧第一个正文，详细说明第一个要点（如设计流程）"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "body",
+    "bbox" : [ 0.65, 0.41, 0.25, 0.35 ],
+    "suggested_length" : "80-200 chars",
+    "font_size" : "20-28",
+    "note" : "右侧第二个正文，详细说明第二个要点（如交货安排）"
+  } ],
+  "example_text" : {
+    "title" : "传统采购管理与现代采购管理的区别",
+    "subtitle" : "设计流程和交货安排维度",
+    "heading" : "第五个维度是设计流程和交货安排",
+    "left_heading" : "传统采购",
+    "body_left" : "传统采购是先设计产品再询价，比如研发部门先把产品设计好，再交给采购部门找供应商报价，要是供应商做不了，还得回头改设计；",
+    "body_right" : "交货安排大多是每月一次，比如每月1号交货。"
+  },
+  "text_capacity_score" : 0.65,
+  "visual_density" : 0.35,
+  "recommended_usage" : [ "多维度对比分析", "传统与现代模式区别阐述", "流程与安排说明", "分点详细解释" ],
+  "style_tags" : [ "分栏对比", "文字主导", "层次清晰", "浅色背景" ]
+}, {
+  "template_id" : "T035",
+  "page_index" : 35,
+  "layout_type" : "title_subtitle_two_short_texts_one_long_text",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.1, 0.8, 0.12 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "40-52",
+    "note" : "主标题，发展趋势或主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.24, 0.8, 0.08 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，具体发展方向"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.35, 0.35, 0.08 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "24-32",
+    "note" : "第一个短文本，关键词或要点"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.55, 0.35, 0.35, 0.08 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "24-32",
+    "note" : "第二个短文本，关键词或要点"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.46, 0.8, 0.3 ],
+    "suggested_length" : "50-150 chars",
+    "font_size" : "20-28",
+    "note" : "长文本，详细解释或说明"
+  } ],
+  "example_text" : {
+    "title" : "采购管理的发展趋势",
+    "subtitle" : "采购整合与协同采购",
+    "short_text1" : "抱团采购",
+    "short_text2" : "内外协同",
+    "long_text" : "中小企业联合起来采购同一种原材料，用更大的采购量拿到更低的价格"
+  },
+  "text_capacity_score" : 0.5,
+  "visual_density" : 0.3,
+  "recommended_usage" : [ "趋势介绍", "关键词解释", "概念说明", "协同采购展示" ],
+  "style_tags" : [ "简洁", "文字主导", "层次清晰", "浅色背景" ]
+}, {
+  "template_id" : "T036",
+  "page_index" : 36,
+  "layout_type" : "title_subtitle_body_heading_three_bodies",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.12 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "40-52",
+    "note" : "主标题，发展趋势或主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.22, 0.8, 0.08 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，具体发展方向"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.32, 0.8, 0.12 ],
+    "suggested_length" : "30-80 chars",
+    "font_size" : "20-28",
+    "note" : "说明性长文本，阐述核心观点"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.47, 0.2, 0.08 ],
+    "suggested_length" : "4-8 chars",
+    "font_size" : "24-32",
+    "note" : "左侧分类标题"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "body",
+    "bbox" : [ 0.35, 0.47, 0.15, 0.2 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "20-28",
+    "note" : "右侧第一个短文本，列举专业知识项"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "body",
+    "bbox" : [ 0.55, 0.47, 0.15, 0.2 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "20-28",
+    "note" : "右侧第二个短文本，列举专业知识项"
+  }, {
+    "placeholder_id" : "p7",
+    "type" : "body",
+    "bbox" : [ 0.75, 0.47, 0.15, 0.2 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "20-28",
+    "note" : "右侧第三个短文本，列举专业知识项"
+  } ],
+  "example_text" : {
+    "title" : "采购管理的发展趋势",
+    "subtitle" : "采购管理职能化与专业化",
+    "body" : "采购不再是谁都能做的工作，而是需要专业知识",
+    "heading" : "专业知识",
+    "body1" : "01 供应链管理",
+    "body2" : "02 数据分析",
+    "body3" : "03 国际贸易规则"
+  },
+  "text_capacity_score" : 0.5,
+  "visual_density" : 0.4,
+  "recommended_usage" : [ "专业发展趋势介绍", "技能或知识领域列举", "职能说明", "多要点分类展示" ],
+  "style_tags" : [ "简洁", "文字主导", "分栏布局", "浅色背景" ]
+}, {
+  "template_id" : "T037",
+  "page_index" : 37,
+  "layout_type" : "title_subtitle_heading_two_bodies",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.1, 0.8, 0.12 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "40-52",
+    "note" : "主标题，整体发展趋势或主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.24, 0.8, 0.08 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，用于说明具体的发展方向或细分主题"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.35, 0.3, 0.1 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "28-36",
+    "note" : "左栏标题，简要说明右侧内容的类别或重点"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.45, 0.35, 0.2, 0.3 ],
+    "suggested_length" : "50-150 chars",
+    "font_size" : "20-28",
+    "note" : "右栏第一个正文，用于详细说明一个要点"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "body",
+    "bbox" : [ 0.68, 0.35, 0.2, 0.3 ],
+    "suggested_length" : "50-150 chars",
+    "font_size" : "20-28",
+    "note" : "右栏第二个正文，用于详细说明另一个要点"
+  } ],
+  "example_text" : {
+    "title" : "采购管理的发展趋势",
+    "subtitle" : "绿色采购与可持续采购",
+    "heading" : "绿色采购",
+    "body_left" : "重视环保和社会责任",
+    "body_right" : "采购时优先选择原材料及符合社会责任标准的供应商"
+  },
+  "text_capacity_score" : 0.6,
+  "visual_density" : 0.4,
+  "recommended_usage" : [ "发展趋势分析", "概念要点阐述", "分点说明", "绿色或可持续主题展示" ],
+  "style_tags" : [ "分栏布局", "文字主导", "简洁清晰", "浅色背景" ]
+}, {
+  "template_id" : "T038",
+  "page_index" : 38,
+  "layout_type" : "title_subtitle_heading_three_bodies",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.1, 0.8, 0.12 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "40-52",
+    "note" : "主标题，概念名称"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.24, 0.8, 0.08 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，通常为概念的子主题或方面"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.34, 0.8, 0.08 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "28-36",
+    "note" : "小标题，重复副标题内容或指示属性类别"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.44, 0.8, 0.1 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "20-28",
+    "note" : "第一个属性正文，简短描述"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.56, 0.8, 0.1 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "20-28",
+    "note" : "第二个属性正文，简短描述"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.68, 0.8, 0.1 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "20-28",
+    "note" : "第三个属性正文，简短描述"
+  } ],
+  "example_text" : {
+    "title" : "采购的定义",
+    "subtitle" : "关键属性",
+    "heading" : "关键属性",
+    "body1" : "是从资源市场获取资源的过程",
+    "body2" : "是商流与物流的统一",
+    "body3" : "是一种经济活动"
+  },
+  "text_capacity_score" : 0.45,
+  "visual_density" : 0.25,
+  "recommended_usage" : [ "概念定义与属性列举", "关键要点展示", "属性说明", "简短条目列举" ],
+  "style_tags" : [ "简洁", "垂直排列", "文字主导", "浅色背景" ]
+}, {
+  "template_id" : "T039",
+  "page_index" : 39,
+  "layout_type" : "title_subtitle_heading_four_bodies",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.12 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "40-52",
+    "note" : "主标题，整体主题名称"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.22, 0.8, 0.08 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，说明具体方面"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.32, 0.8, 0.08 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "28-36",
+    "note" : "小标题，通常重复副标题内容，用于强调"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.42, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "20-28",
+    "note" : "第一个要点，包含编号"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.52, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "20-28",
+    "note" : "第二个要点，包含编号"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.62, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "20-28",
+    "note" : "第三个要点，包含编号"
+  }, {
+    "placeholder_id" : "p7",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.72, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "20-28",
+    "note" : "第四个要点，包含编号"
+  } ],
+  "example_text" : {
+    "title" : "采购管理的作用",
+    "subtitle" : "直接作用",
+    "heading" : "直接作用",
+    "body1" : "01 提高利润",
+    "body2" : "02 提高资本周转率",
+    "body3" : "03 对公司改革过程做出贡献",
+    "body4" : "04 提供信息源"
+  },
+  "text_capacity_score" : 0.5,
+  "visual_density" : 0.3,
+  "recommended_usage" : [ "作用列举", "要点说明", "编号列表展示", "直接作用分析" ],
+  "style_tags" : [ "简洁", "垂直排列", "文字主导", "编号列表", "浅色背景" ]
+}, {
+  "template_id" : "T040",
+  "page_index" : 40,
+  "layout_type" : "title_subtitle_left_heading_two_right_bodies",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.12 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，核心对比主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.22, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，具体说明对比的维度"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.35, 0.2, 0.08 ],
+    "suggested_length" : "2-8 chars",
+    "font_size" : "28-36",
+    "note" : "左侧栏目标题，标识内容类别（如'现代采购'）"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.35, 0.35, 0.55, 0.3 ],
+    "suggested_length" : "150-350 chars",
+    "font_size" : "20-28",
+    "note" : "右侧第一个长文本，详细说明第一个要点（如设计流程）"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "body",
+    "bbox" : [ 0.35, 0.67, 0.55, 0.25 ],
+    "suggested_length" : "150-350 chars",
+    "font_size" : "20-28",
+    "note" : "右侧第二个长文本，详细说明第二个要点（如交货安排）"
+  } ],
+  "example_text" : {
+    "title" : "传统采购管理与现代采购管理的区别",
+    "subtitle" : "设计流程和交货安排维度",
+    "left_heading" : "现代采购",
+    "body_right1" : "供应商早期参与设计，比如汽车企业在设计新车时，就邀请零部件供应商一起讨论，供应商会从生产可行性、成本角度提建议，避免后期设计落地不了；",
+    "body_right2" : "交货安排则更灵活，每周甚至每天交货，比如特斯拉上海工厂，零部件供应商每天分3次送货，保证生产线不缺货。"
+  },
+  "text_capacity_score" : 0.7,
+  "visual_density" : 0.3,
+  "recommended_usage" : [ "多维度对比分析", "传统与现代模式区别阐述", "流程与安排说明", "分点详细解释" ],
+  "style_tags" : [ "分栏对比", "文字主导", "层次清晰", "浅色背景" ]
+}, {
+  "template_id" : "T041",
+  "page_index" : 41,
+  "layout_type" : "title_two_heading_body_pairs",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.15 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "40-52",
+    "note" : "主标题，页面主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.25, 0.8, 0.08 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "28-36",
+    "note" : "第一个区块标题，包含编号和分类（如'01 重点'）"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.35, 0.8, 0.12 ],
+    "suggested_length" : "20-60 chars",
+    "font_size" : "20-28",
+    "note" : "第一个区块正文，详细说明"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.5, 0.8, 0.08 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "28-36",
+    "note" : "第二个区块标题，包含编号和分类（如'02 难点'）"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.6, 0.8, 0.12 ],
+    "suggested_length" : "20-60 chars",
+    "font_size" : "20-28",
+    "note" : "第二个区块正文，详细说明"
+  } ],
+  "example_text" : {
+    "title" : "重难点",
+    "heading1" : "01 重点",
+    "body1" : "理解三种采购方式的核心特征",
+    "heading2" : "02 难点",
+    "body2" : "准确把握集中采购与分散采购在集权与分权上的区别"
+  },
+  "text_capacity_score" : 0.5,
+  "visual_density" : 0.3,
+  "recommended_usage" : [ "重难点分析", "学习要点说明", "教学重点展示", "课程难点阐述" ],
+  "style_tags" : [ "简洁", "文字主导", "垂直排列", "浅色背景" ]
+}, {
+  "template_id" : "T042",
+  "page_index" : 42,
+  "layout_type" : "title_subtitle_two_heading_body_pairs",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.05, 0.8, 0.1 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "40-52",
+    "note" : "主标题，整体主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.16, 0.8, 0.08 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，具体说明内容范畴"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.26, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "第一个步骤标题，包含编号和步骤名称"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.36, 0.8, 0.16 ],
+    "suggested_length" : "80-200 chars",
+    "font_size" : "20-28",
+    "note" : "第一个步骤正文，详细解释操作和要求"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.54, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "第二个步骤标题，包含编号和步骤名称"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.64, 0.8, 0.16 ],
+    "suggested_length" : "80-200 chars",
+    "font_size" : "20-28",
+    "note" : "第二个步骤正文，详细解释操作和要求"
+  } ],
+  "example_text" : {
+    "title" : "公司采购",
+    "subtitle" : "采购的基本程序",
+    "heading1" : "01 订单跟踪与催货",
+    "body1" : "采购订单发出去后，采购部门要实时跟踪供应商的生产进度和物流情况，防止供应商延期交货。",
+    "heading2" : "02 产品检验",
+    "body2" : "供应商送货后，企业要按订单约定的标准验收，比如抽样检查质量、核对数量。要是发现质量不合格或数量短缺，要及时沟通处理。"
+  },
+  "text_capacity_score" : 0.6,
+  "visual_density" : 0.3,
+  "recommended_usage" : [ "程序步骤说明", "操作流程展示", "工作指南", "分步任务阐述" ],
+  "style_tags" : [ "简洁", "垂直排列", "步骤清晰", "浅色背景" ]
+}, {
+  "template_id" : "T043",
+  "page_index" : 43,
+  "layout_type" : "title_subtitle_two_heading_body_pairs",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.12 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "40-52",
+    "note" : "主标题，整体主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.22, 0.8, 0.08 ],
+    "suggested_length" : "15-40 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，具体说明选用标准的范畴"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.32, 0.8, 0.06 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "24-32",
+    "note" : "第一个选用标准标题"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.4, 0.8, 0.15 ],
+    "suggested_length" : "80-200 chars",
+    "font_size" : "20-28",
+    "note" : "第一个标准的详细解释"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.57, 0.8, 0.06 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "24-32",
+    "note" : "第二个选用标准标题"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.65, 0.8, 0.15 ],
+    "suggested_length" : "80-200 chars",
+    "font_size" : "20-28",
+    "note" : "第二个标准的详细解释"
+  } ],
+  "example_text" : {
+    "title" : "公司采购",
+    "subtitle" : "集中采购与分散采购的选用标准",
+    "heading1" : "价格波动",
+    "body1" : "对于价格波动较大的物料，集中采购便于统一把握时机；而价格相对稳定的物料，分散采购的影响则不大。",
+    "heading2" : "客户需求",
+    "body2" : "如果客户对产品有很多个性化需求，导致物料需求差异大，分散采购可能更能适应。"
+  },
+  "text_capacity_score" : 0.5,
+  "visual_density" : 0.3,
+  "recommended_usage" : [ "标准或原则阐述", "对比分析", "决策因素说明", "选用条件展示" ],
+  "style_tags" : [ "简洁", "文字主导", "垂直排列", "浅色背景" ]
+}, {
+  "template_id" : "T044",
+  "page_index" : 44,
+  "layout_type" : "title_subtitle_two_image_text_blocks",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.12 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "40-52",
+    "note" : "主标题，整体主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.22, 0.8, 0.08 ],
+    "suggested_length" : "15-40 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，具体说明选用标准的范畴"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "image",
+    "bbox" : [ 0.1, 0.32, 0.1, 0.1 ],
+    "note" : "左侧第一个图片，可能是图标或数字编号"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "heading",
+    "bbox" : [ 0.25, 0.32, 0.65, 0.05 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "24-32",
+    "note" : "第一个选用标准标题"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "body",
+    "bbox" : [ 0.25, 0.38, 0.65, 0.15 ],
+    "suggested_length" : "80-200 chars",
+    "font_size" : "20-28",
+    "note" : "第一个标准的详细解释"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "image",
+    "bbox" : [ 0.1, 0.55, 0.1, 0.1 ],
+    "note" : "左侧第二个图片，可能是图标或数字编号"
+  }, {
+    "placeholder_id" : "p7",
+    "type" : "heading",
+    "bbox" : [ 0.25, 0.55, 0.65, 0.05 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "24-32",
+    "note" : "第二个选用标准标题"
+  }, {
+    "placeholder_id" : "p8",
+    "type" : "body",
+    "bbox" : [ 0.25, 0.61, 0.65, 0.15 ],
+    "suggested_length" : "80-200 chars",
+    "font_size" : "20-28",
+    "note" : "第二个标准的详细解释"
+  } ],
+  "example_text" : {
+    "title" : "公司采购",
+    "subtitle" : "集中采购与分散采购的选用标准",
+    "heading1" : "04 潜在的节约",
+    "body1" : "如果通过集中采购能够带来显著的成本节约，比如节省10%以上，那么就值得推行。",
+    "heading2" : "05 专门技术",
+    "body2" : "对于需要特殊专业技术才能采购的物料，可能更适合由熟悉该领域的部门进行分散采购。"
+  },
+  "text_capacity_score" : 0.5,
+  "visual_density" : 0.4,
+  "recommended_usage" : [ "选用标准图文说明", "决策因素分析", "图文结合展示", "采购原则阐述" ],
+  "style_tags" : [ "图文结合", "左右结构", "文字主导", "浅色背景" ]
+}, {
+  "template_id" : "T045",
+  "page_index" : 45,
+  "layout_type" : "title_subtitle_heading_two_heading_body_pairs",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.12 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "40-52",
+    "note" : "主标题，分类主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.22, 0.8, 0.08 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，指示分类维度"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.32, 0.8, 0.08 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "24-32",
+    "note" : "分类序号标题，指示具体维度说明"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.42, 0.8, 0.06 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "22-30",
+    "note" : "第一个子标题，具体分类名称"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.5, 0.8, 0.15 ],
+    "suggested_length" : "100-250 chars",
+    "font_size" : "18-26",
+    "note" : "第一个分类的详细解释"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.67, 0.8, 0.06 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "22-30",
+    "note" : "第二个子标题，具体分类名称"
+  }, {
+    "placeholder_id" : "p7",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.75, 0.8, 0.15 ],
+    "suggested_length" : "100-250 chars",
+    "font_size" : "18-26",
+    "note" : "第二个分类的详细解释"
+  } ],
+  "example_text" : {
+    "title" : "采购分类",
+    "subtitle" : "按采购客体分",
+    "heading" : "第二，按采购客体来分",
+    "heading1" : "有形商品采购",
+    "body1" : "有形商品采购是指采购具有实物形态的商品，如原材料像钢材、木材等；零部件像电子元件、机械零件等；成品比如电脑、办公用品等。这类采购的质量和数量容易检验和计量。",
+    "heading2" : "无形商品采购",
+    "body2" : "无形商品采购是指采购的是不具有实物形态的商品，主要包括服务、技术、软件等。例如物流服务、咨询服务、专利技术、计算机软件等的采购。无形商品的价值往往体现在其为企业带来的效益和功能上。"
+  },
+  "text_capacity_score" : 0.7,
+  "visual_density" : 0.3,
+  "recommended_usage" : [ "分类详细说明", "概念对比阐述", "多类别解释", "采购类型介绍" ],
+  "style_tags" : [ "简洁", "垂直排列", "文字主导", "浅色背景" ]
+}, {
+  "template_id" : "T046",
+  "page_index" : 46,
+  "layout_type" : "title_subtitle_two_heading_body_pairs",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.05, 0.8, 0.12 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "36-48",
+    "note" : "主标题（大纲中的二级标题），整体分类主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.19, 0.8, 0.08 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，指示分类的序号和维度"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.29, 0.8, 0.08 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "24-32",
+    "note" : "第一个子标题，具体分类名称（带编号）"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.39, 0.8, 0.2 ],
+    "suggested_length" : "100-250 chars",
+    "font_size" : "18-26",
+    "note" : "第一个分类的详细解释与适用场景"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.61, 0.8, 0.08 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "24-32",
+    "note" : "第二个子标题，具体分类名称（带编号）"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.71, 0.8, 0.2 ],
+    "suggested_length" : "100-250 chars",
+    "font_size" : "18-26",
+    "note" : "第二个分类的详细解释与适用场景"
+  } ],
+  "example_text" : {
+    "title" : "采购分类——按采购定价方式分",
+    "subtitle" : "第三，按采购定价方式来分",
+    "heading1" : "01 招标采购",
+    "body1" : "采购方发布招标公告评选中标供应商并以中标价采购。该方式适用于金额较大、市场竞争充分的采购项目，能有效促进供应商之间的竞争，降低采购成本。",
+    "heading2" : "02 询价采购",
+    "body2" : "采购方向多家供应商发询价单要求报价，比较后选报价合理者采购，它比较适用于采购金额较小、规格标准统一的商品。"
+  },
+  "text_capacity_score" : 0.6,
+  "visual_density" : 0.3,
+  "recommended_usage" : [ "分类详细说明", "定价方式对比", "采购方法介绍", "适用场景分析" ],
+  "style_tags" : [ "简洁", "垂直排列", "文字主导", "浅色背景" ]
+}, {
+  "template_id" : "T047",
+  "page_index" : 47,
+  "layout_type" : "title_subtitle_two_heading_body_pairs",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.05, 0.8, 0.12 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，整体分类主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.19, 0.8, 0.08 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，指示分类的维度"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.29, 0.8, 0.08 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "24-32",
+    "note" : "第一个子标题，具体分类名称"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.39, 0.8, 0.22 ],
+    "suggested_length" : "100-250 chars",
+    "font_size" : "18-26",
+    "note" : "第一个分类的详细解释"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.63, 0.8, 0.08 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "24-32",
+    "note" : "第二个子标题，具体分类名称"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.73, 0.8, 0.22 ],
+    "suggested_length" : "100-250 chars",
+    "font_size" : "18-26",
+    "note" : "第二个分类的详细解释"
+  } ],
+  "example_text" : {
+    "title" : "采购分类",
+    "subtitle" : "按时间维度分",
+    "heading1" : "即期采购",
+    "body1" : "为了满足当前需求而进行的即时采购，采购后很快就能投入使用。这种方式对时效性要求较高，用于解决短期的物资短缺问题。",
+    "heading2" : "远期采购",
+    "body2" : "为满足未来一段时间需求而进行提前采购，通过签订远期合同等方式确定采购数量和价格。有助于规避未来市场价格波动的风险，保障物资的稳定供应。"
+  },
+  "text_capacity_score" : 0.6,
+  "visual_density" : 0.3,
+  "recommended_usage" : [ "分类详细说明", "时间维度分析", "采购策略介绍", "适用场景对比" ],
+  "style_tags" : [ "简洁", "垂直排列", "文字主导", "浅色背景" ]
+}, {
+  "template_id" : "T048",
+  "page_index" : 48,
+  "layout_type" : "title_subtitle_two_heading_body_pairs",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.05, 0.8, 0.12 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，整体分类主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.19, 0.8, 0.08 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，指示分类的维度"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.29, 0.8, 0.08 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "24-32",
+    "note" : "第一个子标题，具体分类名称（通常带编号）"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.39, 0.8, 0.22 ],
+    "suggested_length" : "80-200 chars",
+    "font_size" : "18-26",
+    "note" : "第一个分类的详细解释"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.63, 0.8, 0.08 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "24-32",
+    "note" : "第二个子标题，具体分类名称（通常带编号）"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.73, 0.8, 0.22 ],
+    "suggested_length" : "80-250 chars",
+    "font_size" : "18-26",
+    "note" : "第二个分类的详细解释"
+  } ],
+  "example_text" : {
+    "title" : "采购分类——按空间维度分",
+    "subtitle" : "按空间维度分",
+    "heading1" : "04 全球采购",
+    "body1" : "突破国家和地区限制，在全球找最合适供应商，有助于企业获优质低成本商品，提升竞争力。",
+    "heading2" : "05 电子采购",
+    "body2" : "通过互联网平台采购，采购方和供应商用电子技术完成询价、报价、订单下达、付款等流程，打破空间限制，提高采购效率，降低成本。"
+  },
+  "text_capacity_score" : 0.6,
+  "visual_density" : 0.3,
+  "recommended_usage" : [ "分类详细说明", "空间维度分析", "采购策略介绍", "现代采购方式展示" ],
+  "style_tags" : [ "简洁", "垂直排列", "文字主导", "浅色背景" ]
+}, {
+  "template_id" : "T049",
+  "page_index" : 49,
+  "layout_type" : "title_subtitle_two_heading_body_pairs",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.05, 0.8, 0.12 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "36-48",
+    "note" : "主标题（大纲中的二级标题），整体分类主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.19, 0.8, 0.08 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，指示分类的序号和维度"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.29, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "24-32",
+    "note" : "第一个子标题，具体分类名称（可能带编号）"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.39, 0.8, 0.22 ],
+    "suggested_length" : "80-200 chars",
+    "font_size" : "18-26",
+    "note" : "第一个分类的详细解释"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.63, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "24-32",
+    "note" : "第二个子标题，具体分类名称（可能带编号）"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.73, 0.8, 0.22 ],
+    "suggested_length" : "80-200 chars",
+    "font_size" : "18-26",
+    "note" : "第二个分类的详细解释"
+  } ],
+  "example_text" : {
+    "title" : "采购分类",
+    "subtitle" : "按采购策略导向来分",
+    "heading1" : "01 成本导向的一般采购",
+    "body1" : "以降低采购成本为主要目标，在采购过程中重点关注商品价格，通过各种方式寻求最低的采购价格。",
+    "heading2" : "全生命周期采购 02",
+    "body2" : "该采购方式覆盖全流程，关注总成本最低，如采购设备时考虑购买价格外，还考虑能耗、维修费等。"
+  },
+  "text_capacity_score" : 0.6,
+  "visual_density" : 0.3,
+  "recommended_usage" : [ "分类详细说明", "策略导向分析", "采购方式介绍", "成本与生命周期对比" ],
+  "style_tags" : [ "简洁", "垂直排列", "文字主导", "浅色背景" ]
+}, {
+  "template_id" : "T050",
+  "page_index" : 50,
+  "layout_type" : "title_subtitle_two_heading_body_pairs",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.05, 0.8, 0.12 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，分类主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.19, 0.8, 0.08 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，指示分类的维度"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.29, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "24-32",
+    "note" : "第一个子标题，具体分类名称（带编号）"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.39, 0.8, 0.22 ],
+    "suggested_length" : "100-250 chars",
+    "font_size" : "18-26",
+    "note" : "第一个分类的详细解释"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.63, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "24-32",
+    "note" : "第二个子标题，具体分类名称（带编号）"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.73, 0.8, 0.22 ],
+    "suggested_length" : "100-250 chars",
+    "font_size" : "18-26",
+    "note" : "第二个分类的详细解释"
+  } ],
+  "example_text" : {
+    "title" : "采购分类",
+    "subtitle" : "按采购策略导向分",
+    "heading1" : "03 战略采购",
+    "body1" : "将采购活动与企业战略目标相结合，通过与供应商建立长期稳定的合作关系，优化供应链，提升企业的核心竞争力。战略采购注重供应商的选择、合作与管理，以实现企业的长期发展目标。",
+    "heading2" : "04 可持续采购",
+    "body2" : "在采购过程中考虑环境、社会和经济的可持续发展，选择符合环保要求、具有社会责任感的供应商和商品，以减少采购活动对环境的负面影响，促进社会的可持续发展。"
+  },
+  "text_capacity_score" : 0.7,
+  "visual_density" : 0.3,
+  "recommended_usage" : [ "分类详细说明", "策略导向分析", "采购方式介绍", "战略与可持续采购展示" ],
+  "style_tags" : [ "简洁", "垂直排列", "文字主导", "浅色背景" ]
+}, {
+  "template_id" : "T051",
+  "page_index" : 51,
+  "layout_type" : "title_two_heading_body_pairs",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.12 ],
+    "suggested_length" : "2-6 chars",
+    "font_size" : "40-52",
+    "note" : "主标题，小结或总结"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.22, 0.8, 0.08 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "28-36",
+    "note" : "第一个小标题，如'采购方式'"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.32, 0.8, 0.22 ],
+    "suggested_length" : "50-150 chars",
+    "font_size" : "20-28",
+    "note" : "第一个正文，包含要点列表，可用换行分隔"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.56, 0.8, 0.08 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "28-36",
+    "note" : "第二个小标题，如'目标'"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.66, 0.8, 0.22 ],
+    "suggested_length" : "50-150 chars",
+    "font_size" : "20-28",
+    "note" : "第二个正文，包含要点列表，可用换行分隔"
+  } ],
+  "example_text" : {
+    "title" : "小结",
+    "heading1" : "采购方式",
+    "body1" : "- 采购物品类型\n  金额大小\n  企业战略需求\n  ……\n  综合判断选择",
+    "heading2" : "目标",
+    "body2" : "- 提高采购效率\n  降低采购成本\n  保障企业运营与发展"
+  },
+  "text_capacity_score" : 0.6,
+  "visual_density" : 0.3,
+  "recommended_usage" : [ "章节小结", "要点总结", "目标与方式展示", "总结性内容" ],
+  "style_tags" : [ "简洁", "垂直排列", "文字主导", "浅色背景" ]
+}, {
+  "template_id" : "T052",
+  "page_index" : 52,
+  "layout_type" : "title_subtitle_heading_two_column_contrast",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.12 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，核心对比主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.22, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，具体说明对比的维度"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.32, 0.8, 0.06 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "24-32",
+    "note" : "小标题，通常重复副标题内容或进一步说明"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.4, 0.35, 0.08 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "24-32",
+    "note" : "左栏小标题，标识对比项（如'传统采购'）"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.5, 0.35, 0.35 ],
+    "suggested_length" : "100-250 chars",
+    "font_size" : "20-28",
+    "note" : "左栏正文，详细描述第一个对比项"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "heading",
+    "bbox" : [ 0.55, 0.4, 0.35, 0.08 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "24-32",
+    "note" : "右栏小标题，标识对比项（如'现代采购'）"
+  }, {
+    "placeholder_id" : "p7",
+    "type" : "body",
+    "bbox" : [ 0.55, 0.5, 0.35, 0.35 ],
+    "suggested_length" : "100-300 chars",
+    "font_size" : "20-28",
+    "note" : "右栏正文，详细描述第二个对比项"
+  } ],
+  "example_text" : {
+    "title" : "传统采购管理与现代采购管理的区别——供应商关系维度",
+    "subtitle" : "第一个维度是供应商关系",
+    "heading" : "第一个维度是供应商关系",
+    "heading_left" : "传统采购",
+    "body_left" : "买卖双方更像对手，合作关系不稳；合同期限短，多针对某批货签合同。",
+    "heading_right" : "现代采购",
+    "body_right" : "强调合作伙伴关系，如汽车厂商与核心零部件供应商签长期合作协议，共同研发、应对市场变化，合作长期稳定。多针对某批货签合同。"
+  },
+  "text_capacity_score" : 0.6,
+  "visual_density" : 0.35,
+  "recommended_usage" : [ "对比分析展示", "传统与现代模式区别阐述", "供应商关系说明", "左右分栏对比" ],
+  "style_tags" : [ "对比布局", "左右分栏", "文字主导", "浅色背景" ]
+}, {
+  "template_id" : "T053",
+  "page_index" : 53,
+  "layout_type" : "title_subtitle_heading_two_column_contrast",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.12 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，核心对比主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.22, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，具体说明对比的维度"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.32, 0.8, 0.06 ],
+    "suggested_length" : "15-30 chars",
+    "font_size" : "24-32",
+    "note" : "小标题，通常重复副标题内容，用于强化当前维度"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.4, 0.35, 0.08 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "24-32",
+    "note" : "左栏小标题，标识对比项（如'传统采购'）"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.5, 0.35, 0.35 ],
+    "suggested_length" : "100-250 chars",
+    "font_size" : "20-28",
+    "note" : "左栏正文，详细描述第一个对比项"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "heading",
+    "bbox" : [ 0.55, 0.4, 0.35, 0.08 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "24-32",
+    "note" : "右栏小标题，标识对比项（如'现代采购'）"
+  }, {
+    "placeholder_id" : "p7",
+    "type" : "body",
+    "bbox" : [ 0.55, 0.5, 0.35, 0.35 ],
+    "suggested_length" : "100-250 chars",
+    "font_size" : "20-28",
+    "note" : "右栏正文，详细描述第二个对比项"
+  } ],
+  "example_text" : {
+    "title" : "传统采购管理与现代采购管理的区别",
+    "subtitle" : "采购数量和运输策略维度",
+    "heading" : "第二个维度是采购数量和运输策略维度",
+    "heading_left" : "传统采购",
+    "body_left" : "倾向大批量，认为买得多单价低，如果制造企业一次采购半年原材料放仓库慢慢用；运输偏好单一品种整车，如一年只运一种零件，效率低。",
+    "heading_right" : "现代采购",
+    "body_right" : "小批量、多频次，如采用 JIT 准时制采购，按需购买，减少库存积压；运输采用多品种整车，如货车同时装零件和包装材料，提高车辆利用率。"
+  },
+  "text_capacity_score" : 0.6,
+  "visual_density" : 0.35,
+  "recommended_usage" : [ "对比分析展示", "传统与现代模式区别阐述", "采购策略说明", "左右分栏对比" ],
+  "style_tags" : [ "对比布局", "左右分栏", "文字主导", "浅色背景" ]
+}, {
+  "template_id" : "T054",
+  "page_index" : 54,
+  "layout_type" : "title_subtitle_two_column_with_bottom_heading",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.05, 0.8, 0.12 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，核心对比主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.19, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，具体说明对比的维度"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.32, 0.35, 0.08 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "24-32",
+    "note" : "左栏小标题，标识对比项（如'传统采购'）"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.42, 0.35, 0.25 ],
+    "suggested_length" : "100-250 chars",
+    "font_size" : "20-28",
+    "note" : "左栏正文，详细描述第一个对比项"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "heading",
+    "bbox" : [ 0.55, 0.32, 0.35, 0.08 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "24-32",
+    "note" : "右栏小标题，标识对比项（如'现代采购'）"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "body",
+    "bbox" : [ 0.55, 0.42, 0.35, 0.25 ],
+    "suggested_length" : "100-250 chars",
+    "font_size" : "20-28",
+    "note" : "右栏正文，详细描述第二个对比项"
+  }, {
+    "placeholder_id" : "p7",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.72, 0.8, 0.08 ],
+    "suggested_length" : "15-30 chars",
+    "font_size" : "24-32",
+    "note" : "底部小标题，通常重复或总结维度的说明"
+  } ],
+  "example_text" : {
+    "title" : "传统采购管理与现代采购管理的区别",
+    "subtitle" : "质量问题处理和信息沟通维度",
+    "heading_left" : "传统采购",
+    "body_left" : "传统采购因不信任供应商需反复检验，与供应商沟通少，多仅通过订单传递基本信息，如告知要100件货、下周五到货，其他信息交流少。",
+    "heading_right" : "现代采购",
+    "body_right" : "现代采购更信任供应商，很多情况免检，因长期合作中供应商已建立稳定质量控制体系。",
+    "heading_bottom" : "第三个维度是质量问题处理和信息沟通"
+  },
+  "text_capacity_score" : 0.6,
+  "visual_density" : 0.35,
+  "recommended_usage" : [ "对比分析展示", "传统与现代模式区别阐述", "质量与沟通维度说明", "左右分栏对比" ],
+  "style_tags" : [ "对比布局", "左右分栏", "文字主导", "浅色背景" ]
+}, {
+  "template_id" : "T055",
+  "page_index" : 55,
+  "layout_type" : "title_subtitle_heading_two_column_contrast_with_icons",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.12 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，核心对比主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.22, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，具体说明对比的维度"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.32, 0.8, 0.06 ],
+    "suggested_length" : "15-25 chars",
+    "font_size" : "24-32",
+    "note" : "小标题，用于说明具体是第几个维度"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "image",
+    "bbox" : [ 0.1, 0.4, 0.15, 0.25 ],
+    "note" : "左侧装饰性图片区域，可能包含数字或图标"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "heading",
+    "bbox" : [ 0.3, 0.4, 0.6, 0.08 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "24-32",
+    "note" : "右上方小标题，标识第一个对比项（如'传统采购'）"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "body",
+    "bbox" : [ 0.3, 0.5, 0.6, 0.18 ],
+    "suggested_length" : "100-250 chars",
+    "font_size" : "20-28",
+    "note" : "右上方正文，详细描述第一个对比项"
+  }, {
+    "placeholder_id" : "p7",
+    "type" : "heading",
+    "bbox" : [ 0.3, 0.7, 0.6, 0.08 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "24-32",
+    "note" : "右下方小标题，标识第二个对比项（如'现代采购'）"
+  }, {
+    "placeholder_id" : "p8",
+    "type" : "body",
+    "bbox" : [ 0.3, 0.8, 0.6, 0.15 ],
+    "suggested_length" : "100-250 chars",
+    "font_size" : "20-28",
+    "note" : "右下方正文，详细描述第二个对比项"
+  } ],
+  "example_text" : {
+    "title" : "传统采购管理与现代采购管理的区别",
+    "subtitle" : "库存认知和供应商数量维度",
+    "heading" : "第四个维度是库存认知和供应商数量",
+    "heading_right_top" : "传统采购",
+    "body_right_top" : "视库存为资产，会刻意多囤货，心里踏实；认为供应商数量多，就多一个选择，如采购一种零件找5-10家，选最便宜的。",
+    "heading_right_bottom" : "现代采购",
+    "body_right_bottom" : "认为库存是祸害，会占用资金、增加成本、有过时风险，如电子产品零件回半年可能淘汰；供应商少而精，采购核心零件只找1-2家核心供应商，集中资源合作。"
+  },
+  "text_capacity_score" : 0.6,
+  "visual_density" : 0.35,
+  "recommended_usage" : [ "对比分析展示", "传统与现代模式区别阐述", "库存认知与供应商数量说明", "左右分栏对比" ],
+  "style_tags" : [ "对比布局", "左右分栏", "文字主导", "浅色背景", "编号装饰" ]
+}, {
+  "template_id" : "T056",
+  "page_index" : 56,
+  "layout_type" : "title_subtitle_two_heading_body_pairs_horizontal",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.12 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "40-52",
+    "note" : "主标题，发展趋势或主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.22, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，具体发展方向"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.35, 0.35, 0.08 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "24-32",
+    "note" : "左侧区块标题，具体趋势或方法名称"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.45, 0.35, 0.3 ],
+    "suggested_length" : "50-150 chars",
+    "font_size" : "20-28",
+    "note" : "左侧区块正文，详细说明"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "heading",
+    "bbox" : [ 0.55, 0.35, 0.35, 0.08 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "24-32",
+    "note" : "右侧区块标题，可能包含编号和具体趋势名称"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "body",
+    "bbox" : [ 0.55, 0.45, 0.35, 0.3 ],
+    "suggested_length" : "50-200 chars",
+    "font_size" : "20-28",
+    "note" : "右侧区块正文，详细说明"
+  } ],
+  "example_text" : {
+    "title" : "采购管理的发展趋势",
+    "subtitle" : "全面质量管理和JIT即时制采购",
+    "heading_left" : "全面质量管理",
+    "body_left" : "从供应商选择、生产过程、到货检验，全流程把控质量。",
+    "heading_right" : "02 JIT即时制采购",
+    "body_right" : "需要的时候刚好到货，比如丰田的生产线，零件送到车间就能直接组装，几乎没有库存。"
+  },
+  "text_capacity_score" : 0.5,
+  "visual_density" : 0.4,
+  "recommended_usage" : [ "发展趋势并列说明", "两种方法或概念对比介绍", "左右分栏要点展示", "采购管理新方法阐述" ],
+  "style_tags" : [ "左右分栏", "文字主导", "发展趋势", "浅色背景" ]
+}, {
+  "template_id" : "T057",
+  "page_index" : 57,
+  "layout_type" : "title_subtitle_numbered_list_with_icons",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.08, 0.8, 0.12 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，展示核心主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.22, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，补充说明主题内容或范围"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "image",
+    "bbox" : [ 0.1, 0.32, 0.15, 0.25 ],
+    "note" : "左侧圆形/方形图标区域，通常放置步骤序号（如'01'、'02'），也可替换为装饰性图标"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "heading",
+    "bbox" : [ 0.3, 0.32, 0.6, 0.08 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "24-32",
+    "note" : "右侧小标题，描述第一个步骤/条目的名称"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "body",
+    "bbox" : [ 0.3, 0.42, 0.6, 0.18 ],
+    "suggested_length" : "80-200 chars",
+    "font_size" : "20-28",
+    "note" : "右侧正文，详细说明第一个步骤/条目的内容"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "image",
+    "bbox" : [ 0.1, 0.62, 0.15, 0.25 ],
+    "note" : "左侧第二个图标区域，放置步骤序号（如'02'）"
+  }, {
+    "placeholder_id" : "p7",
+    "type" : "heading",
+    "bbox" : [ 0.3, 0.62, 0.6, 0.08 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "24-32",
+    "note" : "右侧第二个小标题，描述第二个步骤/条目的名称"
+  }, {
+    "placeholder_id" : "p8",
+    "type" : "body",
+    "bbox" : [ 0.3, 0.72, 0.6, 0.18 ],
+    "suggested_length" : "80-250 chars",
+    "font_size" : "20-28",
+    "note" : "右侧第二段正文，详细说明第二个步骤/条目的内容"
+  } ],
+  "example_text" : {
+    "title" : "公司采购",
+    "subtitle" : "采购的基本程序",
+    "heading_1" : "提出需求",
+    "body_1" : "通常由需求部门发起。这是采购工作起点，若需求不明确，后续工作将无的放矢。",
+    "heading_2" : "描述需求",
+    "body_2" : "这是整个流程的关键！得说清楚产品的规格、型号、质量标准、数量、交货时间等，比如需要型号为某某的不锈钢零部件，抗拉强度≥300MPa，数量2000个，30天内交货，甚至包装要求、验收标准都要明确，描述越精准，后续出错的概率越低。"
+  },
+  "text_capacity_score" : 0.5,
+  "visual_density" : 0.3,
+  "recommended_usage" : [ "流程步骤展示", "操作指南说明", "分步教程或清单", "工作程序分解" ],
+  "style_tags" : [ "步骤布局", "编号列表", "左右分栏", "文字主导", "简洁商务" ]
+}, {
+  "template_id" : "T058",
+  "page_index" : 58,
+  "layout_type" : "title_two_columns_bottom_title",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.05, 0.8, 0.12 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "36-48",
+    "note" : "顶部主标题，简洁概括主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.2, 0.35, 0.08 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "28-36",
+    "note" : "左栏小标题，标识左侧内容类别"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.3, 0.35, 0.25 ],
+    "suggested_length" : "50-150 chars",
+    "font_size" : "20-28",
+    "note" : "左栏正文，以点列形式呈现内容要点，可用换行分隔"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "heading",
+    "bbox" : [ 0.55, 0.2, 0.35, 0.08 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "28-36",
+    "note" : "右栏小标题，标识右侧内容类别"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "body",
+    "bbox" : [ 0.55, 0.3, 0.35, 0.25 ],
+    "suggested_length" : "50-150 chars",
+    "font_size" : "20-28",
+    "note" : "右栏正文，以点列形式呈现内容要点，可用换行分隔"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.6, 0.8, 0.12 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "36-48",
+    "note" : "底部主标题，总结或强调核心观点"
+  } ],
+  "example_text" : {
+    "title_top" : "小结",
+    "heading_left" : "采购流程",
+    "body_left" : "骨架\n规范性\n减少风险",
+    "heading_right" : "采购原则",
+    "body_right" : "灵魂\n灵活运用\n提升效益",
+    "title_bottom" : "高效的采购管理"
+  },
+  "text_capacity_score" : 0.4,
+  "visual_density" : 0.25,
+  "recommended_usage" : [ "总结性内容展示", "对比性信息呈现", "要点归纳与强调", "概念框架说明" ],
+  "style_tags" : [ "左右分栏", "上下结构", "点列展示", "简洁商务", "总结布局" ]
+}, {
+  "template_id" : "T059",
+  "page_index" : 59,
+  "layout_type" : "title_subtitle_three_step_vertical_list_with_icons",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.05, 0.8, 0.1 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "36-48",
+    "note" : "顶部主标题，点明核心主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.15, 0.8, 0.08 ],
+    "suggested_length" : "10-40 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，用于进一步说明或限定主题范围"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "image",
+    "bbox" : [ 0.1, 0.25, 0.12, 0.1 ],
+    "note" : "第一步左侧图标/编号区域（如圆形背景的'01'）"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "heading",
+    "bbox" : [ 0.25, 0.25, 0.65, 0.08 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "24-32",
+    "note" : "第一步右侧标题，概括第一个要点或标准"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "body",
+    "bbox" : [ 0.25, 0.35, 0.65, 0.16 ],
+    "suggested_length" : "80-250 chars",
+    "font_size" : "20-28",
+    "note" : "第一步右侧正文，详细解释第一个要点"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "image",
+    "bbox" : [ 0.1, 0.53, 0.12, 0.1 ],
+    "note" : "第二步左侧图标/编号区域（如'02'）"
+  }, {
+    "placeholder_id" : "p7",
+    "type" : "heading",
+    "bbox" : [ 0.25, 0.53, 0.65, 0.08 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "24-32",
+    "note" : "第二步右侧标题，概括第二个要点或标准"
+  }, {
+    "placeholder_id" : "p8",
+    "type" : "body",
+    "bbox" : [ 0.25, 0.63, 0.65, 0.16 ],
+    "suggested_length" : "80-250 chars",
+    "font_size" : "20-28",
+    "note" : "第二步右侧正文，详细解释第二个要点"
+  }, {
+    "placeholder_id" : "p9",
+    "type" : "image",
+    "bbox" : [ 0.1, 0.81, 0.12, 0.1 ],
+    "note" : "第三步左侧图标/编号区域（如'03'）"
+  }, {
+    "placeholder_id" : "p10",
+    "type" : "heading",
+    "bbox" : [ 0.25, 0.81, 0.65, 0.08 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "24-32",
+    "note" : "第三步右侧标题，概括第三个要点或标准"
+  }, {
+    "placeholder_id" : "p11",
+    "type" : "body",
+    "bbox" : [ 0.25, 0.91, 0.65, 0.16 ],
+    "suggested_length" : "80-250 chars",
+    "font_size" : "20-28",
+    "note" : "第三步右侧正文，详细解释第三个要点"
+  } ],
+  "example_text" : {
+    "title" : "公司采购",
+    "subtitle" : "——集中采购与分散采购的选用标准",
+    "heading_1" : "需求的通用性",
+    "body_1" : "如果企业各部门所需物料通用，适合集中采购；若物料专用性强，更适合分散采购。",
+    "heading_2" : "地理位置",
+    "body_2" : "如果供应商集中于某一区域，或企业各需求单位地理位置集中，适合集中采购；如果需求单位分散在不同地区，分散采购在物流和响应速度上或更具优势。",
+    "heading_3" : "供应市场结构",
+    "body_3" : "如果供应商为寡头垄断，集中采购更利于议价；如果为充分竞争市场，中小供应商众多，分散采购可能更灵活。"
+  },
+  "text_capacity_score" : 0.55,
+  "visual_density" : 0.4,
+  "recommended_usage" : [ "标准或原则的列举说明", "决策依据或选用条件分析", "多要点分步阐述", "对比性维度的并列展示" ],
+  "style_tags" : [ "垂直列表", "编号步骤", "左右图文", "商务分析", "并列结构" ]
+}, {
+  "template_id" : "T060",
+  "page_index" : 60,
+  "layout_type" : "title_subtitle_overview_three_items_vertical",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.05, 0.8, 0.1 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "36-48",
+    "note" : "顶部主标题，点明核心主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.15, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，进一步限定或说明主题范围"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.25, 0.8, 0.06 ],
+    "suggested_length" : "15-30 chars",
+    "font_size" : "24-32",
+    "note" : "概述部分小标题，引出整体介绍"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.31, 0.8, 0.12 ],
+    "suggested_length" : "80-200 chars",
+    "font_size" : "20-28",
+    "note" : "概述部分正文，对分类或概念进行总体解释"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.45, 0.8, 0.06 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "24-32",
+    "note" : "第一个分类项小标题"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.51, 0.8, 0.12 ],
+    "suggested_length" : "80-250 chars",
+    "font_size" : "20-28",
+    "note" : "第一个分类项正文，详细描述特点"
+  }, {
+    "placeholder_id" : "p7",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.65, 0.8, 0.06 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "24-32",
+    "note" : "第二个分类项小标题"
+  }, {
+    "placeholder_id" : "p8",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.71, 0.8, 0.12 ],
+    "suggested_length" : "80-250 chars",
+    "font_size" : "20-28",
+    "note" : "第二个分类项正文，详细描述特点"
+  }, {
+    "placeholder_id" : "p9",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.85, 0.8, 0.06 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "24-32",
+    "note" : "第三个分类项小标题"
+  }, {
+    "placeholder_id" : "p10",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.91, 0.8, 0.12 ],
+    "suggested_length" : "80-250 chars",
+    "font_size" : "20-28",
+    "note" : "第三个分类项正文，详细描述特点"
+  } ],
+  "example_text" : {
+    "title" : "采购分类",
+    "subtitle" : "——按采购主体分",
+    "heading_overview" : "第一，按采购主体来分",
+    "body_overview" : "采购主体指采购活动的发起者或执行者，按采购主体，采购可分三类：",
+    "heading_1" : "个人采购",
+    "body_1" : "以个人或家庭为单位，为满足自身生活需求进行，具有随机性、主观性强的特点，受个人偏好和即时需求影响大；",
+    "heading_2" : "企业采购",
+    "body_2" : "企业为维持生产经营进行，包括原材料、零部件等采购，有严格流程和规范，注重成本控制、质量保障和供应链稳定；",
+    "heading_3" : "公共采购",
+    "body_3" : "各级政府及其所属机构为开展政务活动或提供公众服务进行，资金主要源于财政资金，遵循公开、公平、公正原则，受严格法律和制度约束，如《政府采购法》规范。"
+  },
+  "text_capacity_score" : 0.65,
+  "visual_density" : 0.45,
+  "recommended_usage" : [ "分类说明与阐述", "概念定义与举例", "总分结构内容展示", "多类别并列说明" ],
+  "style_tags" : [ "垂直列表", "总分结构", "分类布局", "文字主导", "商务解释性" ]
+}, {
+  "template_id" : "T061",
+  "page_index" : 61,
+  "layout_type" : "title_subtitle_three_heading_body_pairs",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.05, 0.8, 0.1 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，分类主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.16, 0.8, 0.08 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，指示分类维度"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.26, 0.8, 0.06 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "24-32",
+    "note" : "第一个子标题，包含编号和分类名称"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.33, 0.8, 0.12 ],
+    "suggested_length" : "80-200 chars",
+    "font_size" : "20-28",
+    "note" : "第一个分类的详细解释"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.47, 0.8, 0.06 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "24-32",
+    "note" : "第二个子标题，包含编号和分类名称"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.54, 0.8, 0.12 ],
+    "suggested_length" : "80-200 chars",
+    "font_size" : "20-28",
+    "note" : "第二个分类的详细解释"
+  }, {
+    "placeholder_id" : "p7",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.68, 0.8, 0.06 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "24-32",
+    "note" : "第三个子标题，包含编号和分类名称"
+  }, {
+    "placeholder_id" : "p8",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.75, 0.8, 0.12 ],
+    "suggested_length" : "80-200 chars",
+    "font_size" : "20-28",
+    "note" : "第三个分类的详细解释"
+  } ],
+  "example_text" : {
+    "title" : "采购分类",
+    "subtitle" : "按采购定价方式分",
+    "heading1" : "03 比价采购",
+    "body1" : "采购方综合比较供应商同类商品的价格、质量、服务等，择优确定供应商，相比询价采购更关注多方面因素。",
+    "heading2" : "04 议价采购",
+    "body2" : "采购方与供应商面对面谈判，就商品价格、交易条件等协商达成一致。适用于采购商品规格特殊、市场供应商较少或需与供应商建立长期合作关系的情况。",
+    "heading3" : "05 定价采购",
+    "body3" : "采购价格由一方预先确定，另一方接受采购，如长期合作双方约定固定价格并在一定时期保持不变。"
+  },
+  "text_capacity_score" : 0.7,
+  "visual_density" : 0.3,
+  "recommended_usage" : [ "分类详细说明", "定价方式对比", "采购方法介绍", "多要点阐述" ],
+  "style_tags" : [ "简洁", "垂直排列", "文字主导", "浅色背景" ]
+}, {
+  "template_id" : "T062",
+  "page_index" : 62,
+  "layout_type" : "title_subtitle_three_heading_body_pairs",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.05, 0.8, 0.1 ],
+    "suggested_length" : "5-10 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，分类主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.16, 0.8, 0.08 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，指示分类维度"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.26, 0.8, 0.06 ],
+    "suggested_length" : "10-15 chars",
+    "font_size" : "24-32",
+    "note" : "第一个子标题，包含编号和分类名称"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.33, 0.8, 0.12 ],
+    "suggested_length" : "50-100 chars",
+    "font_size" : "20-28",
+    "note" : "第一个分类的详细解释"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.47, 0.8, 0.06 ],
+    "suggested_length" : "10-15 chars",
+    "font_size" : "24-32",
+    "note" : "第二个子标题，包含编号和分类名称"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.54, 0.8, 0.12 ],
+    "suggested_length" : "50-100 chars",
+    "font_size" : "20-28",
+    "note" : "第二个分类的详细解释"
+  }, {
+    "placeholder_id" : "p7",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.68, 0.8, 0.06 ],
+    "suggested_length" : "10-15 chars",
+    "font_size" : "24-32",
+    "note" : "第三个子标题，包含编号和分类名称"
+  }, {
+    "placeholder_id" : "p8",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.75, 0.8, 0.12 ],
+    "suggested_length" : "50-100 chars",
+    "font_size" : "20-28",
+    "note" : "第三个分类的详细解释"
+  } ],
+  "example_text" : {
+    "title" : "采购分类",
+    "subtitle" : "按空间维度分",
+    "heading1" : "01 国内采购",
+    "body1" : "采购方在本国境内向本国企业采购。具有运输成本低、沟通方便、交货周期短等优势。",
+    "heading2" : "02 国外采购",
+    "body2" : "采购方从其他国家或地区采购，当国内市场无法满足需求或国外采购成本更低时，选用该方式。",
+    "heading3" : "03 边境采购",
+    "body3" : "在两国或地区边境进行的采购，有地缘优势，交易流程相对简化。"
+  },
+  "text_capacity_score" : 0.6,
+  "visual_density" : 0.3,
+  "recommended_usage" : [ "分类详细说明", "空间维度分析", "采购范围介绍", "多类别对比展示" ],
+  "style_tags" : [ "简洁", "垂直排列", "文字主导", "浅色背景" ]
+}, {
+  "template_id" : "T063",
+  "page_index" : 63,
+  "layout_type" : "title_subtitle_three_heading_body_pairs",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.05, 0.8, 0.1 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "36-48",
+    "note" : "主标题，采购分类主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.17, 0.8, 0.07 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，指示按边界组织维度分类"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.27, 0.8, 0.06 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "24-32",
+    "note" : "第一个子标题，包含编号和分类名称（如'1 集中采购'）"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.35, 0.8, 0.12 ],
+    "suggested_length" : "80-150 chars",
+    "font_size" : "20-28",
+    "note" : "第一个分类的详细解释"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.49, 0.8, 0.06 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "24-32",
+    "note" : "第二个子标题，包含编号和分类名称（如'2 分散采购'）"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.57, 0.8, 0.12 ],
+    "suggested_length" : "80-150 chars",
+    "font_size" : "20-28",
+    "note" : "第二个分类的详细解释"
+  }, {
+    "placeholder_id" : "p7",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.71, 0.8, 0.06 ],
+    "suggested_length" : "10-20 chars",
+    "font_size" : "24-32",
+    "note" : "第三个子标题，包含编号和分类名称（如'3 联合采购'）"
+  }, {
+    "placeholder_id" : "p8",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.79, 0.8, 0.12 ],
+    "suggested_length" : "80-150 chars",
+    "font_size" : "20-28",
+    "note" : "第三个分类的详细解释"
+  } ],
+  "example_text" : {
+    "title" : "采购分类",
+    "subtitle" : "按采购边界组织分",
+    "heading1" : "1 集中采购",
+    "body1" : "企业或企业集团集中采购权到一个专门部门，进行统一采购。集中采购能够降低采购成本，便于对采购活动进行统一管理和控制。",
+    "heading2" : "2 分散采购",
+    "body2" : "企业各需求部门自行采购。分散采购具有灵活性高、响应速度快的特点，适用于各部门需求差异较大的情况。",
+    "heading3" : "3 联合采购",
+    "body3" : "多个企业或组织联合进行采购活动。通过联合采购，企业可扩大采购规模，增强谈判能力，获得更优惠的采购价格和条件。"
+  },
+  "text_capacity_score" : 0.65,
+  "visual_density" : 0.3,
+  "recommended_usage" : [ "分类详细说明", "采购组织形式对比", "三种采购方式介绍", "采购边界组织分析" ],
+  "style_tags" : [ "简洁", "垂直排列", "文字主导", "浅色背景" ]
+}, {
+  "template_id" : "T064",
+  "page_index" : 64,
+  "layout_type" : "title_subtitle_three_icon_text_vertical",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.05, 0.8, 0.1 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "36-48",
+    "note" : "顶部主标题，点明核心主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.15, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，进一步说明主题范围或内容"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "image",
+    "bbox" : [ 0.1, 0.25, 0.12, 0.12 ],
+    "note" : "第一步左侧图标/编号区域（如圆形背景的'03'）"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "heading",
+    "bbox" : [ 0.25, 0.25, 0.65, 0.06 ],
+    "suggested_length" : "15-40 chars",
+    "font_size" : "24-32",
+    "note" : "第一步右侧标题，概括第一步内容"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "body",
+    "bbox" : [ 0.25, 0.31, 0.65, 0.2 ],
+    "suggested_length" : "80-250 chars",
+    "font_size" : "20-28",
+    "note" : "第一步右侧正文，详细解释第一步"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "image",
+    "bbox" : [ 0.1, 0.53, 0.12, 0.12 ],
+    "note" : "第二步左侧图标/编号区域（如'04'）"
+  }, {
+    "placeholder_id" : "p7",
+    "type" : "heading",
+    "bbox" : [ 0.25, 0.53, 0.65, 0.06 ],
+    "suggested_length" : "15-40 chars",
+    "font_size" : "24-32",
+    "note" : "第二步右侧标题，概括第二步内容"
+  }, {
+    "placeholder_id" : "p8",
+    "type" : "body",
+    "bbox" : [ 0.25, 0.59, 0.65, 0.2 ],
+    "suggested_length" : "80-250 chars",
+    "font_size" : "20-28",
+    "note" : "第二步右侧正文，详细解释第二步"
+  }, {
+    "placeholder_id" : "p9",
+    "type" : "image",
+    "bbox" : [ 0.1, 0.81, 0.12, 0.12 ],
+    "note" : "第三步左侧图标/编号区域（如'05'）"
+  }, {
+    "placeholder_id" : "p10",
+    "type" : "heading",
+    "bbox" : [ 0.25, 0.81, 0.65, 0.06 ],
+    "suggested_length" : "15-40 chars",
+    "font_size" : "24-32",
+    "note" : "第三步右侧标题，概括第三步内容"
+  }, {
+    "placeholder_id" : "p11",
+    "type" : "body",
+    "bbox" : [ 0.25, 0.87, 0.65, 0.2 ],
+    "suggested_length" : "80-250 chars",
+    "font_size" : "20-28",
+    "note" : "第三步右侧正文，详细解释第三步"
+  } ],
+  "example_text" : {
+    "title" : "公司采购",
+    "subtitle" : "采购的基本程序",
+    "heading_1" : "选择供应来源、评价供应商",
+    "body_1" : "需求明确后，采购部门要找合适的供应商，再从资质、质量、价格、交货能力等方面评估。",
+    "heading_2" : "确定适宜的价格",
+    "body_2" : "不是价格越低越好，要综合考虑质量、交货期、服务等因素。",
+    "heading_3" : "发出采购订单",
+    "body_3" : "确定好供应商和价格后，采购部门会签订正式的采购订单，明确双方的权利义务。"
+  },
+  "text_capacity_score" : 0.55,
+  "visual_density" : 0.4,
+  "recommended_usage" : [ "流程步骤展示", "操作指南说明", "分步教程或清单", "工作程序分解" ],
+  "style_tags" : [ "垂直列表", "编号步骤", "左右图文", "商务流程", "分步说明" ]
+}, {
+  "template_id" : "T065",
+  "page_index" : 65,
+  "layout_type" : "title_subtitle_three_step_with_images",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.05, 0.8, 0.1 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "36-48",
+    "note" : "顶部主标题，点明核心主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.15, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，进一步说明主题内容"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.25, 0.35, 0.06 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "24-32",
+    "note" : "第一步标题，位于左侧上方"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.33, 0.35, 0.12 ],
+    "suggested_length" : "80-200 chars",
+    "font_size" : "20-28",
+    "note" : "第一步正文，位于第一步标题下方"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "image",
+    "bbox" : [ 0.1, 0.47, 0.35, 0.2 ],
+    "note" : "第一步图片区域，位于第一步正文下方"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "heading",
+    "bbox" : [ 0.55, 0.25, 0.35, 0.06 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "24-32",
+    "note" : "第二步标题，位于右侧上方"
+  }, {
+    "placeholder_id" : "p7",
+    "type" : "body",
+    "bbox" : [ 0.55, 0.33, 0.35, 0.12 ],
+    "suggested_length" : "80-200 chars",
+    "font_size" : "20-28",
+    "note" : "第二步正文，位于第二步标题下方"
+  }, {
+    "placeholder_id" : "p8",
+    "type" : "image",
+    "bbox" : [ 0.55, 0.47, 0.35, 0.2 ],
+    "note" : "第二步图片区域，位于第二步正文下方"
+  }, {
+    "placeholder_id" : "p9",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.7, 0.35, 0.06 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "24-32",
+    "note" : "第三步标题，位于左下区域"
+  }, {
+    "placeholder_id" : "p10",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.78, 0.35, 0.12 ],
+    "suggested_length" : "80-200 chars",
+    "font_size" : "20-28",
+    "note" : "第三步正文，位于第三步标题下方"
+  }, {
+    "placeholder_id" : "p11",
+    "type" : "image",
+    "bbox" : [ 0.1, 0.92, 0.35, 0.25 ],
+    "note" : "第三步图片区域，位于第三步正文下方（可能较大）"
+  } ],
+  "example_text" : {
+    "title" : "公司采购",
+    "subtitle" : "采购的基本程序",
+    "heading_1" : "01 退货处理",
+    "body_1" : "如果检验发现产品不符合要求，要按合同约定办理退货，同时记录问题原因。",
+    "heading_2" : "02 结案",
+    "body_2" : "验收合格、货款结清后，采购部门要整理采购过程中的所有单据，方便后续查询和审计。",
+    "heading_3" : "03 记录与档案维护",
+    "body_3" : "所有流程结束后，要把采购过程中的订单、合同、检验报告等都存档，方便后续查询和追溯。"
+  },
+  "text_capacity_score" : 0.5,
+  "visual_density" : 0.35,
+  "recommended_usage" : [ "流程步骤展示（带图片）", "操作指南说明（图文结合）", "案例分析（文本+示意图）", "多步骤图文展示" ],
+  "style_tags" : [ "图文混排", "左右布局", "步骤说明", "商务展示", "图文结合" ]
+}, {
+  "template_id" : "T066",
+  "page_index" : 66,
+  "layout_type" : "title_subtitle_four_column_grid",
+  "placeholders" : [ {
+    "placeholder_id" : "p1",
+    "type" : "title",
+    "bbox" : [ 0.1, 0.05, 0.8, 0.1 ],
+    "suggested_length" : "5-15 chars",
+    "font_size" : "36-48",
+    "note" : "顶部主标题，点明核心主题"
+  }, {
+    "placeholder_id" : "p2",
+    "type" : "subtitle",
+    "bbox" : [ 0.1, 0.15, 0.8, 0.08 ],
+    "suggested_length" : "10-30 chars",
+    "font_size" : "28-36",
+    "note" : "副标题，进一步说明主题内容"
+  }, {
+    "placeholder_id" : "p3",
+    "type" : "heading",
+    "bbox" : [ 0.1, 0.25, 0.175, 0.06 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "24-32",
+    "note" : "第一列标题（如'1 质量地位'）"
+  }, {
+    "placeholder_id" : "p4",
+    "type" : "body",
+    "bbox" : [ 0.1, 0.31, 0.175, 0.12 ],
+    "suggested_length" : "30-80 chars",
+    "font_size" : "20-28",
+    "note" : "第一列正文，简短说明"
+  }, {
+    "placeholder_id" : "p5",
+    "type" : "heading",
+    "bbox" : [ 0.325, 0.25, 0.175, 0.06 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "24-32",
+    "note" : "第二列标题（如'2 价值地位'）"
+  }, {
+    "placeholder_id" : "p6",
+    "type" : "body",
+    "bbox" : [ 0.325, 0.31, 0.175, 0.12 ],
+    "suggested_length" : "30-80 chars",
+    "font_size" : "20-28",
+    "note" : "第二列正文，简短说明"
+  }, {
+    "placeholder_id" : "p7",
+    "type" : "heading",
+    "bbox" : [ 0.55, 0.25, 0.175, 0.06 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "24-32",
+    "note" : "第三列标题（如'3 供应地位'）"
+  }, {
+    "placeholder_id" : "p8",
+    "type" : "body",
+    "bbox" : [ 0.55, 0.31, 0.175, 0.12 ],
+    "suggested_length" : "30-80 chars",
+    "font_size" : "20-28",
+    "note" : "第三列正文，简短说明"
+  }, {
+    "placeholder_id" : "p9",
+    "type" : "heading",
+    "bbox" : [ 0.775, 0.25, 0.175, 0.06 ],
+    "suggested_length" : "10-25 chars",
+    "font_size" : "24-32",
+    "note" : "第四列标题（如'4 战略地位'）"
+  }, {
+    "placeholder_id" : "p10",
+    "type" : "body",
+    "bbox" : [ 0.775, 0.31, 0.175, 0.12 ],
+    "suggested_length" : "30-80 chars",
+    "font_size" : "20-28",
+    "note" : "第四列正文，简短说明"
+  } ],
+  "example_text" : {
+    "title" : "公司采购",
+    "subtitle" : "采购的地位",
+    "heading_1" : "1 质量地位",
+    "body_1" : "原材料质量直接影响产品的质量",
+    "heading_2" : "2 价值地位",
+    "body_2" : "控制成本",
+    "heading_3" : "3 供应地位",
+    "body_3" : "供货的稳定性、时间、缺货水平等",
+    "heading_4" : "4 战略地位",
+    "body_4" : "影响公司经营全局"
+  },
+  "text_capacity_score" : 0.4,
+  "visual_density" : 0.3,
+  "recommended_usage" : [ "四个方面的并列展示", "核心要点列举", "多维度分析", "简洁商务展示" ],
+  "style_tags" : [ "四栏网格", "横向布局", "简洁要点", "商务分析", "并列结构" ]
+} ]
